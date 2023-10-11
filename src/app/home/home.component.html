@@ -1,0 +1,106 @@
+<div class="container">
+    <h4>Home Screen</h4>
+</div>
+<div class="container">
+    <h6>Click button to use the standard set of questions</h6>
+    <button (click)="loadStandardCache()">Load Cache</button>
+</div>
+<br />
+<div class="container" *ngIf="cacheIsLoaded">
+    <div class="row">
+        <h6>Configure Prints</h6>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <span>Number of Quizzes</span>
+            <input type="number" [(ngModel)]="numPages" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>  
+        <div class="col-2">
+            <div>
+                <span>Flight Selection: </span>
+            </div>
+            <mat-radio-group
+                class="radio-group"
+                [(ngModel)]="selectedFlight">
+                <mat-radio-button class="radio-button" *ngFor="let flight of flightSelections" [value]="flight">
+                    <div>
+                        <span>{{flight}}</span>
+                    </div>
+                </mat-radio-button>
+            </mat-radio-group>                     
+        </div>      
+    </div>
+    <div>
+        <br />
+        <button (click)="print()">Print</button>
+    </div>
+    <br />
+    <span>Select Material to include in printed quizzes below</span>
+    <div>
+        <span>Use all loaded materials (default)</span>
+        <div>
+            <input class="form-check-input" type="checkbox" [(ngModel)]="useAllMaterial">
+        </div>
+    </div>
+    <div>
+        <br />
+        <span>Book / Chapter</span>
+        <div *ngFor="let mat of materialCoveredArray" class="col-3">
+            <input class="form-check-input" type="checkbox" value="{{mat.matId}}" (change)="matBoxClick($event)">
+            <label class="form-check-label">
+                &nbsp;&nbsp;{{mat.book}} {{mat.chapter}}
+            </label>
+        </div>
+    </div>
+    <div>
+        <span>Section</span>
+        <div *ngFor="let section of sectionArray" class="col-3">
+            <input class="form-check-input" type="checkbox" value="{{section.sectionId}}" (change)="sectionBoxClick($event)">
+            <label class="form-check-label">
+                &nbsp;&nbsp;{{section.section}}
+            </label>
+        </div>
+    </div>          
+</div>
+<br />
+<div class="container" *ngIf="cacheIsLoaded">
+    <h5>Loaded Material Information</h5>   
+    <h6>Number of correctly typed questions loaded is : {{numberOfQuestionsLoaded}}</h6>
+    <h6>Number of correctly typed questions loaded B Flight is : {{numberOfQuestionsLoadedBFlight}}</h6>
+    <h6>Question Types loaded are : <br />
+        <span *ngFor="let type of questionTypeArray">
+            Number of 
+            <span *ngIf="type === 'General'">
+                General : {{numberOfGeneralLoaded}}
+                <span *ngIf="numberOfGeneralLoadedBFlight > 0">
+                    (B flight only: {{numberOfGeneralLoadedBFlight}})
+                </span> 
+            </span> 
+            <span *ngIf="type === 'FTV'">
+                FTV : {{numberOfFtvLoaded}}
+                <span *ngIf="numberOfFtvLoadedBFlight > 0">
+                    (B flight only: {{numberOfFtvLoadedBFlight}})
+                </span> 
+            </span>
+            <span *ngIf="type === 'MQ'">
+                MQ : {{numberOfMqLoaded}}
+                <span *ngIf="numberOfMqLoadedBFlight > 0">
+                    (B flight only: {{numberOfMqLoadedBFlight}})
+                </span> 
+            </span> 
+            <span *ngIf="type === 'AT'">
+                AT : {{numberOfAccToLoaded}}
+                <span *ngIf="numberOfAccToLoadedBFlight > 0">
+                    (B flight only: {{numberOfAccToLoadedBFlight}})
+                </span> 
+            </span> 
+            <span *ngIf="type === 'SQ'">
+                SQ : {{numberOfSqLoaded}}  
+                <span *ngIf="numberOfSqLoadedBFlight > 0">
+                    (B flight only: {{numberOfSqLoadedBFlight}})
+                </span>              
+            </span> 
+            <br />
+        </span>
+    </h6>   
+</div>
