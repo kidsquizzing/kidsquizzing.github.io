@@ -1,0 +1,51 @@
+<div class="container">
+  <h4>Print Preview</h4>
+  <div class="row">
+    <div class="col-1">
+      <button printSectionId="print-section" ngxPrint [useExistingCss]="true" printTitle="Generated {{selectedFlight}} Quizzes">print</button>
+    </div>
+  </div>
+  <br /><br />
+  <div id="print-section">
+    <div *ngFor="let quiz of quizzesArray">
+      <b>{{quiz.quizId}}</b>
+      <table>
+        <tbody *ngFor="let question of quiz.questionList">
+          <div style="page-break-after:avoid; page-break-before: avoid;">
+            <tr class="question">
+              <td class="column-1" *ngIf="question.question.type ==='General'"></td>
+              <td class="column-1" *ngIf="question.question.type ==='FTV' || question.question.type ==='MQ' || question.question.type ==='AT' || question.question.type ==='SQ'">
+                <b>{{question.question.type}}</b>
+              </td>
+              <td class="column-2">{{question.questionNumber}}</td>
+
+              <td *ngIf="question.question.type ==='General' || question.question.type ==='MQ' || question.question.type ==='AT' || question.question.type ==='SQ'">
+                <b>Q.&nbsp;</b>
+                <span>{{question.question.question}}</span>
+              </td>
+              <td *ngIf="question.question.type ==='FTV'">
+                <span>Finish this Verse: </span>
+                <b>Q.&nbsp;</b>
+                <span>{{question.question.question}} </span><span class="reference">({{question.question.book}} {{question.question.chapter}}:{{question.question.verse}})</span>
+                <br />
+              </td>
+
+            </tr>
+            <tr class="answer" *ngIf="question.question.type !== 'FTV'">
+              <td colspan="2"></td>
+              <td>
+                <b>A.&nbsp;</b>
+                <span>{{question.question.answer}} </span><span class="reference">({{question.question.book}} {{question.question.chapter}}:{{question.question.verse}})</span>
+              </td>            
+            </tr>
+            <tr *ngIf="question.questionNumber === '15.' || question.questionNumber === '20.'">
+              <td colspan="10" style="border-bottom: solid black; font-size: 1; color: white;">.</td>
+          </div>                  
+        </tbody>
+      </table>
+      <div style="break-after:page" *ngIf="quizzesArray.length > 1"></div>
+    </div>
+  </div>
+</div>
+
+
