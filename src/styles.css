@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #BBBBBB;
+  }
+  
+hr{
+    border-color: #00693E;
+}
+
+.nav-link {
+    font-size: 20px;  
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00693E;
+    border-color: #00693E;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:focus:hover{
+    color: #fff;
+    background-color: #001A0F;
+    border-color: #001A0F;
+    box-shadow: 0 0 0 0.2em #009959;
+}
+
+.btn-primary:disabled{
+    color: #fff;
+    background-color: #80B49E;
+    border-color: #80B49E;
+}
+
+.row-striped:nth-of-type(odd){
+    background-color: #DCE0DF;
+}
+
+.row-striped:nth-of-type(even){
+    background-color: #FFFFFF;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
