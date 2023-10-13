@@ -13,7 +13,8 @@
         <tbody *ngFor="let question of quiz.questionList">
           <div style="page-break-after:avoid; page-break-before: avoid;">
             <tr class="question">
-              <td class="column-1" *ngIf="question.question.type ==='General'"></td>
+              <td class="column-1" *ngIf="question.question.type ==='General' && question.question.isUnpublished == false"></td>
+              <td class="column-1" *ngIf="question.question.type ==='General' && question.question.isUnpublished == true"><b>UP</b></td>
               <td class="column-1" *ngIf="question.question.type ==='FTV' || question.question.type ==='MQ' || question.question.type ==='AT' || question.question.type ==='SQ'">
                 <b>{{question.question.type}}</b>
               </td>

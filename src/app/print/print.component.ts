@@ -96,12 +96,14 @@ export class PrintComponent implements OnInit {
   generateQuizzes() {
     console.log(this.filteredQuestionArray);
     var generalQuestionsArray = [];
+    var generalUnpublishedQuestionsArray = [];
     var finishTheVerseArray = [];
     var memoryQuoteArray = [];
     var accordingToArray = [];
     var situationQuestionArray = [];
 
-    generalQuestionsArray = this.filteredQuestionArray.filter(x => x.type == "General");
+    generalQuestionsArray = this.filteredQuestionArray.filter(x => x.type == "General" && x.isUnpublished == false);
+    generalUnpublishedQuestionsArray = this.filteredQuestionArray.filter(x => x.type == "General" && x.isUnpublished == true);
     finishTheVerseArray = this.filteredQuestionArray.filter(x => x.type == "FTV");
     memoryQuoteArray = this.filteredQuestionArray.filter(x => x.type == "MQ");
     accordingToArray = this.filteredQuestionArray.filter(x => x.type == "AT");
@@ -168,12 +170,14 @@ export class PrintComponent implements OnInit {
 
           //A flight
           var generalRandomsCount = 0;
+          var unpublishedRandomsCount = 0;
           var finishTheVerseRandomsCount = 0;
           var situationQuestionsRandomsCount = 0;
           var quoteRandomsCount = 0;
           var accordingToRandomsCount = 0;
 
           var generalRandoms = this.getRandoms(20, generalQuestionsArray.length);
+          var generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
           var finishTheVerseRandoms = this.getRandoms(4, finishTheVerseArray.length);
           var situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
           var quoteRandoms = this.getRandoms(4, memoryQuoteArray.length);
@@ -187,11 +191,11 @@ export class PrintComponent implements OnInit {
 
           var weighted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-          for (var n = 0; n < 21; n++) {
+          for (var n = 1; n < 21; n++) {
 
             //SQ, AT, and General
             if (genQuestionSlots.includes(n)) {
-              whatToPick = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+              whatToPick = Math.floor(Math.random() * (13 - 1 + 1) + 1);
               if (generalRandomsCount < 14 && weighted.includes(whatToPick)) {
                 tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
                 quizQuestionArray.push(tempQuizQuestion);
@@ -206,6 +210,11 @@ export class PrintComponent implements OnInit {
                 tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
                 quizQuestionArray.push(tempQuizQuestion);
                 accordingToRandomsCount++;
+              }
+              else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20) {
+                tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], n.toString() + '.');
+                quizQuestionArray.push(tempQuizQuestion);
+                unpublishedRandomsCount++;
               }
               else if (n == 1 || n == 20) {
                 tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
@@ -260,19 +269,20 @@ export class PrintComponent implements OnInit {
           }
 
           //extras
-          for (var o = 0; o < 4; o++) {
+          for (var o = 0; o < 3; o++) {           
             tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
             generalRandomsCount += 1;
             quizQuestionArray.push(tempQuizQuestion);
           }
 
+          tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
+          quizQuestionArray.push(tempQuizQuestion);
+
           tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
           quizQuestionArray.push(tempQuizQuestion);
-          situationQuestionsRandomsCount++;
 
           tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]],'*');
           quizQuestionArray.push(tempQuizQuestion);
-          accordingToRandomsCount++;
 
           for (var p = 0; p < 2; p++) {
             tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
