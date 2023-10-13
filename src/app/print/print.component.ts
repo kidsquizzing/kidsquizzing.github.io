@@ -130,25 +130,26 @@ export class PrintComponent implements OnInit {
             return;           
           }
 
+          //General
+          var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
+          //FTV
+          var otherSlots = [4, 8, 12, 18];
+
           var generalRandoms = this.getRandoms(22, generalQuestionsArray.length);
           var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);   
 
           for (var j = 1; j < 21; j++) { 
-            var tempQuizQuestion: QuizQuestion;        
-            if (j % 4 != 0) {
+            var tempQuizQuestion: QuizQuestion;
+            if (genQuestionSlots.includes(j)) {
               tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], j.toString() + '.');
               quizQuestionArray.push(tempQuizQuestion);
               generalRandomsCount += 1;
             }
-            else if (j % 4 == 0 && j != 20) {
+            if (otherSlots.includes(j)) {
               tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], j.toString() + '.');
               quizQuestionArray.push(tempQuizQuestion);
               finishTheVerseRandomsCount += 1;
-            }
-            else if (j == 20) {
-              tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], j.toString() + '.');
-              quizQuestionArray.push(tempQuizQuestion);
-            }
+            }                   
           }
           
           for (var k = 0; k < 4; k++) {
