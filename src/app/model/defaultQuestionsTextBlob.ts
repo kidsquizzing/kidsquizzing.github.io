@@ -116,6 +116,6 @@ export class defaultQuestionsTextBlob {
         "Genesis|1|21|1|SQ|0|0|Situation Question: When: The waters teemed according to their kinds, and every bird of flight.|The fifth day\n" +
         "Genesis|1|25|1|SQ|0|0|Situation Question: When: God made the beasts of the earth.|The sixth day\n" +
         "Genesis|1|27|1|SQ|0|0|Situation Question: When: God created man in His own image.|The sixth day\n" +
-        "Genesis|2|3|1|SQ|0|0|Situation Question: When: He rested from all the work of His creation.|The seventh day'\n";
+        "Genesis|2|3|1|SQ|0|0|Situation Question: When: He rested from all the work of His creation.|The seventh day'\n"; 
     }
 }
