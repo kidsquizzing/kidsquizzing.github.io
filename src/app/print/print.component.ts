@@ -177,7 +177,10 @@ export class PrintComponent implements OnInit {
           var accordingToRandomsCount = 0;
 
           var generalRandoms = this.getRandoms(20, generalQuestionsArray.length);
-          var generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
+          var generalUnpublishedRandoms = [];
+          if (generalUnpublishedQuestionsArray.length > 0) {
+            generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
+          }
           var finishTheVerseRandoms = this.getRandoms(4, finishTheVerseArray.length);
           var situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
           var quoteRandoms = this.getRandoms(4, memoryQuoteArray.length);
@@ -211,7 +214,7 @@ export class PrintComponent implements OnInit {
                 quizQuestionArray.push(tempQuizQuestion);
                 accordingToRandomsCount++;
               }
-              else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20) {
+              else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20 && generalUnpublishedQuestionsArray.length > 0) {
                 tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], n.toString() + '.');
                 quizQuestionArray.push(tempQuizQuestion);
                 unpublishedRandomsCount++;
@@ -275,8 +278,14 @@ export class PrintComponent implements OnInit {
             quizQuestionArray.push(tempQuizQuestion);
           }
 
-          tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
-          quizQuestionArray.push(tempQuizQuestion);
+          if (generalUnpublishedQuestionsArray.length > 0) {
+            tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
+            quizQuestionArray.push(tempQuizQuestion);
+          }
+          else {
+            tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+            quizQuestionArray.push(tempQuizQuestion);
+          }         
 
           tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
           quizQuestionArray.push(tempQuizQuestion);
