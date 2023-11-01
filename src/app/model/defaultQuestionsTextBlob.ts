@@ -203,15 +203,6 @@ export class defaultQuestionsTextBlob {
         "Genesis|3|22|1|MQ|0|0|Quote Genesis 3:22?|Then the LORD God said, \"Behold, the man has become like one of Us, knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever . . .\"\n" +
         "Genesis|3|23|1|MQ|0|0|Quote Genesis 3:23?|Therefore the LORD God banished him from the Garden of Eden to work the ground from which he had been taken.\n" +
         "Genesis|4|2|1|MQ|0|0|Quote Genesis 4:2?|Later she gave birth to Cain's brother Abel. Now Abel was a keeper of sheep, while Cain was a tiller of the soil.\n" +
-        "Genesis|4|9|1|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n" +
-        "Genesis|3|4|1|SQ|0|0|Who said it? To whom was it said? \"You will not surely die.\"|Who said it? The serpent. To whom was it said? Her [the woman]\n" +
-        "Genesis|3|9|1|SQ|0|0|Who said it? To whom was it said? \"Where are you?\"|Who said it? The LORD God To whom was it said? The man.\n" +
-        "Genesis|3|10|1|SQ|0|0|Who said it? To whom was it said? Why? \"I was afraid.\"|Who said it? The man. To whom was it said? The LORD God.\n" +
-        "Genesis|3|15|1|SQ|0|0|Who said it? To whom was it said? \"I will put enmity between you and the woman.\"|Who said it? The LORD God To whom was it said? The serpent\n" +
-        "Genesis|3|16|1|SQ|0|0|Who said it? To whom was it said? \"In pain you will bring forth children\"|Who said it? The LORD God. To whom was it said? the woman\n" +
-        "Genesis|3|19|1|SQ|0|0|Who said it? To whom was it said? \"By the sweat of your brow you will eat your bread.\"|Who said it? The LORD God. To whom was it said? Adam\n" +
-        "Genesis|4|8|1|SQ|0|0|Who said it? To whom was it said? \"Let us go out to the field.\"|Who said it? Cain. To whom was it said? His brother Abel\n" +
-        "Genesis|4|9|1|SQ|0|0|Who said it? To whom was it said? \"Where is your brother Abel?\"|Who said it? The LORD. To whom was it said? Cain\n" +
-        "Genesis|4|13|1|SQ|0|0|Who said it? To whom was it said? Why? \"My punishment is greater than I can bear.\"|Who said it? Cain. To whom was it said? The LORD.";
+        "Genesis|4|9|1|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n";
     }
 }
