@@ -6,6 +6,7 @@ export class Question {
     public type: string;
     public isBFlight: boolean;
     public isUnpublished: boolean;
+    public isNew: boolean;
     public question: string;
     public answer: string;
 
@@ -21,5 +22,6 @@ export class Question {
         this.isUnpublished = passedIsUnpublished;
         this.question = passedQuestion;
         this.answer = passedAnswer;
+        this.isNew = true;
     }
 }

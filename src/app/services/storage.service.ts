@@ -42,8 +42,35 @@ export class StorageService {
         var tempSection = new SectionCovered(parsedJson[i].section);
         sectionArray.push(tempSection);
       }  
+    } 
+    return sectionArray;
+  }
+
+  getOldSectionList() {
+    var sectionArray = [];
+    var sectionJson = localStorage.getItem('printOldSections');
+    if (sectionJson != null) {
+      var parsedJson = JSON.parse(sectionJson);
+      for (var i = 0; i < parsedJson.length; i++) {
+        var tempSection = new SectionCovered(parsedJson[i].section);
+        tempSection.isSelected = parsedJson[i].isSelected;
+        sectionArray.push(tempSection);
+      }  
     }
-  
+    return sectionArray;
+  }
+
+  getNewSectionList() {
+    var sectionArray = [];
+    var sectionJson = localStorage.getItem('printNewSections');
+    if (sectionJson != null) {
+      var parsedJson = JSON.parse(sectionJson);
+      for (var i = 0; i < parsedJson.length; i++) {
+        var tempSection = new SectionCovered(parsedJson[i].section);
+        tempSection.isSelected = parsedJson[i].isSelected;
+        sectionArray.push(tempSection);
+      }  
+    }
     return sectionArray;
   }
 

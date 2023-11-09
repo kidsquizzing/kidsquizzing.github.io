@@ -32,8 +32,12 @@ export class HomeComponent implements OnInit{
   public questionTypeArray: Array<string> = [];
   public materialCoveredArray: Array<MaterialCovered> = [];
   public sectionArray: Array<SectionCovered> = [];
+  public newSectionArray: Array<SectionCovered> = [];
+  public oldSectionArray: Array<SectionCovered> = [];
   public printMats = [];
   public printSections = [];
+  public printOldSections = [];
+  public printNewSections = [];
   public selectedFlight: string = 'A Flight';
   public flightSelections: string[] = ['A Flight', 'B Flight']
   public materialCount: number = 1;
@@ -61,6 +65,20 @@ export class HomeComponent implements OnInit{
     this.sectionArray[this.sectionArray.findIndex(x => x.sectionId == e.target.value)].isSelected = e.target.checked;
   }
 
+  newContentBoxClick(e) {
+    if (e.target.checked == true) {
+      this.oldSectionArray[this.oldSectionArray.findIndex(x => x.sectionId == e.target.value)].isSelected = !e.target.checked;
+    }
+    this.newSectionArray[this.newSectionArray.findIndex(x => x.sectionId == e.target.value)].isSelected = e.target.checked;
+  }
+
+  oldContentBoxClick (e) {
+    if (e.target.checked == true) {
+      this.newSectionArray[this.newSectionArray.findIndex(x => x.sectionId == e.target.value)].isSelected = !e.target.checked;
+    }
+    this.oldSectionArray[this.oldSectionArray.findIndex(x => x.sectionId == e.target.value)].isSelected = e.target.checked;
+  }
+
   print() {
     this.materialCoveredArray.forEach((mat, index) => {
       if (mat.isSelected) {
@@ -72,10 +90,26 @@ export class HomeComponent implements OnInit{
         this.printSections.push(sec);
       }
     });
+    this.oldSectionArray.forEach((sec, index) => {
+      if (sec.isSelected) {
+        var tempSection = new SectionCovered(sec.section);
+        tempSection.isSelected = sec.isSelected;
+        this.printOldSections.push(tempSection);
+      }
+    });
+    this.newSectionArray.forEach((sec, index) => {
+      if (sec.isSelected) {
+        var tempSection = new SectionCovered(sec.section);
+        tempSection.isSelected = sec.isSelected;
+        this.printNewSections.push(tempSection);
+      }
+    });
+
     if (this.printMats.length < 1 && this.printSections.length < 1 && this.useAllMaterial == false) {
       alert("Please select some material before trying to print");
       return;
     }
+    
     this.setPrintVariablesToLocalStorage();
     this.router.navigate(['/print']);
   }
@@ -91,9 +125,10 @@ export class HomeComponent implements OnInit{
     localStorage.setItem('useAllMaterial', JSON.stringify(this.useAllMaterial));
     localStorage.setItem('printMats', JSON.stringify(this.printMats));
     localStorage.setItem('printSections', JSON.stringify(this.printSections));
+    localStorage.setItem('printOldSections', JSON.stringify(this.printOldSections));
+    localStorage.setItem('printNewSections', JSON.stringify(this.printNewSections));
     localStorage.setItem('printPages', JSON.stringify(this.numPages));
     localStorage.setItem('selectedFlight', JSON.stringify(this.selectedFlight));
-
 
     this.setupPageValues();
   }
@@ -153,6 +188,24 @@ export class HomeComponent implements OnInit{
       }
     }
 
+    if(this.sectionArray.length > 0) {
+      var sectionArrayCount = 0;
+      this.sectionArray.forEach((item) => {
+        var tempNew = new SectionCovered(item.section);
+        tempNew.isSelected = false;
+        tempNew.sectionId = item.sectionId;  
+        this.newSectionArray.push(tempNew);
+        var tempOld = new SectionCovered(item.section);
+        tempOld.isSelected = true;
+        tempOld.sectionId = item.sectionId;
+        this.oldSectionArray.push(tempOld);
+        sectionArrayCount++;
+      })
+    }
+
+    this.oldSectionArray[sectionArrayCount - 1].isSelected = false;
+    this.newSectionArray[sectionArrayCount - 1].isSelected = true;
+
     this.numberOfQuestionsLoaded = this.numberOfGeneralLoaded + this.numberOfFtvLoaded + this.numberOfMqLoaded +
       this.numberOfAccToLoaded + this.numberOfSqLoaded;
     this.numberOfQuestionsLoadedBFlight = this.numberOfGeneralLoadedBFlight + this.numberOfFtvLoadedBFlight + this.numberOfMqLoadedBFlight +
@@ -175,5 +228,8 @@ export class HomeComponent implements OnInit{
     this.numberOfSqLoadedBFlight = 0;
     this.questionTypeArray = [];
     this.materialCoveredArray = [];
+    this.sectionArray = [];
+    this.oldSectionArray = [];
+    this.newSectionArray = [];
   }
 }

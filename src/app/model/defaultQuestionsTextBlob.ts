@@ -117,92 +117,92 @@ export class defaultQuestionsTextBlob {
         "Genesis|1|25|1|SQ|0|0|Situation Question: When: God made the beasts of the earth.|The sixth day\n" +
         "Genesis|1|27|1|SQ|0|0|Situation Question: When: God created man in His own image.|The sixth day\n" +
         "Genesis|2|3|1|SQ|0|0|Situation Question: When: He rested from all the work of His creation.|The seventh day'\n" +
-        "Genesis|3|1|1|General|1|0|Now the serpent was more crafty than what?|any beast of the field that the LORD God had made\n" +
-        "Genesis|3|1|1|General|0|0|What did the serpent say to the woman?|Did God really say, \"you must not eat from any tree in the garden?\"\n" +
-        "Genesis|3|2|1|General|1|0|Who answered the serpent?|The woman\n" +
-        "Genesis|3|2|1|General|1|0|How did the woman answer the serpent?|We may eat the fruit of the trees of the garden\n" +
-        "Genesis|3|3|1|General|0|0|God has said what about the fruit of the tree in the middle of the garden?|\"You must not eat of it or touch it, or you will die\"\n" +
-        "Genesis|3|4|1|General|1|0|Who told her, \"you will not surely die?\"|The serpent\n" +
-        "Genesis|3|5|1|General|0|0|When will your eyes will be opened and you will be like God, knowing good and evil?|in the day you eat of it [the fruit]\n" +
-        "Genesis|3|6|1|General|1|0|What was good for food and pleasing to the eyes?|the tree\n" +
-        "Genesis|3|6|1|General|1|0|The tree was desirable for obtaining what?|wisdom\n" +
-        "Genesis|3|6|1|General|1|0|Who took the fruit and ate it?|the woman\n" +
-        "Genesis|3|6|1|General|1|0|She also gave some to whom?|Her husband who was with her\n" +
-        "Genesis|3|7|1|General|1|0|What did they know after their eyes were opened?|that they were naked\n" +
-        "Genesis|3|7|1|General|0|0|They knew that they were naked so they, what?|Sewed fig leaves and made coverings for themselves\n" +
-        "Genesis|3|8|1|General|1|0|The man and his wife heard the voice of whom?|The Lord God\n" +
-        "Genesis|3|8|1|General|1|0|The LORD God was walking where?|in the garden in the breeze of the day\n" +
-        "Genesis|3|8|1|General|1|0|Where did they hide from the LORD?|among the trees\n" +
-        "Genesis|3|9|1|General|1|0|What did the LORD God call out to the man?|Where are you?\n" +
-        "Genesis|3|10|1|General|1|0|Why did the man hide himself?|He was afraid because he was naked\n" +
-        "Genesis|3|11|1|General|1|0|The LORD God Asked \"Have you eaten from\" what?|the tree\n" +
-        "Genesis|3|12|1|General|1|0|What did the woman give the man?|fruit from the tree\n" +
-        "Genesis|3|13|1|General|1|0|the Lord God said what to the woman?|\"What is this you have done?\"\n" +
-        "Genesis|3|13|1|General|1|0|How did she reply to the LORD?|The serpent deceived me and I ate\n" +
-        "Genesis|3|14|1|General|1|0|Who is cursed above all livestock and every beast of the field?|the serpent\n" +
-        "Genesis|3|15|1|General|1|0|What will be between you and the woman?|enmity\n" +
-        "Genesis|3|15|1|General|1|0|He will crush your head, and you will what?|strike his heel\n" +
-        "Genesis|3|16|1|General|0|0|I will sharply increase what?|your pain in childbirth\n" +
-        "Genesis|3|17|1|General|1|0|What is cursed because of you?|the ground\n" +
-        "Genesis|3|17|1|General|0|0|Why is the ground cursed?|because you have listened to the voice of your wife and have eaten from the tree of which I commanded you not to eat\n" +
-        "Genesis|3|17|1|General|1|0|How will you eat of the ground?|through toil\n" +
-        "Genesis|3|18|1|General|1|0|What will it yield for you?|Both thorns and thistles\n" +
-        "Genesis|3|19|1|General|1|0|Until when will you eat your bread by the sweat of your brow?|until you return to the ground\n" +
-        "Genesis|3|19|1|General|1|0|For dust you are, and to dust you shall what?|return\n" +
-        "Genesis|3|20|1|General|1|0|Adam named his wife what?|Eve\n" +
-        "Genesis|3|20|1|General|1|0|Why did Adam name his wife Eve?|because she would be the mother of all the living.\n" +
-        "Genesis|3|21|1|General|1|0|Who made garments of skin for Adam and his wife?|the LORD God\n" +
-        "Genesis|3|22|1|General|1|0|Behold, the man has become like one of Us, knowing what?|good and evil\n" +
-        "Genesis|3|22|1|General|1|0|From what might the man reach out his hand and take also?|the tree of life\n" +
-        "Genesis|3|23|1|General|1|0|Therefore the Lord God banished him from where?|the Garden of Eden\n" +
-        "Genesis|3|23|1|General|1|0|He was banished to do what?|to work the ground from which he had been taken\n" +
-        "Genesis|3|24|1|General|0|0|Where did the LORD God station cherubim?|on the east side of the Garden of Eden\n" +
-        "Genesis|3|24|1|General|1|0|A whirling sword of flame guarded what?|the way to the tree of life\n" +
-        "Genesis|4|1|1|General|0|0|Eve conceived and gave birth to whom?|Cain\n" +
-        "Genesis|4|1|1|General|1|0|With the help of the LORD, what has Eve brought forth?|a man\n" +
-        "Genesis|4|2|1|General|1|0|Now Abel was what?|a keeper of sheep\n" +
-        "Genesis|4|2|1|General|1|0|Now Cain was what?|a tiller of the soil\n" +
-        "Genesis|4|3|1|General|1|0|Cain brought what?|some of the fruit of the soil\n" +
-        "Genesis|4|4|1|General|1|0|Abel brought what?|the best portions of the firstborn of his flock.\n" +
-        "Genesis|4|5|1|General|0|0|For whom did the LORD have no regard?|Cain [and his offering]\n" +
-        "Genesis|4|5|1|General|1|0|Cain became what?|very angry\n" +
-        "Genesis|4|7|1|General|0|0|If you do what is right, will you not be what?|accepted\n" +
-        "Genesis|4|7|1|General|1|0|When is sin crouching at your door?|If you refuse to do what is right\n" +
-        "Genesis|4|7|1|General|1|0|Sin desires you, but you must do what?|master it.\n" +
-        "Genesis|4|8|1|General|1|0|Cain said what to his brother Abel?|\"Let us go out to the field.\"\n" +
-        "Genesis|4|8|1|General|1|0|Cain rose up against his brother Abel and did what?|killed him\n" +
-        "Genesis|4|9|1|General|1|0|What did the LORD say to Cain?|\"Where is your brother Abel?\"\n" +
-        "Genesis|4|9|1|General|1|0|How did Cain answer?|\"I do not know!\" \"Am I my brother's keeper?\"\n" +
-        "Genesis|4|10|1|General|0|0|What cries out to Me from the ground?|the voice of your brother's blood\n" +
-        "Genesis|4|11|1|General|0|0|Now you are cursed and banished from where?|the ground, which has opened its mouth to receive your brother's blood from your hand.\n" +
-        "Genesis|4|12|1|General|1|0|When you till the ground, it will no longer do what?|yield its produce to you.\n" +
-        "Genesis|4|12|1|General|1|0|Who will be a fugitive and a wanderer on the earth?|Cain\n" +
-        "Genesis|4|13|1|General|1|0|My punishment is what?|Greater than I can bear\n" +
-        "Genesis|4|14|1|General|0|0|This day You have driven me from where?|From the face of the earth, and from Your face I will be hidden.\n" +
-        "Genesis|4|14|1|General|1|0|I will be a fugitive and a wanderer where?|On the earth\n" +
-        "Genesis|4|14|1|General|1|0|Who will kill me?|Whoever finds me\n" +
-        "Genesis|4|15|1|General|0|0|Who will be avenged sevenfold?|Cain\n" +
-        "Genesis|4|15|1|General|1|0|Why did the Lord place a mark on Cain?|so that no one who found him would kill him\n" +
-        "Genesis|4|16|1|General|1|0|Cain went out from where?|The presence of the LORD\n" +
-        "Genesis|6|5|1|General|1|0|Then the LORD saw what?|that the wickedness of man was great upon the earth\n" +
-        "Genesis|6|5|1|General|1|0|Every inclination of the thoughts of his heart was what?|Altogether evil all the time\n" +
-        "Genesis|6|6|1|General|1|0|And the Lord regretted what?|that He had made man on the earth\n" +
-        "Genesis|6|7|1|General|0|0|I will blot out what?|Man, whom I have created, from the face of the earth—every man and beast and crawling creature and bird of the air\n" +
-        "Genesis|6|7|1|General|0|0|Why am I grieved?|That I have made them [man]\n" +
-        "Genesis|3|1|1|FTV|1|0|Now the serpent was more crafty than any beast of the field that the LORD God had made.|\n" +
-        "Genesis|3|9|1|FTV|1|0|But the LORD God called out to the man, \"Where are you?\"|\n" +
-        "Genesis|3|10|1|FTV|1|0|\"I heard Your voice in the garden,\" he replied, \"and I was afraid because I was naked; so I hid myself.\"|\n" +
-        "Genesis|3|20|1|FTV|1|0|And Adam named his wife Eve, because she would be the mother of all the living.|\n" +
-        "Genesis|3|21|1|FTV|1|0|And the LORD God made garments of skin for Adam and his wife, and He clothed them.|\n" +
-        "Genesis|4|7|1|FTV|1|0|If you do what is right, will you not be accepted? But if you refuse to do what is right, sin is crouching at your door; it desires you, but you must master it.|\n" +
-        "Genesis|4|10|1|FTV|1|0|\"What have you done?\" replied the LORD. \"The voice of your brother's blood cries out to Me from the ground.\"|\n" +
-        "Genesis|6|6|1|FTV|1|0|And the LORD regretted that He had made man on the earth, and He was grieved in His heart|\n" +
-        "Genesis|3|3|1|MQ|0|0|Quote Genesis 3:3?|But about the fruit of the tree in the middle of the garden, God has said, \"You must not eat of it or touch it, or you will die.\"\n" +
-        "Genesis|3|15|1|MQ|0|0|Quote Genesis 3:15?|And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.\n" +
-        "Genesis|3|17|1|MQ|0|0|Quote Genesis 3:17?|And to Adam He said: \"Because you have listened to the voice of your wife and have eaten from the tree of which I commanded you not to eat, cursed in the ground because of you; through toil you will eat of it all the days of your life.\"\n" +
-        "Genesis|3|22|1|MQ|0|0|Quote Genesis 3:22?|Then the LORD God said, \"Behold, the man has become like one of Us, knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever . . .\"\n" +
-        "Genesis|3|23|1|MQ|0|0|Quote Genesis 3:23?|Therefore the LORD God banished him from the Garden of Eden to work the ground from which he had been taken.\n" +
-        "Genesis|4|2|1|MQ|0|0|Quote Genesis 4:2?|Later she gave birth to Cain's brother Abel. Now Abel was a keeper of sheep, while Cain was a tiller of the soil.\n" +
-        "Genesis|4|9|1|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n";
+        "Genesis|3|1|2|General|1|0|Now the serpent was more crafty than what?|any beast of the field that the LORD God had made\n" +
+        "Genesis|3|1|2|General|0|0|What did the serpent say to the woman?|Did God really say, \"you must not eat from any tree in the garden?\"\n" +
+        "Genesis|3|2|2|General|1|0|Who answered the serpent?|The woman\n" +
+        "Genesis|3|2|2|General|1|0|How did the woman answer the serpent?|We may eat the fruit of the trees of the garden\n" +
+        "Genesis|3|3|2|General|0|0|God has said what about the fruit of the tree in the middle of the garden?|\"You must not eat of it or touch it, or you will die\"\n" +
+        "Genesis|3|4|2|General|1|0|Who told her, \"you will not surely die?\"|The serpent\n" +
+        "Genesis|3|5|2|General|0|0|When will your eyes will be opened and you will be like God, knowing good and evil?|in the day you eat of it [the fruit]\n" +
+        "Genesis|3|6|2|General|1|0|What was good for food and pleasing to the eyes?|the tree\n" +
+        "Genesis|3|6|2|General|1|0|The tree was desirable for obtaining what?|wisdom\n" +
+        "Genesis|3|6|2|General|1|0|Who took the fruit and ate it?|the woman\n" +
+        "Genesis|3|6|2|General|1|0|She also gave some to whom?|Her husband who was with her\n" +
+        "Genesis|3|7|2|General|1|0|What did they know after their eyes were opened?|that they were naked\n" +
+        "Genesis|3|7|2|General|0|0|They knew that they were naked so they, what?|Sewed fig leaves and made coverings for themselves\n" +
+        "Genesis|3|8|2|General|1|0|The man and his wife heard the voice of whom?|The Lord God\n" +
+        "Genesis|3|8|2|General|1|0|The LORD God was walking where?|in the garden in the breeze of the day\n" +
+        "Genesis|3|8|2|General|1|0|Where did they hide from the LORD?|among the trees\n" +
+        "Genesis|3|9|2|General|1|0|What did the LORD God call out to the man?|Where are you?\n" +
+        "Genesis|3|10|2|General|1|0|Why did the man hide himself?|He was afraid because he was naked\n" +
+        "Genesis|3|11|2|General|1|0|The LORD God Asked \"Have you eaten from\" what?|the tree\n" +
+        "Genesis|3|12|2|General|1|0|What did the woman give the man?|fruit from the tree\n" +
+        "Genesis|3|13|2|General|1|0|the Lord God said what to the woman?|\"What is this you have done?\"\n" +
+        "Genesis|3|13|2|General|1|0|How did she reply to the LORD?|The serpent deceived me and I ate\n" +
+        "Genesis|3|14|2|General|1|0|Who is cursed above all livestock and every beast of the field?|the serpent\n" +
+        "Genesis|3|15|2|General|1|0|What will be between you and the woman?|enmity\n" +
+        "Genesis|3|15|2|General|1|0|He will crush your head, and you will what?|strike his heel\n" +
+        "Genesis|3|16|2|General|0|0|I will sharply increase what?|your pain in childbirth\n" +
+        "Genesis|3|17|2|General|1|0|What is cursed because of you?|the ground\n" +
+        "Genesis|3|17|2|General|0|0|Why is the ground cursed?|because you have listened to the voice of your wife and have eaten from the tree of which I commanded you not to eat\n" +
+        "Genesis|3|17|2|General|1|0|How will you eat of the ground?|through toil\n" +
+        "Genesis|3|18|2|General|1|0|What will it yield for you?|Both thorns and thistles\n" +
+        "Genesis|3|19|2|General|1|0|Until when will you eat your bread by the sweat of your brow?|until you return to the ground\n" +
+        "Genesis|3|19|2|General|1|0|For dust you are, and to dust you shall what?|return\n" +
+        "Genesis|3|20|2|General|1|0|Adam named his wife what?|Eve\n" +
+        "Genesis|3|20|2|General|1|0|Why did Adam name his wife Eve?|because she would be the mother of all the living.\n" +
+        "Genesis|3|21|2|General|1|0|Who made garments of skin for Adam and his wife?|the LORD God\n" +
+        "Genesis|3|22|2|General|1|0|Behold, the man has become like one of Us, knowing what?|good and evil\n" +
+        "Genesis|3|22|2|General|1|0|From what might the man reach out his hand and take also?|the tree of life\n" +
+        "Genesis|3|23|2|General|1|0|Therefore the Lord God banished him from where?|the Garden of Eden\n" +
+        "Genesis|3|23|2|General|1|0|He was banished to do what?|to work the ground from which he had been taken\n" +
+        "Genesis|3|24|2|General|0|0|Where did the LORD God station cherubim?|on the east side of the Garden of Eden\n" +
+        "Genesis|3|24|2|General|1|0|A whirling sword of flame guarded what?|the way to the tree of life\n" +
+        "Genesis|4|1|2|General|0|0|Eve conceived and gave birth to whom?|Cain\n" +
+        "Genesis|4|1|2|General|1|0|With the help of the LORD, what has Eve brought forth?|a man\n" +
+        "Genesis|4|2|2|General|1|0|Now Abel was what?|a keeper of sheep\n" +
+        "Genesis|4|2|2|General|1|0|Now Cain was what?|a tiller of the soil\n" +
+        "Genesis|4|3|2|General|1|0|Cain brought what?|some of the fruit of the soil\n" +
+        "Genesis|4|4|2|General|1|0|Abel brought what?|the best portions of the firstborn of his flock.\n" +
+        "Genesis|4|5|2|General|0|0|For whom did the LORD have no regard?|Cain [and his offering]\n" +
+        "Genesis|4|5|2|General|1|0|Cain became what?|very angry\n" +
+        "Genesis|4|7|2|General|0|0|If you do what is right, will you not be what?|accepted\n" +
+        "Genesis|4|7|2|General|1|0|When is sin crouching at your door?|If you refuse to do what is right\n" +
+        "Genesis|4|7|2|General|1|0|Sin desires you, but you must do what?|master it.\n" +
+        "Genesis|4|8|2|General|1|0|Cain said what to his brother Abel?|\"Let us go out to the field.\"\n" +
+        "Genesis|4|8|2|General|1|0|Cain rose up against his brother Abel and did what?|killed him\n" +
+        "Genesis|4|9|2|General|1|0|What did the LORD say to Cain?|\"Where is your brother Abel?\"\n" +
+        "Genesis|4|9|2|General|1|0|How did Cain answer?|\"I do not know!\" \"Am I my brother's keeper?\"\n" +
+        "Genesis|4|10|2|General|0|0|What cries out to Me from the ground?|the voice of your brother's blood\n" +
+        "Genesis|4|11|2|General|0|0|Now you are cursed and banished from where?|the ground, which has opened its mouth to receive your brother's blood from your hand.\n" +
+        "Genesis|4|12|2|General|1|0|When you till the ground, it will no longer do what?|yield its produce to you.\n" +
+        "Genesis|4|12|2|General|1|0|Who will be a fugitive and a wanderer on the earth?|Cain\n" +
+        "Genesis|4|13|2|General|1|0|My punishment is what?|Greater than I can bear\n" +
+        "Genesis|4|14|2|General|0|0|This day You have driven me from where?|From the face of the earth, and from Your face I will be hidden.\n" +
+        "Genesis|4|14|2|General|1|0|I will be a fugitive and a wanderer where?|On the earth\n" +
+        "Genesis|4|14|2|General|1|0|Who will kill me?|Whoever finds me\n" +
+        "Genesis|4|15|2|General|0|0|Who will be avenged sevenfold?|Cain\n" +
+        "Genesis|4|15|2|General|1|0|Why did the Lord place a mark on Cain?|so that no one who found him would kill him\n" +
+        "Genesis|4|16|2|General|1|0|Cain went out from where?|The presence of the LORD\n" +
+        "Genesis|6|5|2|General|1|0|Then the LORD saw what?|that the wickedness of man was great upon the earth\n" +
+        "Genesis|6|5|2|General|1|0|Every inclination of the thoughts of his heart was what?|Altogether evil all the time\n" +
+        "Genesis|6|6|2|General|1|0|And the Lord regretted what?|that He had made man on the earth\n" +
+        "Genesis|6|7|2|General|0|0|I will blot out what?|Man, whom I have created, from the face of the earth—every man and beast and crawling creature and bird of the air\n" +
+        "Genesis|6|7|2|General|0|0|Why am I grieved?|That I have made them [man]\n" +
+        "Genesis|3|1|2|FTV|1|0|Now the serpent was more crafty than any beast of the field that the LORD God had made.|\n" +
+        "Genesis|3|9|2|FTV|1|0|But the LORD God called out to the man, \"Where are you?\"|\n" +
+        "Genesis|3|10|2|FTV|1|0|\"I heard Your voice in the garden,\" he replied, \"and I was afraid because I was naked; so I hid myself.\"|\n" +
+        "Genesis|3|20|2|FTV|1|0|And Adam named his wife Eve, because she would be the mother of all the living.|\n" +
+        "Genesis|3|21|2|FTV|1|0|And the LORD God made garments of skin for Adam and his wife, and He clothed them.|\n" +
+        "Genesis|4|7|2|FTV|1|0|If you do what is right, will you not be accepted? But if you refuse to do what is right, sin is crouching at your door; it desires you, but you must master it.|\n" +
+        "Genesis|4|10|2|FTV|1|0|\"What have you done?\" replied the LORD. \"The voice of your brother's blood cries out to Me from the ground.\"|\n" +
+        "Genesis|6|6|2|FTV|1|0|And the LORD regretted that He had made man on the earth, and He was grieved in His heart|\n" +
+        "Genesis|3|3|2|MQ|0|0|Quote Genesis 3:3?|But about the fruit of the tree in the middle of the garden, God has said, \"You must not eat of it or touch it, or you will die.\"\n" +
+        "Genesis|3|15|2|MQ|0|0|Quote Genesis 3:15?|And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.\n" +
+        "Genesis|3|17|2|MQ|0|0|Quote Genesis 3:17?|And to Adam He said: \"Because you have listened to the voice of your wife and have eaten from the tree of which I commanded you not to eat, cursed in the ground because of you; through toil you will eat of it all the days of your life.\"\n" +
+        "Genesis|3|22|2|MQ|0|0|Quote Genesis 3:22?|Then the LORD God said, \"Behold, the man has become like one of Us, knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever . . .\"\n" +
+        "Genesis|3|23|2|MQ|0|0|Quote Genesis 3:23?|Therefore the LORD God banished him from the Garden of Eden to work the ground from which he had been taken.\n" +
+        "Genesis|4|2|2|MQ|0|0|Quote Genesis 4:2?|Later she gave birth to Cain's brother Abel. Now Abel was a keeper of sheep, while Cain was a tiller of the soil.\n" +
+        "Genesis|4|9|2|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n";
     }
 }

@@ -11,14 +11,14 @@
         <h6>Configure Prints</h6>
     </div>
     <div class="row">
-        <div class="col-2">
+        <div class="col-3">
             <span>Number of Quizzes</span>
             <input type="number" [(ngModel)]="numPages" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
         </div>  
-        <div class="col-2">
+        <div class="col-3">
             <div>
                 <span>Flight Selection: </span>
-            </div>
+            </div>         
             <mat-radio-group
                 class="radio-group"
                 [(ngModel)]="selectedFlight">
@@ -30,6 +30,8 @@
             </mat-radio-group>                     
         </div>      
     </div>
+</div>
+<div class="container" *ngIf="cacheIsLoaded">
     <div>
         <br />
         <button (click)="print()">Print</button>
@@ -42,27 +44,53 @@
             <input class="form-check-input" type="checkbox" [(ngModel)]="useAllMaterial">
         </div>
     </div>
-    <div>
+    <div class="row">
         <br />
-        <span>Book / Chapter</span>
-        <div *ngFor="let mat of materialCoveredArray" class="col-3">
-            <input class="form-check-input" type="checkbox" value="{{mat.matId}}" (change)="matBoxClick($event)">
-            <label class="form-check-label">
-                &nbsp;&nbsp;{{mat.book}} {{mat.chapter}}
-            </label>
+        <div class="col-3">     
+            <span>New Content (Sections)</span>
+            <div *ngFor="let section of newSectionArray">
+                <input class="form-check-input" type="checkbox" value="{{section.sectionId}}" [checked]="section.isSelected" (change)="newContentBoxClick($event)">
+                <label class="form-check-label">
+                    &nbsp;&nbsp;{{section.section}}
+                </label>
+            </div>
         </div>
-    </div>
-    <div>
-        <span>Section</span>
-        <div *ngFor="let section of sectionArray" class="col-3">
-            <input class="form-check-input" type="checkbox" value="{{section.sectionId}}" (change)="sectionBoxClick($event)">
-            <label class="form-check-label">
-                &nbsp;&nbsp;{{section.section}}
-            </label>
-        </div>
-    </div>          
+        <div class="col-3">   
+            <span>Old Content (Sections)</span>
+            <div *ngFor="let section of oldSectionArray">
+                <input class="form-check-input" type="checkbox" value="{{section.sectionId}}" [checked]="section.isSelected" (change)="oldContentBoxClick($event)">
+                <label class="form-check-label">
+                    &nbsp;&nbsp;{{section.section}}
+                </label>
+            </div>
+        </div>     
+    </div>  
+    <br />
 </div>
-<br />
+<div class="container" *ngIf="cacheIsLoaded">
+    <div class="row">
+        <br />
+        <div class="col-3">     
+            <span>Book / Chapter</span>
+            <div *ngFor="let mat of materialCoveredArray">
+                    <input class="form-check-input" type="checkbox" value="{{mat.matId}}" (change)="matBoxClick($event)">
+                    <label class="form-check-label">
+                        &nbsp;&nbsp;{{mat.book}} {{mat.chapter}}
+                    </label>
+            </div>
+        </div>
+        <div class="col-3">   
+            <span>Section</span>
+            <div *ngFor="let section of sectionArray">
+                <input class="form-check-input" type="checkbox" value="{{section.sectionId}}" (change)="sectionBoxClick($event)">
+                <label class="form-check-label">
+                    &nbsp;&nbsp;{{section.section}}
+                </label>
+            </div>
+        </div>     
+    </div>
+    <br />          
+</div>
 <div class="container" *ngIf="cacheIsLoaded">
     <h5>Loaded Material Information</h5>   
     <h6>Number of correctly typed questions loaded is : {{numberOfQuestionsLoaded}}</h6>
