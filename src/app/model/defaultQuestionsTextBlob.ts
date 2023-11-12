@@ -203,6 +203,108 @@ export class defaultQuestionsTextBlob {
         "Genesis|3|22|2|MQ|0|0|Quote Genesis 3:22?|Then the LORD God said, \"Behold, the man has become like one of Us, knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever . . .\"\n" +
         "Genesis|3|23|2|MQ|0|0|Quote Genesis 3:23?|Therefore the LORD God banished him from the Garden of Eden to work the ground from which he had been taken.\n" +
         "Genesis|4|2|2|MQ|0|0|Quote Genesis 4:2?|Later she gave birth to Cain's brother Abel. Now Abel was a keeper of sheep, while Cain was a tiller of the soil.\n" +
-        "Genesis|4|9|2|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n";
+        "Genesis|4|9|2|MQ|0|0|Quote Genesis 4:9?|And the LORD siad to Cain, \"Where is your brother Abel?\" \"I do not know!\" he answered. \"Am I my brother's keeper?\"\n" +
+        "Genesis|3|7|2|AT|0|0|According to Genesis 3:7, what were opened?|the eyes of both of them\n" +
+        "Genesis|3|17|2|AT|0|0|According to Genesis 3:17, from what have you have eaten?|the tree of which I commanded you not to eat\n" +
+        "Genesis|3|19|2|AT|0|0|According to Genesis 3:19, out of what were you taken?|the ground\n" +
+        "Genesis|4|1|2|AT|0|0|According to Genesis 4:1, she gave birth to whom?|Cain\n" +
+        "Genesis|4|2|2|AT|0|0|According to Genesis 4:2, later she gave birth to whom?|Cain's brother Abel\n" +
+        "Genesis|4|4|2|AT|0|0|According to Genesis 4:2, who did the LORD look on with favor?|Abel\n" +
+        "Genesis|4|6|2|AT|0|0|According to Genesis 4:6, what did the LORD say to Cain?|\"Why are you angry, and why has your countenance fallen?\"\n" +
+        "Genesis|4|13|2|AT|0|0|According to Genesis 4:9, what did Cain say to the LORD?|My punishment is greater than I can bear.\n" +
+        "Genesis|3|4|2|SQ|0|0|Who said it? To whom was it said? \"You will not surely die.\"|Who said it? The serpent. To whom was it said? Her [the woman]\n" +
+        "Genesis|3|9|2|SQ|0|0|Who said it? To whom was it said? \"Where are you?\"|Who said it? The LORD God To whom was it said? The man.\n" +
+        "Genesis|3|10|2|SQ|0|0|Who said it? To whom was it said? \"I was afraid.\"|Who said it? The man. To whom was it said? The LORD God.\n" +
+        "Genesis|3|15|2|SQ|0|0|Who said it? To whom was it said? \"I will put enmity between you and the woman.\"|Who said it? The LORD God To whom was it said? The serpent\n" +
+        "Genesis|3|16|2|SQ|0|0|Who said it? To whom was it said? \"In pain you will bring forth children\"|Who said it? The LORD God. To whom was it said? the woman\n" +
+        "Genesis|3|19|2|SQ|0|0|Who said it? To whom was it said? \"By the sweat of your brow you will eat your bread.\"|Who said it? The LORD God. To whom was it said? Adam\n" +
+        "Genesis|4|8|2|SQ|0|0|Who said it? To whom was it said? \"Let us go out to the field.\"|Who said it? Cain. To whom was it said? His brother Abel\n" +
+        "Genesis|4|9|2|SQ|0|0|Who said it? To whom was it said? \"Where is your brother Abel?\"|Who said it? The LORD. To whom was it said? Cain\n" +
+        "Genesis|4|13|2|SQ|0|0|Who said it? To whom was it said? \"My punishment is greater than I can bear.\"|Who said it? Cain. To whom was it said? The LORD.\n" +
+        "Genesis|7|8|3|AT|0|0|According to Genesis 7:8, what animals came to Noah to enter the ark, two by two?|the clean and unclean animals, the birds, and everything that crawls along the ground\n" +
+        "Genesis|7|15|3|AT|0|0|According to Genesis 7:15, what came to Noah to enter the ark, two by two|every creature with the breath of life\n" +
+        "Genesis|7|19|3|AT|0|0|According to Genesis 7:19, What were covered?|All the high mountains under all the heavens\n" +
+        "Genesis|7|20|3|AT|0|0|According to Genesis 7:20, What were covered?|The mountaintops to a depth of fifteen cubits\n" +
+        "Genesis|8|7|3|AT|0|0|According to Genesis 8:7, Noah sent out what?|A raven\n" +
+        "Genesis|8|8|3|AT|0|0|According to Genesis 8:8, Noah sent out what?|A dove\n" +
+        "Genesis|8|13|3|AT|0|0|According to Genesis 8:13 What was dry?|The surface of the ground\n" +
+        "Genesis|6|18|3|FTV|1|0|But I will establish My covenant with you, and you will enter the ark—you and your sons and your wife and your sons’ wives with you.|\n" +
+        "Genesis|6|22|3|FTV|1|0|So Noah did everything precisely as God had commanded him.|\n" +
+        "Genesis|7|16|3|FTV|1|0|And they entered, the male and female of every living thing, as God had commanded Noah. Then the LORD shut him in.|\n" +
+        "Genesis|7|21|3|FTV|1|0|And every living thing that moved upon the earth perished - birds, livestock, animals, every creature that swarms upon the earth, and all mankind.|\n" +
+        "Genesis|8|1|3|FTV|1|0|But God remembered Noah and all the animals and livestock that were with him in the ark. And God sent a wind over the earth, and the waters began to subside.|\n" +
+        "Genesis|8|8|3|FTV|1|0|Then Noah sent out a dove to see if the waters had receded from the surface of the ground.|\n" +
+        "Genesis|8|11|3|FTV|1|0|And behold, the dove returned to him in the evening with a freshly plucked olive leaf in her beak. So Noah knew that the waters had receded from the earth.|\n" +
+        "Genesis|6|9|3|General|1|0|Who is this an account of?|Noah\n" +
+        "Genesis|6|9|3|General|1|0|Noah walked with whom?|God\n" +
+        "Genesis|6|10|3|General|1|0|Who were Noah's three sons?|Shem, Ham, and Japheth\n" +
+        "Genesis|6|11|3|General|0|0|The earth was corrupt in whose sight?|God's\n" +
+        "Genesis|6|11|3|General|1|0|What was the earth full of?|violence\n" +
+        "Genesis|6|12|3|General|1|0|What had corrupted their ways?|All living creatures on the earth\n" +
+        "Genesis|6|13|3|General|0|0|Why has the end of all living creatures come before Me?|because through them the earth is full of violence\n" +
+        "Genesis|6|13|3|General|0|0|God will destroy what?|both them [all living creatures] and the earth\n" +
+        "Genesis|6|14|3|General|1|0|Make for yourself an ark of what?|gopher wood\n" +
+        "Genesis|6|14|3|General|0|0|Make rooms in the ark and coat it with what?|pitch inside and out.\n" +
+        "Genesis|6|15|3|General|0|0|The ark is to be what?|300 cubits long, 50 cubits wide, and 30 cubits high.\n" +
+        "Genesis|6|16|3|General|1|0|Where are you to place a door?|in the side of the ark\n" +
+        "Genesis|6|17|3|General|0|0|And behold, I will bring floodwaters upon the earth to do what?|destroy every creature under the heavens that has the breath of life.\n" +
+        "Genesis|6|17|3|General|1|0|What will perish?|Everything on earth\n" +
+        "Genesis|6|18|3|General|1|0|What will God establish with Noah?|My [God's] covenant\n" +
+        "Genesis|6|19|3|General|1|0|What are you to bring into the ark to keep alive with you?|Two of every living creature—male and female\n" +
+        "Genesis|6|21|3|General|0|0|Take what for yourself?|Every kind of food that is eaten\n" +
+        "Genesis|6|22|3|General|1|0|Noah did everything how?|precisely as God had commanded him\n" +
+        "Genesis|7|1|3|General|1|0|Who was righteous in this generation?|Noah\n" +
+        "Genesis|7|1|3|General|1|0|Into what was Noah to go?|the ark\n" +
+        "Genesis|7|2|3|General|1|0|You are to take with you seven pairs of what?|every kind of clean animal, a male and its mate\n" +
+        "Genesis|7|3|3|General|0|0|Collect seven pairs of every kind of bird of the air to do what?|to preserve their offspring on the face of all the earth\n" +
+        "Genesis|7|4|3|General|1|0|For seven days from now I will send what?|rain\n" +
+        "Genesis|7|4|3|General|1|0|For how long will I send rain on the earth?|for forty days and forty nights\n" +
+        "Genesis|7|4|3|General|1|0|What will I wipe from the face of the earth?|every living thing I have made\n" +
+        "Genesis|7|6|3|General|1|0|How old was Noah when the floodwaters came upon the earth?|600 years old\n" +
+        "Genesis|7|8|3|General|0|0|How did the clean and unclean animals, the birds, and everything that crawls along the ground come to Noah to enter the ark?|two by two, male and female [as God had commanded Noah]\n" +
+        "Genesis|7|10|3|General|1|0|After seven days what came upon the earth?|The floodwaters\n" +
+        "Genesis|7|11|3|General|1|0|What burst forth?|All the fountains of the great deep\n" +
+        "Genesis|7|11|3|General|1|0|What were opened?|The floodgates of the heavens\n" +
+        "Genesis|7|13|3|General|0|0|On that very day Noah entered the ark, along with whom?|His sons Shem, Ham, and Japheth, and his wife, and the three wives of his sons\n" +
+        "Genesis|7|15|3|General|1|0|What came to Noah to enter the ark?|every creature with the breath of life\n" +
+        "Genesis|7|16|3|General|1|0|Who shut Noah in?|the LORD\n" +
+        "Genesis|7|17|3|General|1|0|What kept coming on the earth for 40 days?|the flood\n" +
+        "Genesis|7|17|3|General|1|0|What rose and lifted the ark high above the earth?|The waters\n" +
+        "Genesis|7|18|3|General|1|0|The waters continued to do what?|surge and rise greatly on the earth\n" +
+        "Genesis|7|18|3|General|1|0|The ark floated where?|On the surface of the waters\n" +
+        "Genesis|7|19|3|General|1|0|Finally, the waters did what?|completely inundated the earth\n" +
+        "Genesis|7|19|3|General|1|0|What were covered?|all the high mountains under all the heavens\n" +
+        "Genesis|7|21|3|General|1|0|What perished?|Every living thing that moved upon the earth\n" +
+        "Genesis|7|22|3|General|0|0|What happened to everything that had the breath of life in its nostrils?|They died\n" +
+        "Genesis|7|23|3|General|1|0|Only who remained?|Only Noah and those with him in the ark\n" +
+        "Genesis|7|24|3|General|1|0|How long did the waters prevail upon the earth?|150 days\n" +
+        "Genesis|8|1|3|General|0|0|God remembered whom?|Noah and all the animals and livestock that were with him in the ark\n" +
+        "Genesis|8|1|3|General|1|0|God sent a wind over the earth, and what began to subside?|The waters\n" +
+        "Genesis|8|2|3|General|1|0|What were closed?|the springs of the deep and the floodgates of the heavens\n" +
+        "Genesis|8|2|3|General|1|0|What was restrained?|the rain from the sky\n" +
+        "Genesis|8|3|3|General|1|0|What receded steadily from the earth?|The waters\n" +
+        "Genesis|8|3|3|General|1|0|What happened after 150 days?|the waters had gone down.\n" +
+        "Genesis|8|4|3|General|1|0|Where did the ark come to rest?|on the mountains of Ararat.\n" +
+        "Genesis|8|5|3|General|1|0|Until when did the waters continue to recede?|The tenth month\n" +
+        "Genesis|8|5|3|General|1|0|On the first day of the tenth month, what became visible?|the tops of the mountains\n" +
+        "Genesis|8|6|3|General|1|0|After forty days Noah opened what?|The window he had made in the ark\n" +
+        "Genesis|8|7|3|General|1|0|What kept flying back and forth until the waters had dried up from the earth?|a raven\n" +
+        "Genesis|8|8|3|General|1|0|Why did Noah send out a dove?|To see if the waters had receded from the surface of the ground\n" +
+        "Genesis|8|9|3|General|1|0|What found no place to rest her foot?|The dove\n" +
+        "Genesis|8|9|3|General|1|0|Why did the dove return to him in the ark?|Because the waters were still covering the surface of all the earth\n" +
+        "Genesis|8|9|3|General|1|0|Noah reached out his hand and did what?|Brought the dove [her] back inside the ark\n" +
+        "Genesis|8|10|3|General|1|0|What did Noah do after he waited seven more days?|sent out the dove from the ark again\n" +
+        "Genesis|8|11|3|General|0|0|The dove returned to him in the evening with what in her beak?|a freshly plucked olive leaf\n" +
+        "Genesis|8|11|3|General|1|0|Noah knew what?|That the waters had receded from the earth\n" +
+        "Genesis|8|12|3|General|1|0|What did not return to Noah this time?|The dove\n" +
+        "Genesis|6|9|3|MQ|0|0|Quote Genesis 6:9?|This is the account of Noah. Noah was a righteous man, blameless in his generation; Noah walked with God.\n" +
+        "Genesis|6|13|3|MQ|0|0|Quote Genesis 6:13?|Then God said to Noah, \"The end of all living creatures has come before Me, because through them the earth is full of violence. Now behold, I will destroy both them and the earth.\"\n" +
+        "Genesis|7|15|3|MQ|0|0|Quote Genesis 7:15?|They came to Noah to enter the ark, two by two of every creature with the breath of life.\n" +
+        "Genesis|7|18|3|MQ|0|0|Quote Genesis 7:18?|So the waters continued to surge and rise greatly on the earth, and the ark floated on the surface of the waters.\n" +
+        "Genesis|8|9|3|MQ|0|0|Quote Genesis 8:9?|But the dove found no place to rest her foot, and she returned to him in the ark, because the waters were still covering the surface of all the earth. So he reached out his hand and brought her back inside the ark.\n" +
+        "Genesis|8|12|3|MQ|0|0|Quote Genesis 8:12?|And Noah waited seven more days and sent out the dove again, but this time she did not return to him.\n" +
+        "Genesis|6|13|3|SQ|0|0|Who said it? To whom was it said? \"The end of all living creatures has come before Me\"|Who: God. To whom was it said? Noah\n" +
+        "Genesis|6|14|3|SQ|0|0|Who said it? To whom was it said? \"Make for yourself an ark.\"|Who: God. To whom was it said? Noah\n" +
+        "Genesis|6|18|3|SQ|0|0|Who said it? To whom was it said? \"I will establish My covenant with you, and you will enter the ark.\"|Who: God. To whom was it said? Noah";            
     }
 }
