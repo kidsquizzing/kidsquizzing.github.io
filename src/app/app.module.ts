@@ -37,7 +37,7 @@ import { MatRadioModule } from '@angular/material/radio';
     RouterModule.forRoot([
       { path: "", component: HomeComponent, pathMatch: "full" },
       { path: "upload", component: UploadComponent, pathMatch: "full"},
-      { path: "current", component: CurrentCacheComponent, pathMatch: "full"},
+      { path: "cache", component: CurrentCacheComponent, pathMatch: "full"},
       { path: "print", component: PrintComponent, pathMatch: "full"}
     ]),
     NoopAnimationsModule,

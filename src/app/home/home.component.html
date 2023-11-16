@@ -2,8 +2,17 @@
     <h4>Home Screen</h4>
 </div>
 <div class="container">
-    <h6>Click button to use the standard set of questions</h6>
-    <button (click)="loadStandardCache()">Load Cache</button>
+    <div class="row">
+        <div class="col-2">
+            <h6>Click button to use the standard set of questions</h6>
+            <button (click)="loadStandardCache()">Load Cache</button>  
+        </div>
+        <div class="col-2">
+            <h6>View Cache</h6>
+            <button (click)="viewCache()">View Cache</button>  
+        </div>
+    </div>
+   
 </div>
 <br />
 <div class="container" *ngIf="cacheIsLoaded">

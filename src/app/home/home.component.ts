@@ -114,6 +114,10 @@ export class HomeComponent implements OnInit{
     this.router.navigate(['/print']);
   }
 
+  viewCache() {
+    this.router.navigate(['/cache']);
+  }
+
   setQuestionsToLocalStorage() {
     this.questionArray = this.questionService.createQuestionObjectList(this.defaultTextBlob.questionBlob);
     localStorage.setItem('questions', JSON.stringify(this.questionArray));
