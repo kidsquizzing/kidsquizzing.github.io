@@ -2,20 +2,24 @@
     <h4>Home Screen</h4>
 </div>
 <div class="container">
+    <h6>Cache Options</h6>
     <div class="row">
-        <div class="col-2">
-            <h6>Click button to use the standard set of questions</h6>
-            <button (click)="loadStandardCache()">Load Cache</button>  
+        <div class="col-1">
+            <button (click)="loadStandardCache()">Load</button>  
         </div>
-        <div class="col-2">
-            <h6>View Cache</h6>
-            <button (click)="viewCache()">View Cache</button>  
+        <div class="col-1">
+            <button (click)="viewCache()">View</button>  
         </div>
-    </div>
-   
+        <div class="col-1">
+            <button (click)="uploadCache()">Upload</button>  
+        </div>
+    </div>  
 </div>
 <br />
-<div class="container" *ngIf="cacheIsLoaded">
+<div class="container" *ngIf="promptToLoadCache === true">
+    <h6>Looks like the Cache failed to load properly. Click on Load Default Cache or upload your own file</h6>
+</div>
+<div class="container" *ngIf="cacheIsLoaded === true">
     <div class="row">
         <h6>Configure Prints</h6>
     </div>
@@ -40,7 +44,7 @@
         </div>      
     </div>
 </div>
-<div class="container" *ngIf="cacheIsLoaded">
+<div class="container" *ngIf="cacheIsLoaded === true">
     <div>
         <br />
         <button (click)="print()">Print</button>
@@ -100,7 +104,7 @@
     </div>
     <br />          
 </div>
-<div class="container" *ngIf="cacheIsLoaded">
+<div class="container" *ngIf="cacheIsLoaded === true">
     <h5>Loaded Material Information</h5>   
     <h6>Number of correctly typed questions loaded is : {{numberOfQuestionsLoaded}}</h6>
     <h6>Number of correctly typed questions loaded B Flight is : {{numberOfQuestionsLoadedBFlight}}</h6>

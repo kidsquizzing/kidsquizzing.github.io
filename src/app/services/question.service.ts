@@ -26,6 +26,7 @@ export class QuestionService {
   getQuestionObjectList() {
     var questionArray: Array<Question> = [];
     var questionsJson = localStorage.getItem('questions');
+    if (questionsJson == null) return [];
     var parsedJson = JSON.parse(questionsJson);
     for (var i = 0; i < parsedJson.length; i++) {
       var tempQuestion = new Question(parsedJson[i].book, parsedJson[i].chapter, parsedJson[i].verse, parsedJson[i].section, parsedJson[i].type,

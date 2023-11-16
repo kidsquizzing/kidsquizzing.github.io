@@ -43,13 +43,20 @@ export class HomeComponent implements OnInit{
   public materialCount: number = 1;
   public cacheIsLoaded: boolean = false;
   public useAllMaterial: boolean = true;
+  public promptToLoadCache: boolean = false;
 
   constructor(private questionService: QuestionService, private router: Router) { }
 
   ngOnInit(): void {
     this.questionArray = this.questionService.getQuestionObjectList();
     this.clearPageValues();
-    this.setupPageValues();
+    if (this.questionArray.length > 0) {
+      this.promptToLoadCache = false;
+      this.setupPageValues();
+    }
+    else {
+      this.promptToLoadCache = true;
+    }
   }
   
   loadStandardCache() {
@@ -116,6 +123,10 @@ export class HomeComponent implements OnInit{
 
   viewCache() {
     this.router.navigate(['/cache']);
+  }
+
+  uploadCache() {
+    this.router.navigate(['/upload']);
   }
 
   setQuestionsToLocalStorage() {
@@ -235,5 +246,7 @@ export class HomeComponent implements OnInit{
     this.sectionArray = [];
     this.oldSectionArray = [];
     this.newSectionArray = [];
+    this.cacheIsLoaded = false;
+    this.promptToLoadCache = false;
   }
 }
