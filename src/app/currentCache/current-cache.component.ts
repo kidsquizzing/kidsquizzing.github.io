@@ -14,7 +14,7 @@ export class CurrentCacheComponent implements OnInit {
 
   constructor(private questionService: QuestionService) {
   }
-
+ 
   ngOnInit(): void {
     this.questionArray = this.questionService.getQuestionObjectList();
   }  
