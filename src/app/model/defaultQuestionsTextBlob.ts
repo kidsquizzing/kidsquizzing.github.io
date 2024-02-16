@@ -305,6 +305,163 @@ export class defaultQuestionsTextBlob {
         "Genesis|8|12|3|MQ|0|0|Quote Genesis 8:12?|And Noah waited seven more days and sent out the dove again, but this time she did not return to him.\n" +
         "Genesis|6|13|3|SQ|0|0|Who said it? To whom was it said? \"The end of all living creatures has come before Me\"|Who: God. To whom was it said? Noah\n" +
         "Genesis|6|14|3|SQ|0|0|Who said it? To whom was it said? \"Make for yourself an ark.\"|Who: God. To whom was it said? Noah\n" +
-        "Genesis|6|18|3|SQ|0|0|Who said it? To whom was it said? \"I will establish My covenant with you, and you will enter the ark.\"|Who: God. To whom was it said? Noah";            
+        "Genesis|6|18|3|SQ|0|0|Who said it? To whom was it said? \"I will establish My covenant with you, and you will enter the ark.\"|Who: God. To whom was it said? Noah\n" +
+        "Genesis|6|8|4|General|1|0|Noah found favor in what?|the eyes of the LORD.\n" +
+        "Genesis|8|13|4|General|1|0|When did the waters dry up from the earth?|In Noah’s six hundred and first year, on the first day of the first month\n" +
+        "Genesis|8|13|4|General|1|0|Noah removed the covering from the ark and saw what?|that the surface of the ground was dry.\n" +
+        "Genesis|8|14|4|General|1|0|When was the earth fully dry?|By the twenty-seventh day of the second month\n" +
+        "Genesis|8|17|4|General|1|0|What can spread out over the earth and be fruitful and multiply upon it?|All the living creatures that are with you\n" +
+        "Genesis|8|18|4|General|1|0|Noah came out, along with whom?|His sons and his wife and his sons’ wives\n" +
+        "Genesis|8|19|4|General|1|0|What came out of the ark, kind by kind?|Every living creature, every creeping thing, and every bird\n" +
+        "Genesis|8|20|4|General|1|0|Then Noah built what?|an altar to the Lord.\n" +
+        "Genesis|8|20|4|General|1|0|Taking from every kind of clean animal and clean bird, Noah offered what on the altar?|burnt offerings\n" +
+        "Genesis|8|21|4|General|0|0|What did the Lord say in His heart when He smelled the pleasing aroma?|Never again will I curse the ground because of man\n" +
+        "Genesis|8|21|4|General|1|0|Man's heart is what?|Evil from his youth\n" +
+        "Genesis|8|21|4|General|1|0|What will I never destroy again?|all living creatures\n" +
+        "Genesis|8|22|4|General|1|0|As long as the earth endures, what shall never cease?|Seedtime and harvest, cold and heat, summer and winter, day and night\n" +
+        "Genesis|9|1|4|General|1|0|What did God say when He blessed Noah and his sons?|Be fruitful and multiply and fill the earth\n" +
+        "Genesis|9|2|4|General|0|0|Where are every living creature on the earth, every bird of the air, every creature that crawls on the ground, and all the fish of the sea delivered?|into your hand\n" +
+        "Genesis|9|2|4|General|1|0|The fear and dread of you will fall on what?|every living creature on the earth\n" +
+        "Genesis|9|3|4|General|1|0|Just as I gave you the green plants, I now give you what?|all things\n" +
+        "Genesis|9|4|4|General|1|0|What must you not eat?|meat with its lifeblood\n" +
+        "Genesis|9|5|4|General|0|0|Surely I will require the life of whom?|Any man or beast by whose hand your lifeblood is shed\n" +
+        "Genesis|9|5|4|General|0|0|From whom will I demand an accounting?|from anyone who takes the life of his fellow man\n" +
+        "Genesis|9|7|4|General|1|0|But as for you, do what?|be fruitful and multiply\n" +
+        "Genesis|9|11|4|General|1|0|By what will all life never again be cut off?|The waters of a flood\n" +
+        "Genesis|9|11|4|General|1|0|What will a flood never do again?|destroy the earth\n" +
+        "Genesis|9|12|4|General|1|0|For whom does God make his covenant?|Me and you and every living creature with you, a covenant for all generations to come\n" +
+        "Genesis|9|13|4|General|1|0|Where have I set My rainbow?|In the clouds\n" +
+        "Genesis|9|13|4|General|1|0|The rainbow is a sign of what?|the covenant between Me and the earth\n" +
+        "Genesis|9|14|4|General|0|0|When will I remember my covenant?|Whenever I form clouds over the earth and the rainbow appears in the clouds\n" +
+        "Genesis|11|1|4|General|1|0|The whole world had what?|One language and a common form of speech\n" +
+        "Genesis|11|2|4|General|1|0|Where did the people journey?|Eastward\n" +
+        "Genesis|11|2|4|General|1|0|The people found a plain in the land of what?|Shinar\n" +
+        "Genesis|11|3|4|General|1|0|What did they use instead of stone?|brick\n" +
+        "Genesis|11|3|4|General|1|0|They used tar instead of what?|mortar\n" +
+        "Genesis|11|4|4|General|1|0|Let us build for ourselves what?|A city with a tower that reaches to the heavens\n" +
+        "Genesis|11|4|4|General|1|0|Why did they want to make a name for themselves?|To not be scattered over the face of all the earth.\n" +
+        "Genesis|11|5|4|General|1|0|The LORD came down to see what?|the city and the tower that the sons of men were building.\n" +
+        "Genesis|11|6|4|General|0|0|If they have begun to do this as one people speaking the same language, then what?|Nothing they devise will be beyond them\n" +
+        "Genesis|11|7|4|General|1|0|Let Us go down and confuse what?|Their language\n" +
+        "Genesis|11|7|4|General|1|0|What will they not understand?|One another's speech\n" +
+        "Genesis|11|8|4|General|1|0|They stopped building what?|the city\n" +
+        "Genesis|11|9|4|General|1|0|Why is it called Babel?|for there the Lord confused the language of the whole world\n" +
+        "Genesis|11|9|4|General|1|0|Where did the LORD scatter them?|over the face of all the earth\n" +
+        "Genesis|12|1|4|General|1|0|Leave your country, your kindred, and your father's household, and go where?|To the land I will show you\n" +
+        "Genesis|12|2|4|General|1|0|I will make you into what?|A great nation\n" +
+        "Genesis|12|2|4|General|0|0|Who will make your name great, so that you will be a blessing?|the LORD [I]\n" +
+        "Genesis|12|3|4|General|1|0|I will bless whom?|those who bless you\n" +
+        "Genesis|12|3|4|General|1|0|I will curse whom?|Those who curse you\n" +
+        "Genesis|12|3|4|General|1|0|All the families of the earth will be what?|Blessed through you\n" +
+        "Genesis|12|4|4|General|1|0|Who departed as the LORD had directed him?|Abram\n" +
+        "Genesis|12|4|4|General|1|0|Who went with Abram?|Lot\n" +
+        "Genesis|12|4|4|General|1|0|How old was Abram when he left Haran?|Seventy-five years old\n" +
+        "Genesis|12|5|4|General|0|0|Who set out for the land of Canaan?|Abram, his wife Sarai, his nephew Lot, [and all the possessions] and people they had acquired in Haran\n" +
+        "Genesis|12|6|4|General|1|0|How far did Abram travel?|As far as the site of the Oak of Moreh at Shechem\n" +
+        "Genesis|12|6|4|General|1|0|Who were in the land?|The Canaanites\n" +
+        "Genesis|12|7|4|General|1|0|I will give this land to whom?|Your offspring\n" +
+        "Genesis|12|8|4|General|1|0|Where did Abram pitch his tent?|in the hill country\n" +
+        "Genesis|12|8|4|General|1|0|What was to the west of the hill country?|Bethel\n" +
+        "Genesis|12|8|4|General|1|0|Where is the city of Ai?|to the east of the hill country\n" +
+        "Genesis|12|8|4|General|1|0|Who called on the name of the LORD?|Abram\n" +
+        "Genesis|12|9|4|General|1|0|Abram journeyed on toward where?|The Negev\n" +
+        "Genesis|8|16|4|FTV|1|0|Come out of the ark, you and your wife, along with your sons and their wives|\n" +
+        "Genesis|9|1|4|FTV|1|0|And God blessed Noah and his sons and said to them, \"Be fruitful and multiply and fill the earth.\"|\n" +
+        "Genesis|9|9|4|FTV|1|0|Behold, I now establish My covenant with you and your descendants after you|\n" +
+        "Genesis|9|13|4|FTV|1|0|I have set My rainbow in the clouds, and it will be a sign of the covenant between Me and the earth.|\n" +
+        "Genesis|11|7|4|FTV|1|0|Come, let Us go down and confuse their language, so that they will not understand one another's speech|\n" +
+        "Genesis|12|3|4|FTV|1|0|I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.|\n" +
+        "Genesis|8|22|4|MQ|0|0|Quote Genesis 8:22?|As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night shall never cease.\n" +
+        "Genesis|9|11|4|MQ|0|0|Quote Genesis 9:11?|And I establish My covenant with you: Never again will all life be cut off by the waters of a flood; never again will there be a flood to destroy the earth.\n" +
+        "Genesis|11|5|4|MQ|0|0|Quote Genesis 11:5?|Then the LORD came down to see the city and the tower that the sons of men were building\n" +
+        "Genesis|12|1|4|MQ|0|0|Quote Genesis 12:1?|Then the LORD said to Abram, \"Leave your country, your kindred, and your father's household, and go to the land I will show you.\"\n" +
+        "Genesis|12|2|4|MQ|0|0|Quote Genesis 12:2?|\"I will make you into a great nation, and I will bless you; I will make your names great, so that you will be a blessing.\"\n" +
+        "Genesis|9|2|4|AT|0|0|According to Genesis 9:2, Be fruitful and multiply and what?|Fill the earth\n" +
+        "Genesis|9|7|4|AT|0|0|According to Genesis 9:7, Be fruitful and multiply and what?|Spread out across the earth and multiply upon it\n" +
+        "Genesis|12|2|4|AT|0|0|According to Genesis 12:2, I will bless whom?|You [Abram]\n" +
+        "Genesis|12|3|4|AT|0|0|According to Genesis 12:3, I will bless whom?|Those who bless you\n" +
+        "Genesis|12|5|4|AT|0|0|According to Genesis 12:5, Abram acquired what?|possessions and people\n" +
+        "Genesis|9|6|4|SQ|0|0|Who said it? To whom was it said? Whoever sheds the blood of man, by man his blood will be shed|Who said it? God. To whom was it said? Noah and his sons\n" +
+        "Genesis|9|9|4|SQ|0|0|Who said it? To whom was it said? Behold, I now establish My covenant with you.|Who said it? God. To whom was it said? Noah and his sons\n" +
+        "Genesis|11|4|4|SQ|0|0|Who said it? To whom was it said? Come, let us make bricks?|Who said it? They. To whom was it said? to one another\n" +
+        "Genesis|12|1|4|SQ|0|0|Who said it? To whom was it said? Leave your country.|Who said it? The LORD. To whom was it said? Abram\n" +
+        "Genesis|12|3|4|SQ|0|0|Who said it? To whom was it said? I will bless those who bless you|Who said it? The LORD. To whom was it said? Abram\n" +
+        "Genesis|17|1|5|General|1|0|Abram was how old when the LORD appeared to him?|Ninety-nine years old\n" +
+        "Genesis|17|1|5|General|1|0|Walk before Me and be what?|blameless\n" +
+        "Genesis|17|3|5|General|1|0|Who fell facedown?|Abram\n" +
+        "Genesis|17|5|5|General|1|0|No longer will you be called what?|Abram\n" +
+        "Genesis|17|5|5|General|1|0|Why will your name be Abraham?|for I have made you a father of many nations\n" +
+        "Genesis|17|6|5|General|1|0|What will descend from you?|Kings\n" +
+        "Genesis|17|7|5|General|1|0|What will I establish between me and you and your descendants after you?|an everlasting covenant\n" +
+        "Genesis|17|7|5|General|1|0|I will be your God and the God of whom?|Your descendants after you\n" +
+        "Genesis|17|8|5|General|1|0|I will give you and your descendants what?|The land where you are residing\n" +
+        "Genesis|17|8|5|General|1|0|What will all the land of Canaan be?|an eternal possession\n" +
+        "Genesis|21|1|5|General|1|0|The LORD did what for Sarah?|what He had promised\n" +
+        "Genesis|21|2|5|General|1|0|When did Sarah bear a son?|at the very time God had promised\n" +
+        "Genesis|21|3|5|General|1|0|What name did Abraham give his son?|Isaac\n" +
+        "Genesis|21|5|5|General|1|0|Isaac was born to Abraham at what age?|A hundred years old\n" +
+        "Genesis|21|6|5|General|1|0|Sarah then said what?|God has made me laugh, and everyone who hears of this will laugh with me\n" +
+        "Genesis|22|1|5|General|1|0|Some time later God did what?|tested Abraham\n" +
+        "Genesis|22|2|5|General|1|0|Take whom to the land of Moriah?|your only son Isaac\n" +
+        "Genesis|22|2|5|General|1|0|Offer him as a burnt offering where?|on one of the mountains which I will show you\n" +
+        "Genesis|22|3|5|General|1|0|When did Abraham get up?|Early the next morning\n" +
+        "Genesis|22|3|5|General|1|0|Whom did Abraham take along?|two of his servants and his son Isaac\n" +
+        "Genesis|22|3|5|General|1|0|He split the wood for what?|a burnt offering\n" +
+        "Genesis|22|4|5|General|1|0|Abraham saw what on the third day?|the place in the distance\n" +
+        "Genesis|22|5|5|General|1|0|Who will go over there to worship and then return?|The boy and I [Abraham]\n" +
+        "Genesis|22|6|5|General|1|0|Where did Abraham place the wood?|On his son Isaac\n" +
+        "Genesis|22|6|5|General|1|0|Abraham carried what?|the fire and the sacrificial knife\n" +
+        "Genesis|22|7|5|General|1|0|Who asked, \"where is the lamb for the burnt offering\"?|Isaac\n" +
+        "Genesis|22|8|5|General|1|0|Who will provide the lamb for the burnt offering?|God Himself\n" +
+        "Genesis|22|9|5|General|1|0|When they arrived at the place God had designated, what did Abraham do?|he built an altar and arranged the wood\n" +
+        "Genesis|22|9|5|General|1|0|He bound his son Isaac and placed him where?|on the altar, atop the wood\n" +
+        "Genesis|22|10|5|General|0|0|Abraham reached out his hand and took the knife to what?|slaughter his son\n" +
+        "Genesis|22|12|5|General|1|0|Do not lay a hand on whom?|The boy\n" +
+        "Genesis|22|12|5|General|1|0|The angel now knows what?|that you fear God\n" +
+        "Genesis|22|12|5|General|1|0|Whom have you not withheld from me?|your only son\n" +
+        "Genesis|22|13|5|General|1|0|Abraham looked up and saw what behind him?|A ram in a thicket, caught by its horns.\n" +
+        "Genesis|22|13|5|General|1|0|Abraham offered what as a burnt offering in place of his son?|a ram\n" +
+        "Genesis|22|14|5|General|1|0|What is said to this day?|On the mountain of the Lord it will be provided\n" +
+        "Genesis|22|14|5|General|1|0|What did Abraham call that place?|The LORD Will Provide\n" +
+        "Genesis|22|16|5|General|1|0|Because you have done this and have not withheld your only son, I will what?|Surely bless you and I will multiply your descendants\n" +
+        "Genesis|22|17|5|General|1|0|How will I multiply your descendants?|Like the stars in the sky and the sand on the seashore.\n" +
+        "Genesis|22|18|5|General|1|0|Through whom will all nations of the earth be blessed?|through your offspring\n" +
+        "Genesis|22|18|5|General|1|0|Why will all nations of the earth be blessed?|because you have obeyed My voice\n" +
+        "Genesis|25|21|5|General|1|0|Isaac prayed to the Lord on behalf of whom?|his wife [Rebekah]\n" +
+        "Genesis|25|21|5|General|1|0|Why did Rebekah conceive?|Because the Lord heard his prayer\n" +
+        "Genesis|25|22|5|General|1|0|Who struggled with each other?|the children inside her\n" +
+        "Genesis|25|23|5|General|1|0|What are in your womb?|Two nations [two peoples]\n" +
+        "Genesis|25|23|5|General|1|0|Who will the older serve?|the younger\n" +
+        "Genesis|25|24|5|General|1|0|When her time came to give birth, what were in her womb?|twins\n" +
+        "Genesis|25|25|5|General|1|0|Why was he named Esau?|because he came out red, covered with hair like a fur coat\n" +
+        "Genesis|25|26|5|General|1|0|What was Jacob doing as he came out?|grasping Esau's heel\n" +
+        "Genesis|25|26|5|General|1|0|Isaac was how old when the twins were born?|sixty years old\n" +
+        "Genesis|25|27|5|General|1|0|Esau became what?|a skillful hunter, a man of the field\n" +
+        "Genesis|25|27|5|General|1|0|Jacob was what?|a quiet man who stayed at home\n" +
+        "Genesis|25|28|5|General|1|0|Why did Isaac love Esau?|because he had a taste for wild game\n" +
+        "Genesis|25|28|5|General|1|0|But Rebekah loved whom?|Jacob\n" +
+        "Genesis|17|4|5|FTV|1|0|As for Me, this is My covenant with you: You will be the father of many nations.|\n" +
+        "Genesis|22|8|5|FTV|1|0|Abraham answered, \"God Himself will provide the lamb for the burnt offering, my son.\" And the two walked on together.|\n" +
+        "Genesis|22|12|5|FTV|1|0|\"Do not lay a hand on the boy or do anything to him,\" said the angel, \"for now I know that you fear God, since you have not withheld your only son from me\"|\n" +
+        "Genesis|22|18|5|FTV|1|0|And through your offspring all nations of the earth will be blessed, because you have obeyed My voice.|\n" +
+        "Genesis|25|27|5|FTV|1|0|When the boys grew up, Esau became a skillful hunter, a man of the field, while Jacob was a quiet man who stayed at home|\n" +
+        "Genesis|25|28|5|FTV|1|0|Because Isaac had a taste for wild game, he loved Esau; but Rebekah loved Jacob.|\n" +
+        "Genesis|17|5|5|MQ|0|0|Quote Genesis 17:5?|No longer will you be called Abram, but your name will be Abraham, for I have made you a father of many nations.\n" +
+        "Genesis|21|6|5|MQ|0|0|Quote Genesis 21:6?|Then Sarah said, \"God has made me laugh, and everyone who hears of this will laugh with me\"\n" +
+        "Genesis|22|10|5|MQ|0|0|Quote Genesis 22:10?|Then Abraham reached out his hand and took the knife to slaughter his son.\n" +
+        "Genesis|22|14|5|MQ|0|0|Quote Genesis 22:14?|And Abraham called that place The LORD Will Provide So to this day it is said, \"On the mountain of the LORD it will be provided.\"\n" +
+        "Genesis|25|25|5|MQ|0|0|Quote Genesis 25:25?|The first one came out red, covered with hair like a fur coat; so they named him Esau\n" +
+        "Genesis|17|2|5|AT|0|0|According to Genesis 17:2, I will establish my covenant how?|Between Me and you [Abram]\n" +
+        "Genesis|17|4|5|AT|0|0|According to Genesis 17:4, What will you be?|the father of many nations\n" +
+        "Genesis|17|6|5|AT|0|0|According to Genesis 17:6, I will make you what?|exceedingly fruitful\n" +
+        "Genesis|17|7|5|AT|0|0|According to Genesis 17:7, I will establish my covenant how?|As an everlasting covenant between Me and you and your descendants after you\n" +
+        "Genesis|22|11|5|AT|0|0|According to Genesis 22:11, The angel of the LORD called out what?|Abraham, Abraham\n" +
+        "Genesis|22|15|5|AT|0|0|According to Genesis 22:15, The angel of the LORD called out what?|By Myself I have sworn that because you have done this and not withheld your only son, I will surely bless you.\n" +
+        "Genesis|17|4|5|SQ|0|0|Who said it? To whom was it said? You will be the father of many nations|God said it to Abram\n" +
+        "Genesis|17|4|5|SQ|0|0|Who said it? To whom was it said? I will establish My covenant as an everlasting covenant.|God said it to Abram\n" +
+        "Genesis|22|2|5|SQ|0|0|Who said it? To whom was it said? Take your son, your only son Isaac, whom you love, and go to the land of Moriah|God said it to Abraham\n" +
+        "Genesis|22|7|5|SQ|0|0|Who said it? To whom was it said? The fire and the wood are here, but where is the lamb for the burnt offering?|Isaac said it to Abraham\n" +
+        "Genesis|22|8|5|SQ|0|0|Who said it? To whom was it said? God Himself will provide the lamb for the burnt offering.|Abraham to Isaac\n" +
+        "Genesis|22|11|5|SQ|0|0|Who said it? To whom was it said? Abraham, Abraham!|The angel of the Lord to Abraham";            
     }
 }
