@@ -462,6 +462,6 @@ export class defaultQuestionsTextBlob {
         "Genesis|22|2|5|SQ|0|0|Who said it? To whom was it said? Take your son, your only son Isaac, whom you love, and go to the land of Moriah|God said it to Abraham\n" +
         "Genesis|22|7|5|SQ|0|0|Who said it? To whom was it said? The fire and the wood are here, but where is the lamb for the burnt offering?|Isaac said it to Abraham\n" +
         "Genesis|22|8|5|SQ|0|0|Who said it? To whom was it said? God Himself will provide the lamb for the burnt offering.|Abraham to Isaac\n" +
-        "Genesis|22|11|5|SQ|0|0|Who said it? To whom was it said? Abraham, Abraham!|The angel of the Lord to Abraham";            
+        "Genesis|22|11|5|SQ|0|0|Who said it? To whom was it said? Abraham, Abraham!|The angel of the Lord to Abraham";             
     }
 }
