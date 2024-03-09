@@ -15,7 +15,8 @@ import { CurrentCacheComponent } from './currentCache/current-cache.component';
 import { PrintComponent } from './print/print.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatRadioModule } from '@angular/material/radio';
-
+import { BFlightFTVComponent } from './bflight-ftv/bflight-ftv.component';
+import { AFlightFTVComponent } from './aflight-ftv/aflight-ftv.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { MatRadioModule } from '@angular/material/radio';
     UploadComponent,
     HomeComponent,
     CurrentCacheComponent,
-    PrintComponent
+    PrintComponent,
+    BFlightFTVComponent,
+    AFlightFTVComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,9 @@ import { MatRadioModule } from '@angular/material/radio';
       { path: "", component: HomeComponent, pathMatch: "full" },
       { path: "upload", component: UploadComponent, pathMatch: "full"},
       { path: "cache", component: CurrentCacheComponent, pathMatch: "full"},
-      { path: "print", component: PrintComponent, pathMatch: "full"}
+      { path: "print", component: PrintComponent, pathMatch: "full"},
+      { path: "bflightftvcontest", component: BFlightFTVComponent, pathMatch: "full"},
+      { path: "aflightftvcontest", component: AFlightFTVComponent, pathMatch: "full"},
     ]),
     NoopAnimationsModule,
   ],

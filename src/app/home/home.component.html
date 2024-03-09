@@ -4,13 +4,13 @@
 <div class="container">
     <h6>Cache Options</h6>
     <div class="row">
-        <div class="col-1">
+        <div class="col-2">
             <button (click)="loadStandardCache()">Load</button>  
         </div>
-        <div class="col-1">
+        <div class="col-2">
             <button (click)="viewCache()">View</button>  
         </div>
-        <div class="col-1">
+        <div class="col-2">
             <button (click)="uploadCache()">Upload</button>  
         </div>
     </div>  
@@ -47,7 +47,7 @@
 <div class="container" *ngIf="cacheIsLoaded === true">
     <div>
         <br />
-        <button (click)="print()">Print</button>
+        <button (click)="print()">Print / Generate Quiz</button>
     </div>
     <br />
     <span>Select Material to include in printed quizzes below</span>
@@ -145,3 +145,21 @@
         </span>
     </h6>   
 </div>
+<br />
+
+<div class="container">
+    <h6>Unique Quiz Types</h6>
+    <div class="row">
+        <div class="column-2">
+            <button (click)="createAFlightFTVContestQuiz()">A Flight FTV/MQ Contest</button>  
+        </div>   
+    </div>
+    <br />  
+    <div class="row">
+        <div class="column-2">
+            <button (click)="createBFlightFTVContestQuiz()">B Flight FTV Contest</button>  
+        </div>  
+    </div>        
+</div>
+<br />
+<br />

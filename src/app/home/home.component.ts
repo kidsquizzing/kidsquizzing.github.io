@@ -129,6 +129,14 @@ export class HomeComponent implements OnInit{
     this.router.navigate(['/upload']);
   }
 
+  createBFlightFTVContestQuiz() {
+    this.router.navigate(['/bflightftvcontest']);
+  }
+  
+  createAFlightFTVContestQuiz() {
+    this.router.navigate(['/aflightftvcontest']);
+  }
+
   setQuestionsToLocalStorage() {
     this.questionArray = this.questionService.createQuestionObjectList(this.defaultTextBlob.questionBlob);
     localStorage.setItem('questions', JSON.stringify(this.questionArray));
