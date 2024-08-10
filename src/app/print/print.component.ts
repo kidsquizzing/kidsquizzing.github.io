@@ -408,14 +408,26 @@ export class PrintComponent implements OnInit {
 
             //B flight
             if (generalQuestionsArray.length < 22) {
-              alert("B Flight quizzes need at least 22 General Questions in order to be generated");
-              this.router.navigate(['']);
-              return;
+              if (generalQuestionsArray.length > 11) {
+                alert("B Flight quizzes need at least 22 Finish the Verse in order to be generated. generalQuestions array will be duplicated til we have 22 total.");
+                generalQuestionsArray = generalQuestionsArray.concat(generalQuestionsArray);
+              }
+              else {
+                alert("B Flight quizzes need at least 11 Questions in order to be generated. Please re-upload the cache");
+                this.router.navigate(['']);
+                return;
+              }             
             }
             if (finishTheVerseArray.length < 8) {
-              alert("B Flight quizzes need at least 8 Finish the Verse in order to be generated");
-              this.router.navigate(['']);
-              return;           
+              if (finishTheVerseArray.length > 0) {
+                alert("B Flight quizzes need at least 8 Finish the Verse in order to be generated. FTV array will be duplicated til we have 8 total.");
+                finishTheVerseArray = finishTheVerseArray.concat(finishTheVerseArray);
+              }
+              else {
+                alert("B Flight quizzes need at least 1 Finish the Verse in order to be generated. Please re-upload the cache");
+                this.router.navigate(['']);
+                return; 
+              }             
             }
   
             //General
