@@ -435,8 +435,6 @@ export class PrintComponent implements OnInit {
             var generalRandoms = this.getRandoms(22, generalQuestionsArray.length);
             var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);   
             
-            console.log("out of getrandoms check");
-
             for (var j = 1; j < 21; j++) { 
               var tempQuizQuestion: QuizQuestion;
               if (genQuestionSlots.includes(j)) {
