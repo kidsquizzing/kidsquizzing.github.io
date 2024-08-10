@@ -121,7 +121,6 @@ export class PrintComponent implements OnInit {
   }
 
   generateQuizzes() {
-    console.log(this.filteredQuestionArray);
     var generalQuestionsArray = [];
     var generalUnpublishedQuestionsArray = [];
     var generalOldQuestionArray = [];
@@ -139,12 +138,10 @@ export class PrintComponent implements OnInit {
     generalOldQuestionArray = this.filteredQuestionArray.filter(x => x.type == "General" && x.isUnpublished == false && x.isNew == false);
     generalUnpublishedNewQuestionArray = this.filteredQuestionArray.filter(x => x.type == "General" && x.isUnpublished == true && x.isNew == true);
     generalUnpublishedOldQuestionArray = this.filteredQuestionArray.filter(x => x.type == "General" && x.isUnpublished == true && x.isNew == false);
-    finishTheVerseArray = this.filteredQuestionArray.filter(x => x.type == "FTV");
-    memoryQuoteArray = this.filteredQuestionArray.filter(x => x.type == "MQ");
+    memoryQuoteArray = this.reformatToMemoryQuote(this.filteredQuestionArray.filter(x => x.type == "FTV"));
+    finishTheVerseArray = this.reformatFinishTheVerse(this.filteredQuestionArray.filter(x => x.type == "FTV"));
     accordingToArray = this.filteredQuestionArray.filter(x => x.type == "AT");
     situationQuestionArray = this.filteredQuestionArray.filter(x => x.type == "SQ");
-
-    finishTheVerseArray = this.reformatFinishTheVerse(finishTheVerseArray);
 
     for (var i = 0; i < this.numberOfPrintPages; i++) {
       var tempQuiz: Quiz;
@@ -429,7 +426,7 @@ export class PrintComponent implements OnInit {
                 return; 
               }             
             }
-  
+
             //General
             var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
             //FTV
@@ -437,7 +434,9 @@ export class PrintComponent implements OnInit {
   
             var generalRandoms = this.getRandoms(22, generalQuestionsArray.length);
             var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);   
-  
+            
+            console.log("out of getrandoms check");
+
             for (var j = 1; j < 21; j++) { 
               var tempQuizQuestion: QuizQuestion;
               if (genQuestionSlots.includes(j)) {
@@ -642,6 +641,18 @@ export class PrintComponent implements OnInit {
       var tempString = replaceArray.join(' ');
       x.question = tempString;
       returnArray.push(x);
+    });
+
+    return returnArray;
+  }
+
+  reformatToMemoryQuote(passedArray: Array<Question>) {
+    var returnArray = [];
+
+    passedArray.forEach(x => {
+      var temp = new Question(x.book, x.chapter, x.verse, x.section, "MQ", false, false,
+      "Quote " + x.book + " " + x.chapter + ":" + x.verse + "?", x.question);   
+      returnArray.push(temp);
     });
 
     return returnArray;
