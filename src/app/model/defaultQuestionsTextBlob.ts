@@ -111,31 +111,31 @@ export class defaultQuestionsTextBlob {
         "Luke|3|21|1|General|1|0|When was Jesus baptized too?|When all the people were being baptized\n" +
         "Luke|3|22|1|General|1|0|Who descended on Him in a bodily form like a dove?|The Holy Spirit\n" +
         "Luke|3|22|1|General|1|0|You are My beloved Son; in You I am what?|Well pleased\n" +
-    		"Luke|2|6|1|FTV|1|0|While they were there, the time came for her Child to be born|\n" +
-    		"Luke|2|11|1|FTV|1|0|Today in the city of David a Savior has been born to you. He is Christ the Lord!|\n" +
-    		"Luke|2|12|1|FTV|1|0|And this will be a sign to you: You will find a baby wrapped in swaddling cloths and lying in a manger.|\n" +
-    		"Luke|2|14|1|FTV|1|0|Glory to God in the highest, and on earth peace to men on whom His favor rests!|\n" +
-    		"Luke|2|19|1|FTV|1|0|But Mary treasured up all these things and pondered them in her heart.|\n" +
-    		"Luke|2|52|1|FTV|1|0|And Jesus grew in wisdom and stature, and in favor with God and man.|\n" +
-    		"Luke|3|5|1|FTV|0|0|Every valley shall be filled in, and every mountain and hill made low. The crooked ways shall be made straight, and the rough ways smooth.|\n" +
-    		"Luke|3|11|1|FTV|0|0|John replied, \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|\n" +
-    		"Luke|2|4|1|AT|0|0|According to Luke 2:4, What is in Galilee?|Nazareth\n" +
-    		"Luke|2|23|1|AT|0|0|According to Luke 2:23, what is written in the Law of the Lord?|Every firstborn male shall be consecrated to the Lord\n" +
-    		"Luke|2|25|1|AT|0|0|According to Luke 2:25, Upon whom was the Holy Spirit?|Simeon\n" +
-    		"Luke|2|25|1|AT|0|0|According to Luke 2:25, who was in Jerusalem?|A man named Simeon\n" +
-    		"Luke|2|35|1|AT|0|0|According to Luke 2:35, What will be revealed?|The thoughts of many hearts\n" +
-    		"Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him'\n" +
-    		"Luke|3|10|1|AT|0|0|According to Luke 3:10 What did the crowds ask John?|What then should we do\n" +
-    		"Luke|2|10|1|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid! For behold, I bring you good news of great joy that will be for all the people:|An angel of the Lord To Shepherds\n" +
-    		"Luke|2|14|1|SQ|0|0|Who said it? To whom was it said? \"Glory to God in the highest, and on earth peace to men on whom His favor rests!\"|A great multitude of the heavenly host to shepherds\n" +
-    		"Luke|2|15|1|SQ|0|0|Who said it? To whom was it said? \"Let us go to Bethlehem and see this thing that has happened, which the Lord has made known to us.\"|The shepherds to One another\n" +
-    		"Luke|2|34|1|SQ|0|0|Who said it? To whom was it said? \"Behold, this Child is appointed to cause the rise and fall of many in Israel, and to be a sign that will be spoken against,|Simeon to Mary\n" +
-    		"Luke|2|48|1|SQ|0|0|Who said it? To whom was it said? \"Child, why have You done this to us? Your father and I have been anxiously searching for You.\"|His mother / Mary to The boy Jesus\n" +
-    		"Luke|2|49|1|SQ|0|0|Who said it? To whom was it said? \"Why were you looking for Me? Did you not know that I had to be in My Father’s house?\"|The boy Jesus to His parents\n" +
-    		"Luke|3|7|1|SQ|0|0|Who said it? To whom was it said? \"You brood of vipers, who warned you to flee from the coming wrath?|John to The crowds\n" +
-    		"Luke|3|10|1|SQ|0|0|Who said it? To whom was it said? \"What then should we do?\"|The crowds to John\n" +
-    		"Luke|3|11|1|SQ|0|0|Who said it? To whom was it said? \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|John to The crowds\n" +
-    		"Luke|3|13|1|SQ|0|0|Who said it? To whom was it said? \"Collect no more than you are authorized,\"|John to Tax collectors\n" +
-    		"Luke|3|14|1|SQ|0|0|Who said it? To whom was it said? \"Do not take money by force or false accusation. Be content with your wages.\"|John to Some soldiers";
+        "Luke|2|6|1|FTV|1|0|While they were there, the time came for her Child to be born|\n" +
+        "Luke|2|11|1|FTV|1|0|Today in the city of David a Savior has been born to you. He is Christ the Lord!|\n" +
+        "Luke|2|12|1|FTV|1|0|And this will be a sign to you: You will find a baby wrapped in swaddling cloths and lying in a manger.|\n" +
+        "Luke|2|14|1|FTV|1|0|Glory to God in the highest, and on earth peace to men on whom His favor rests!|\n" +
+        "Luke|2|19|1|FTV|1|0|But Mary treasured up all these things and pondered them in her heart.|\n" +
+        "Luke|2|52|1|FTV|1|0|And Jesus grew in wisdom and stature, and in favor with God and man.|\n" +
+        "Luke|3|5|1|FTV|0|0|Every valley shall be filled in, and every mountain and hill made low. The crooked ways shall be made straight, and the rough ways smooth.|\n" +
+        "Luke|3|11|1|FTV|0|0|John replied, \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|\n" +
+        "Luke|2|4|1|AT|0|0|According to Luke 2:4, What is in Galilee?|Nazareth\n" +
+        "Luke|2|23|1|AT|0|0|According to Luke 2:23, what is written in the Law of the Lord?|Every firstborn male shall be consecrated to the Lord\n" +
+        "Luke|2|25|1|AT|0|0|According to Luke 2:25, Upon whom was the Holy Spirit?|Simeon\n" +
+        "Luke|2|25|1|AT|0|0|According to Luke 2:25, who was in Jerusalem?|A man named Simeon\n" +
+        "Luke|2|35|1|AT|0|0|According to Luke 2:35, What will be revealed?|The thoughts of many hearts\n" +
+        "Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him'\n" +
+        "Luke|3|10|1|AT|0|0|According to Luke 3:10 What did the crowds ask John?|What then should we do\n" +
+        "Luke|2|10|1|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid! For behold, I bring you good news of great joy that will be for all the people:|An angel of the Lord To Shepherds\n" +
+        "Luke|2|14|1|SQ|0|0|Who said it? To whom was it said? \"Glory to God in the highest, and on earth peace to men on whom His favor rests!\"|A great multitude of the heavenly host to shepherds\n" +
+        "Luke|2|15|1|SQ|0|0|Who said it? To whom was it said? \"Let us go to Bethlehem and see this thing that has happened, which the Lord has made known to us.\"|The shepherds to One another\n" +
+        "Luke|2|34|1|SQ|0|0|Who said it? To whom was it said? \"Behold, this Child is appointed to cause the rise and fall of many in Israel, and to be a sign that will be spoken against,|Simeon to Mary\n" +
+        "Luke|2|48|1|SQ|0|0|Who said it? To whom was it said? \"Child, why have You done this to us? Your father and I have been anxiously searching for You.\"|His mother / Mary to The boy Jesus\n" +
+        "Luke|2|49|1|SQ|0|0|Who said it? To whom was it said? \"Why were you looking for Me? Did you not know that I had to be in My Father’s house?\"|The boy Jesus to His parents\n" +
+        "Luke|3|7|1|SQ|0|0|Who said it? To whom was it said? \"You brood of vipers, who warned you to flee from the coming wrath?|John to The crowds\n" +
+        "Luke|3|10|1|SQ|0|0|Who said it? To whom was it said? \"What then should we do?\"|The crowds to John\n" +
+        "Luke|3|11|1|SQ|0|0|Who said it? To whom was it said? \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|John to The crowds\n" +
+        "Luke|3|13|1|SQ|0|0|Who said it? To whom was it said? \"Collect no more than you are authorized,\"|John to Tax collectors\n" +
+        "Luke|3|14|1|SQ|0|0|Who said it? To whom was it said? \"Do not take money by force or false accusation. Be content with your wages.\"|John to Some soldiers";
     }
 }
