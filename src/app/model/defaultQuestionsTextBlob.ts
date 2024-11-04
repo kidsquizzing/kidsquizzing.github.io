@@ -240,6 +240,5 @@ export class defaultQuestionsTextBlob {
         "Luke|4|35|2|SQ|0|0|Who said it? To whom was it said? \"Be silent! Come out of him!\"|Jesus to a man possessed by the spirit of an unclean demon\n" +
         "Luke|4|36|2|SQ|0|0|Who said it? To whom was it said? \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"|All the people to one another\n" +
         "Luke|4|43|2|SQ|0|0|Who said it? To whom was it said? \"I must preach the good news of the kingdom of God to the other towns as well, because that is why I was sent.\"|Jesus to the crowds\n"
-
     }
 }
