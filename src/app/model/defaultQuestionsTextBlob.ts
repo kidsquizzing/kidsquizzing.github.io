@@ -83,7 +83,7 @@ export class defaultQuestionsTextBlob {
         "Luke|3|2|1|General|0|0|Who was the high priesthood when the word of God came to John?|Annas and Caiaphas\n" +
         "Luke|3|2|1|General|1|0|What came to John son of Zechariah in the wilderness?|The word of God\n" +
         "Luke|3|3|1|General|0|0|He went into all the region around the Jordan, preaching what?|A baptism of repentance for the forgiveness of sins\n" +
-        "Luke|3|4|1|General|1|0|A voice of one is calling in the wilderness, what?|'Prepare the way for the Lord; make straight paths for Him.'\n" +
+        "Luke|3|4|1|General|1|0|A voice of one is calling in the wilderness, what?|\"Prepare the way for the Lord; make straight paths for Him.\"\n" +
         "Luke|3|4|1|General|1|0|Prepare the way for whom?|The Lord\n" +
         "Luke|3|5|1|General|1|0|What shall be filled in?|Every valley\n" +
         "Luke|3|5|1|General|1|0|What shall be made low?|Every mountain and hill\n" +
@@ -91,7 +91,7 @@ export class defaultQuestionsTextBlob {
         "Luke|3|6|1|General|1|0|And all humanity will see what?|God's salvation\n" +
         "Luke|3|7|1|General|0|0|Then John said to the crowds coming out to be baptized by him, what?|You brood of vipers, who warned you to flee from the coming wrath?\n" +
         "Luke|3|8|1|General|1|0|Produce fruit, then, in keeping with what?|Repentance\n" +
-        "Luke|3|8|1|General|0|0|And do not begin to say to yourselves, what?|'We have Abraham as our father.'\n" +
+        "Luke|3|8|1|General|0|0|And do not begin to say to yourselves, what?|\"We have Abraham as our father.\"\n" +
         "Luke|3|8|1|General|1|0|Whom can God raise up out of these stones?|Children for Abraham\n" +
         "Luke|3|9|1|General|1|0|The axe lies ready where?|At the root of the trees\n" +
         "Luke|3|9|1|General|0|0|Every tree that does not produce good fruit will be what?|cut down and thrown into the fire.\n" +
@@ -124,7 +124,7 @@ export class defaultQuestionsTextBlob {
         "Luke|2|25|1|AT|0|0|According to Luke 2:25, Upon whom was the Holy Spirit?|Simeon\n" +
         "Luke|2|25|1|AT|0|0|According to Luke 2:25, who was in Jerusalem?|A man named Simeon\n" +
         "Luke|2|35|1|AT|0|0|According to Luke 2:35, What will be revealed?|The thoughts of many hearts\n" +
-        "Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him'\n" +
+        "Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, \"Prepare the way for the Lord, make straight paths for Him\"\n" +
         "Luke|3|10|1|AT|0|0|According to Luke 3:10 What did the crowds ask John?|What then should we do\n" +
         "Luke|2|10|1|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid! For behold, I bring you good news of great joy that will be for all the people:|An angel of the Lord To Shepherds\n" +
         "Luke|2|14|1|SQ|0|0|Who said it? To whom was it said? \"Glory to God in the highest, and on earth peace to men on whom His favor rests!\"|A great multitude of the heavenly host to shepherds\n" +
@@ -136,6 +136,110 @@ export class defaultQuestionsTextBlob {
         "Luke|3|10|1|SQ|0|0|Who said it? To whom was it said? \"What then should we do?\"|The crowds to John\n" +
         "Luke|3|11|1|SQ|0|0|Who said it? To whom was it said? \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|John to The crowds\n" +
         "Luke|3|13|1|SQ|0|0|Who said it? To whom was it said? \"Collect no more than you are authorized,\"|John to Tax collectors\n" +
-        "Luke|3|14|1|SQ|0|0|Who said it? To whom was it said? \"Do not take money by force or false accusation. Be content with your wages.\"|John to Some soldiers";
+        "Luke|3|14|1|SQ|0|0|Who said it? To whom was it said? \"Do not take money by force or false accusation. Be content with your wages.\"|John to Some soldiers\n" +
+        "Luke|4|1|2|General|1|0|Who, full of the Holy Spirit, returned from the Jordan?|Jesus\n" +
+        "Luke|4|2|2|General|1|0|For forty days He was tempted by whom?|The devil\n" +
+        "Luke|4|2|2|General|0|0|What did He eat during those days?|Nothing\n" +
+        "Luke|4|2|2|General|1|0|Where was He tempted by the devil for forty days?|The wilderness\n" +
+        "Luke|4|3|2|General|0|0|If you are the Son of God, tell this stone to become what?|bread\n" +
+        "Luke|4|4|2|General|1|0|Who shall not live on bread alone?|Man\n" +
+        "Luke|4|5|2|General|1|0|Who led Him up to a high place?|The devil\n" +
+        "Luke|4|5|2|General|1|0|Who showed Him in an instant all the kingdoms of the world?|The devil\n" +
+        "Luke|4|6|2|General|0|0|I will give You authority over what?|All these kingdoms and all their glory\n" +
+        "Luke|4|8|2|General|1|0|Worship whom and serve Him only?|The Lord your God\n" +
+        "Luke|4|9|2|General|1|0|The devil led Him to Jerusalem and set Him on the pinnacle of the what?|Temple\n" +
+        "Luke|4|9|2|General|0|0|On the pinnacle of the temple, the devil said what?|\"If You are the Son of God, throw Yourself down from here\"\n" +
+        "Luke|4|10|2|General|0|0|What will He command His angels concerning You?|To guard You carefully\n" +
+        "Luke|4|11|2|General|1|0|Who will lift You up in their hands?|His angels (they)\n" +
+        "Luke|4|11|2|General|1|0|You will not strike Your foot against what?|A stone\n" +
+        "Luke|4|12|2|General|1|0|Do not put the Lord your God to what?|The test\n" +
+        "Luke|4|13|2|General|1|0|When did the devil leave him?|When the devil had finished every temptation\n" +
+        "Luke|4|14|2|General|1|0|Jesus returned to Galilee in the power of whom?|The Spirit\n" +
+        "Luke|4|14|2|General|0|0|And the news about Him spread where?|Throughout the surrounding region\n" +
+        "Luke|4|15|2|General|0|0|Who taught in their synagogues?|Jesus (He)\n" +
+        "Luke|4|15|2|General|0|0|Who was glorified by everyone?|Jesus (He)\n" +
+        "Luke|4|16|2|General|0|0|Who came to Nazareth, where He had been brought up?|Jesus\n" +
+        "Luke|4|16|2|General|1|0|What was His custom?|to enter the synagogue on the Sabbath\n" +
+        "Luke|4|17|2|General|0|0|When was the scroll of the prophet Isaiah handed to Him?|When He stood up to read\n" +
+        "Luke|4|17|2|General|1|0|What was handed to Him?|The scroll of the prophet Isaiah\n" +
+        "Luke|4|18|2|General|0|0|He has anointed Me to preach what?|Good news to the poor\n" +
+        "Luke|4|18|2|General|1|0|Why is the Spirit of the Lord on Me?|Because He has anointed Me to preach good news to the poor\n" +
+        "Luke|4|18|2|General|0|0|He has sent Me to proclaim what?|Liberty to the captives and recovery of sight to the blind / The year of the Lord's favor\n" +
+        "Luke|4|18|2|General|1|0|Whom has He sent Me to release?|The oppressed\n" +
+        "Luke|4|18|2|General|0|0|Who has sent Me to proclaim recovery of sight to the blind?|The Lord (He)\n" +
+        "Luke|4|20|2|General|1|0|Who rolled up the scroll, returned it to the attendant, and sat down?|Jesus (He)\n" +
+        "Luke|4|20|2|General|1|0|What were fixed on Him?|The eyes of everyone in the synagogue\n" +
+        "Luke|4|21|2|General|1|0|Today this Scripture is fulfilled in what?|Your hearing\n" +
+        "Luke|4|22|2|General|1|0|All spoke well of Him and marveled at what?|The gracious words that came from His lips\n" +
+        "Luke|4|23|2|General|1|0|Surely you will quote which proverb to Me?|Physician, heal yourself!\n" +
+        "Luke|4|23|2|General|0|0|Physician, heal whom?|Yourself\n" +
+        "Luke|4|23|2|General|0|0|Do here in Your hometown what?|What we have heard that You did in Capernaum\n" +
+        "Luke|4|24|2|General|1|0|Where is no prophet accepted?|In his hometown\n" +
+        "Luke|4|25|2|General|1|0|When were there many widows in Israel?|In the time of Elijah\n" +
+        "Luke|4|25|2|General|1|0|In the time of Elijah, the sky was shut for how long?|Three and a half years\n" +
+        "Luke|4|25|2|General|1|0|What swept over all the land?|Great famine\n" +
+        "Luke|4|26|2|General|0|0|Yet Elijah was not sent to any of them, but to whom?|The widow of Zarephath in Sidon\n" +
+        "Luke|4|27|2|General|1|0|There were many lepers in Israel in the time of whom?|Elisha the prophet\n" +
+        "Luke|4|27|2|General|1|0|Who was cleansed in the time of Elisha the prophet?|only Naaman the Syrian\n" +
+        "Luke|4|28|2|General|1|0|Who were enraged on hearing this?|All the people in the synagogue\n" +
+        "Luke|4|29|2|General|1|0|Why did they lead Him to the brow of the hill on which the town was built?|In order to throw Him over the cliff\n" +
+        "Luke|4|30|2|General|1|0|But Jesus passed through the crowd and went on what?|His way\n" +
+        "Luke|4|31|2|General|1|0|And on the Sabbath He began to teach whom?|The people\n" +
+        "Luke|4|31|2|General|0|0|Who went down to Capernaum, a town in Galilee?|Jesus (He)\n" +
+        "Luke|4|32|2|General|1|0|Why were they astonished at His teaching?|Because His message had authority\n" +
+        "Luke|4|33|2|General|1|0|In the synagogue there was a man possessed by what?|The spirit of an unclean demon\n" +
+        "Luke|4|34|2|General|0|0|What did the man possessed by the spirit of an unclean demon cry out in a loud voice?|\"Ha! What do you want with us, Jesus of Nazareth? Have you come to destroy us?\"\n" +
+        "Luke|4|34|2|General|1|0|I know who You are—the Holy One of whom?|God\n" +
+        "Luke|4|35|2|General|1|0|Jesus rebuked the demon and said what?|\"Be silent! Come out of him!\"\n" +
+        "Luke|4|35|2|General|1|0|What came out without harming him?|The demon\n" +
+        "Luke|4|36|2|General|1|0|All the people were overcome with what?|Amazement\n" +
+        "Luke|4|36|2|General|1|0|Who commands the unclean spirits, and they come out?|Jesus (He)\n" +
+        "Luke|4|37|2|General|1|0|What spread throughout the surrounding region?|News about Jesus\n" +
+        "Luke|4|38|2|General|1|0|After Jesus had left the synagogue, He went to the home of whom?|Simon, whose mother-in-law was suffering from a high fever\n" +
+        "Luke|4|38|2|General|0|0|They appealed to Jesus on whose behalf?|Simon's mother-in-law (Her)\n" +
+        "Luke|4|39|2|General|1|0|He stood over her and rebuked what?|The fever\n" +
+        "Luke|4|40|2|General|1|0|When were all who were ill with various diseases brought to Jesus?|At sunset\n" +
+        "Luke|4|40|2|General|1|0|He healed them how?|Laying His hands on each one\n" +
+        "Luke|4|41|2|General|1|0|Demons also came out of whom?|Many people\n" +
+        "Luke|4|41|2|General|1|0|He rebuked the demons and would not allow them to speak, why?|Because they knew He was the Christ\n" +
+        "Luke|4|42|2|General|1|0|At daybreak, Jesus went out to where?|A solitary place\n" +
+        "Luke|4|42|2|General|0|0|Who came to Him and tried to keep Him from leaving?|The crowds (They)\n" +
+        "Luke|4|43|2|General|1|0|What must I preach to the other towns as well?|The good news of the kingdom of God\n" +
+        "Luke|4|43|2|General|1|0|Why must I preach the good news of the kingdom of God to the other towns as well?|Because that is why I was sent\n" +
+        "Luke|4|44|2|General|1|0|And He continued to preach where?|In the synagogues of Judea\n" +
+        "Luke|4|1|2|FTV|1|0|Then Jesus, full of the Holy Spirit, returned from the Jordan and was led by the Spirit into the wilderness,\n" +
+        "Luke|4|3|2|FTV|1|0|\"The devil said to Him, \"If You are the Son of God, tell this stone to become bread.\"\n" +
+        "Luke|4|8|2|FTV|1|0|\"But Jesus answered, \"It is written: \"Worship the Lord your God and serve Him only.\"\"\n" +
+        "Luke|4|18|2|FTV|0|0|\"The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,\"\n" +
+        "Luke|4|24|2|FTV|1|0|\"Then He added, \"Truly I tell you, no prophet is accepted in his hometown.\"\n" +
+        "Luke|4|32|2|FTV|1|0|They were astonished at His teaching, because His message had authority.\n" +
+        "Luke|4|36|2|FTV|0|0|\"All the people were overcome with amazement and asked one another, \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"\n" +
+        "Luke|4|37|2|FTV|1|0|And the news about Jesus spread throughout the surrounding region.\n" +
+        "Luke|4|3|2|AT|0|0|According to Luke 4:3, What if You are the Son of God?|Tell this stone to become bread\n" +
+        "Luke|4|4|2|AT|0|0|According to Luke 4:4, What is written?|\"Man shall not live on bread alone.\"\n" +
+        "Luke|4|5|2|AT|0|0|According to Luke 4:5, The devil led him where?|Up to a high place\n" +
+        "Luke|4|8|2|AT|0|0|According to Luke 4:8, What is written?|\"Worship the Lord Your God and serve Him only.\"\n" +
+        "Luke|4|9|2|AT|0|0|According to Luke 4:9, The devil led him where?|To Jerusalem\n" +
+        "Luke|4|9|2|AT|0|0|According to Luke 4:9, What if You are the Son of God?|Throw Yourself down from here\n" +
+        "Luke|4|10|2|AT|0|0|According to Luke 4:10, What is written?|He will command His angels concerning You to guard You carefully,\n" +
+        "Luke|4|14|2|AT|0|0|According to Luke 4:14, Who returned to Galilee?|Jesus\n" +
+        "Luke|4|23|2|AT|0|0|According to Luke 4:23, Heal whom?|Yourself\n" +
+        "Luke|4|24|2|AT|0|0|According to Luke 4:24, Truly I tell you, what?|No prophet is accepted in his hometown\n" +
+        "Luke|4|27|2|AT|0|0|According to Luke 4:27, Yet not one of them was cleansed—only who?|Naaman the Syrian\n" +
+        "Luke|4|31|2|AT|0|0|According to Luke 4:31, He went where?|Down to Capernaum, a town in Galilee\n" +
+        "Luke|4|33|2|AT|0|0|According to Luke 4:33, Where was there a man possessed by the spirit of an unclean demon?|In the synagogue\n" +
+        "Luke|4|35|2|AT|0|0|According to Luke 4:35, Jesus rebuked what?|The demon\n" +
+        "Luke|4|39|2|AT|0|0|According to Luke 4:39, He rebuked what?|The fever\n" +
+        "Luke|4|4|2|SQ|0|0|Who said it? To whom was it said? \"It is written: \"Man shall not live on bread alone.\"\"|Jesus to the devil\n" +
+        "Luke|4|6|2|SQ|0|0|Who said it? To whom was it said? \"I will give You authority over all these kingdoms and all their glory. For it has been relinquished to me, and I can give it to anyone I wish.\"|the devil to Jesus\n" +
+        "Luke|4|8|2|SQ|0|0|Who said it? To whom was it said? \"It is written: \"Worship the Lord Your God and serve Him only.\"\"|Jesus to the devil\n" +
+        "Luke|4|12|2|SQ|0|0|Who said it? To whom was it said? \"It also says, \"Do not put the Lord your God to the test.\"\"|Jesus to the devil\n" +
+        "Luke|4|18|2|SQ|0|0|Who said it? To whom was it said? \"The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,\"|Jesus to the synagogue\n" +
+        "Luke|4|21|2|SQ|0|0|Who said it? To whom was it said? \"Today this Scripture is fulfilled in your hearing.\"|Jesus to the synagogue\n" +
+        "Luke|4|34|2|SQ|0|0|Who said it? To whom was it said? \"Ha! What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!\"|A man possessed by the spirit of an unclean demon to Jesus\n" +
+        "Luke|4|35|2|SQ|0|0|Who said it? To whom was it said? \"Be silent! Come out of him!\"|Jesus to a man possessed by the spirit of an unclean demon\n" +
+        "Luke|4|36|2|SQ|0|0|Who said it? To whom was it said? \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"|All the people to one another\n" +
+        "Luke|4|43|2|SQ|0|0|Who said it? To whom was it said? \"I must preach the good news of the kingdom of God to the other towns as well, because that is why I was sent.\"|Jesus to the crowds\n"
+
     }
 }

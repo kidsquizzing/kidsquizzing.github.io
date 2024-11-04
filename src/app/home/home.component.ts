@@ -50,12 +50,14 @@ export class HomeComponent implements OnInit{
   ngOnInit(): void {
     this.questionArray = this.questionService.getQuestionObjectList();
     this.clearPageValues();
+    this.loadStandardCache();
     if (this.questionArray.length > 0) {
       this.promptToLoadCache = false;
       this.setupPageValues();
     }
     else {
       this.promptToLoadCache = true;
+      this.loadStandardCache();
     }
   }
   
