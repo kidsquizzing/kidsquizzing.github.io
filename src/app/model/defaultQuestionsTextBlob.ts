@@ -2,7 +2,7 @@ export class defaultQuestionsTextBlob {
     public questionBlob: string; 
 
     constructor(){
-        this.questionBlob =     
+        this.questionBlob =
         "Book|Chapter|Verse|Section|Type|isBFlight|isUnpublished|Question|Answer\n" +
         "Luke|2|1|1|General|1|0|Now in those days a decree went out from whom?|Caesar Augustus\n" +
         "Luke|2|1|1|General|1|0|A census should be taken of what?|The whole empire\n" +
@@ -83,7 +83,7 @@ export class defaultQuestionsTextBlob {
         "Luke|3|2|1|General|0|0|Who was the high priesthood when the word of God came to John?|Annas and Caiaphas\n" +
         "Luke|3|2|1|General|1|0|What came to John son of Zechariah in the wilderness?|The word of God\n" +
         "Luke|3|3|1|General|0|0|He went into all the region around the Jordan, preaching what?|A baptism of repentance for the forgiveness of sins\n" +
-        "Luke|3|4|1|General|1|0|A voice of one is calling in the wilderness, what?|\"Prepare the way for the Lord; make straight paths for Him.\"\n" +
+        "Luke|3|4|1|General|1|0|A voice of one is calling in the wilderness, what?|'Prepare the way for the Lord; make straight paths for Him.'\n" +
         "Luke|3|4|1|General|1|0|Prepare the way for whom?|The Lord\n" +
         "Luke|3|5|1|General|1|0|What shall be filled in?|Every valley\n" +
         "Luke|3|5|1|General|1|0|What shall be made low?|Every mountain and hill\n" +
@@ -91,7 +91,7 @@ export class defaultQuestionsTextBlob {
         "Luke|3|6|1|General|1|0|And all humanity will see what?|God's salvation\n" +
         "Luke|3|7|1|General|0|0|Then John said to the crowds coming out to be baptized by him, what?|You brood of vipers, who warned you to flee from the coming wrath?\n" +
         "Luke|3|8|1|General|1|0|Produce fruit, then, in keeping with what?|Repentance\n" +
-        "Luke|3|8|1|General|0|0|And do not begin to say to yourselves, what?|\"We have Abraham as our father.\"\n" +
+        "Luke|3|8|1|General|0|0|And do not begin to say to yourselves, what?|'We have Abraham as our father.'\n" +
         "Luke|3|8|1|General|1|0|Whom can God raise up out of these stones?|Children for Abraham\n" +
         "Luke|3|9|1|General|1|0|The axe lies ready where?|At the root of the trees\n" +
         "Luke|3|9|1|General|0|0|Every tree that does not produce good fruit will be what?|cut down and thrown into the fire.\n" +
@@ -124,15 +124,15 @@ export class defaultQuestionsTextBlob {
         "Luke|2|25|1|AT|0|0|According to Luke 2:25, Upon whom was the Holy Spirit?|Simeon\n" +
         "Luke|2|25|1|AT|0|0|According to Luke 2:25, who was in Jerusalem?|A man named Simeon\n" +
         "Luke|2|35|1|AT|0|0|According to Luke 2:35, What will be revealed?|The thoughts of many hearts\n" +
-        "Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, \"Prepare the way for the Lord, make straight paths for Him\"\n" +
+        "Luke|3|4|1|AT|0|0|According to Luke 3:4, what is written in the book of the words of Isaiah the prophet?|A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him'\n" +
         "Luke|3|10|1|AT|0|0|According to Luke 3:10 What did the crowds ask John?|What then should we do\n" +
-        "Luke|2|10|1|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid! For behold, I bring you good news of great joy that will be for all the people:|An angel of the Lord To Shepherds\n" +
+        "Luke|2|10|1|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid! For behold, I bring you good news of great joy that will be for all the people:\"|An angel of the Lord To Shepherds\n" +
         "Luke|2|14|1|SQ|0|0|Who said it? To whom was it said? \"Glory to God in the highest, and on earth peace to men on whom His favor rests!\"|A great multitude of the heavenly host to shepherds\n" +
         "Luke|2|15|1|SQ|0|0|Who said it? To whom was it said? \"Let us go to Bethlehem and see this thing that has happened, which the Lord has made known to us.\"|The shepherds to One another\n" +
-        "Luke|2|34|1|SQ|0|0|Who said it? To whom was it said? \"Behold, this Child is appointed to cause the rise and fall of many in Israel, and to be a sign that will be spoken against,|Simeon to Mary\n" +
-        "Luke|2|48|1|SQ|0|0|Who said it? To whom was it said? \"Child, why have You done this to us? Your father and I have been anxiously searching for You.\"|His mother / Mary to The boy Jesus\n" +
-        "Luke|2|49|1|SQ|0|0|Who said it? To whom was it said? \"Why were you looking for Me? Did you not know that I had to be in My Father’s house?\"|The boy Jesus to His parents\n" +
-        "Luke|3|7|1|SQ|0|0|Who said it? To whom was it said? \"You brood of vipers, who warned you to flee from the coming wrath?|John to The crowds\n" +
+        "Luke|2|34|1|SQ|0|0|Who said it? To whom was it said? \"Behold, this Child is appointed to cause the rise and fall of many in Israel, and to be a sign that will be spoken against,\"|Simeon to Mary\n" +
+        "Luke|2|48|1|SQ|0|0|Who said it? To whom was it said? \"Child, why have You done this to us? Your father and I have been anxiously searching for You.\"|His mother (Mary) to The boy Jesus\n" +
+        "Luke|2|49|1|SQ|0|0|Who said it? To whom was it said? \"Why were you looking for Me? Did you not know that I had to be in My Father's house?\"|The boy Jesus to His parents\n" +
+        "Luke|3|7|1|SQ|0|0|Who said it? To whom was it said? \"You brood of vipers, who warned you to flee from the coming wrath?\"|John to The crowds\n" +
         "Luke|3|10|1|SQ|0|0|Who said it? To whom was it said? \"What then should we do?\"|The crowds to John\n" +
         "Luke|3|11|1|SQ|0|0|Who said it? To whom was it said? \"Whoever has two tunics should share with him who has none, and whoever has food should do the same.\"|John to The crowds\n" +
         "Luke|3|13|1|SQ|0|0|Who said it? To whom was it said? \"Collect no more than you are authorized,\"|John to Tax collectors\n" +
@@ -207,18 +207,18 @@ export class defaultQuestionsTextBlob {
         "Luke|4|43|2|General|1|0|What must I preach to the other towns as well?|The good news of the kingdom of God\n" +
         "Luke|4|43|2|General|1|0|Why must I preach the good news of the kingdom of God to the other towns as well?|Because that is why I was sent\n" +
         "Luke|4|44|2|General|1|0|And He continued to preach where?|In the synagogues of Judea\n" +
-        "Luke|4|1|2|FTV|1|0|Then Jesus, full of the Holy Spirit, returned from the Jordan and was led by the Spirit into the wilderness,\n" +
-        "Luke|4|3|2|FTV|1|0|\"The devil said to Him, \"If You are the Son of God, tell this stone to become bread.\"\n" +
-        "Luke|4|8|2|FTV|1|0|\"But Jesus answered, \"It is written: \"Worship the Lord your God and serve Him only.\"\"\n" +
-        "Luke|4|18|2|FTV|0|0|\"The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,\"\n" +
-        "Luke|4|24|2|FTV|1|0|\"Then He added, \"Truly I tell you, no prophet is accepted in his hometown.\"\n" +
-        "Luke|4|32|2|FTV|1|0|They were astonished at His teaching, because His message had authority.\n" +
-        "Luke|4|36|2|FTV|0|0|\"All the people were overcome with amazement and asked one another, \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"\n" +
-        "Luke|4|37|2|FTV|1|0|And the news about Jesus spread throughout the surrounding region.\n" +
+        "Luke|4|1|2|FTV|1|0|Then Jesus, full of the Holy Spirit, returned from the Jordan and was led by the Spirit into the wilderness,|\n" +
+        "Luke|4|3|2|FTV|1|0|The devil said to Him, \"If You are the Son of God, tell this stone to become bread.\"|\n" +
+        "Luke|4|8|2|FTV|1|0|But Jesus answered, \"It is written: 'Worship the Lord your God and serve Him only.'\"|\n" +
+        "Luke|4|18|2|FTV|0|0|The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,|\n" +
+        "Luke|4|24|2|FTV|1|0|Then He added, \"Truly I tell you, no prophet is accepted in his hometown.\"|\n" +
+        "Luke|4|32|2|FTV|1|0|They were astonished at His teaching, because His message had authority.|\n" +
+        "Luke|4|36|2|FTV|0|0|All the people were overcome with amazement and asked one another, \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"|\n" +
+        "Luke|4|37|2|FTV|1|0|And the news about Jesus spread throughout the surrounding region.|\n" +
         "Luke|4|3|2|AT|0|0|According to Luke 4:3, What if You are the Son of God?|Tell this stone to become bread\n" +
-        "Luke|4|4|2|AT|0|0|According to Luke 4:4, What is written?|\"Man shall not live on bread alone.\"\n" +
+        "Luke|4|4|2|AT|0|0|According to Luke 4:4, What is written?|'Man shall not live on bread alone.'\n" +
         "Luke|4|5|2|AT|0|0|According to Luke 4:5, The devil led him where?|Up to a high place\n" +
-        "Luke|4|8|2|AT|0|0|According to Luke 4:8, What is written?|\"Worship the Lord Your God and serve Him only.\"\n" +
+        "Luke|4|8|2|AT|0|0|According to Luke 4:8, What is written?|'Worship the Lord Your God and serve Him only.'\n" +
         "Luke|4|9|2|AT|0|0|According to Luke 4:9, The devil led him where?|To Jerusalem\n" +
         "Luke|4|9|2|AT|0|0|According to Luke 4:9, What if You are the Son of God?|Throw Yourself down from here\n" +
         "Luke|4|10|2|AT|0|0|According to Luke 4:10, What is written?|He will command His angels concerning You to guard You carefully,\n" +
@@ -230,15 +230,121 @@ export class defaultQuestionsTextBlob {
         "Luke|4|33|2|AT|0|0|According to Luke 4:33, Where was there a man possessed by the spirit of an unclean demon?|In the synagogue\n" +
         "Luke|4|35|2|AT|0|0|According to Luke 4:35, Jesus rebuked what?|The demon\n" +
         "Luke|4|39|2|AT|0|0|According to Luke 4:39, He rebuked what?|The fever\n" +
-        "Luke|4|4|2|SQ|0|0|Who said it? To whom was it said? \"It is written: \"Man shall not live on bread alone.\"\"|Jesus to the devil\n" +
+        "Luke|4|4|2|SQ|0|0|Who said it? To whom was it said? \"It is written: 'Man shall not live on bread alone.'\"|Jesus to the devil\n" +
         "Luke|4|6|2|SQ|0|0|Who said it? To whom was it said? \"I will give You authority over all these kingdoms and all their glory. For it has been relinquished to me, and I can give it to anyone I wish.\"|the devil to Jesus\n" +
-        "Luke|4|8|2|SQ|0|0|Who said it? To whom was it said? \"It is written: \"Worship the Lord Your God and serve Him only.\"\"|Jesus to the devil\n" +
-        "Luke|4|12|2|SQ|0|0|Who said it? To whom was it said? \"It also says, \"Do not put the Lord your God to the test.\"\"|Jesus to the devil\n" +
+        "Luke|4|8|2|SQ|0|0|Who said it? To whom was it said? \"It is written: 'Worship the Lord Your God and serve Him only.'\"|Jesus to the devil\n" +
+        "Luke|4|12|2|SQ|0|0|Who said it? To whom was it said? \"It also says, 'Do not put the Lord your God to the test.'\"|Jesus to the devil\n" +
         "Luke|4|18|2|SQ|0|0|Who said it? To whom was it said? \"The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,\"|Jesus to the synagogue\n" +
         "Luke|4|21|2|SQ|0|0|Who said it? To whom was it said? \"Today this Scripture is fulfilled in your hearing.\"|Jesus to the synagogue\n" +
         "Luke|4|34|2|SQ|0|0|Who said it? To whom was it said? \"Ha! What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!\"|A man possessed by the spirit of an unclean demon to Jesus\n" +
         "Luke|4|35|2|SQ|0|0|Who said it? To whom was it said? \"Be silent! Come out of him!\"|Jesus to a man possessed by the spirit of an unclean demon\n" +
-        "Luke|4|36|2|SQ|0|0|Who said it? To whom was it said? \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"|All the people to one another\n" +
-        "Luke|4|43|2|SQ|0|0|Who said it? To whom was it said? \"I must preach the good news of the kingdom of God to the other towns as well, because that is why I was sent.\"|Jesus to the crowds\n"
+        "Luke|3|11|2|SQ|0|0|Who said it? To whom was it said? \"What is this message? With authority and power He commands the unclean spirits, and they come out!\"|All the people to one another\n" +
+        "Luke|3|13|2|SQ|0|0|Who said it? To whom was it said? \"I must preach the good news of the kingdom of God to the other towns as well, because that is why I was sent.\"|Jesus to the crowds\n" +
+        "Luke|5|1|3|General|0|0|On one occasion, while Jesus was standing by the Lake of Gennesaret with the crowd pressing in on Him to hear the word of God, He saw what?|Two boats at the edge of the lake\n" +
+        "Luke|5|1|3|General|1|0|Who was standing by the Lake of Gennesaret?|Jesus\n" +
+        "Luke|5|1|3|General|1|0|The crowd was pressing in on Him to hear what?|The word of God\n" +
+        "Luke|5|2|3|General|1|0|He saw two boats at the edge of what?|The lake\n" +
+        "Luke|5|2|3|General|1|0|Who were washing their nets?|The fishermen\n" +
+        "Luke|5|3|3|General|1|0|Jesus got into the boat belonging to whom?|Simon\n" +
+        "Luke|5|3|3|General|1|0|Who taught the people from the boat?|Jesus\n" +
+        "Luke|5|4|3|General|1|0|When Jesus had finished speaking, He said to Simon, what?|\"Put out into deep water and let down your nets for a catch.\"\n" +
+        "Luke|5|5|3|General|1|0|How have we worked hard all night?|Without catching anything\n" +
+        "Luke|5|5|3|General|1|0|Why will I let down the nets?|Because You say so\n" +
+        "Luke|5|6|3|General|0|0|When they had done so, they caught what?|Such a large number of fish that their nets began to tear\n" +
+        "Luke|5|6|3|General|1|0|Who caught such a large number of fish that their nets began to tear?|The fishermen (They)\n" +
+        "Luke|5|7|3|General|0|0|So they signaled to their partners in the other boat what?|To come and help them\n" +
+        "Luke|5|7|3|General|1|0|And they came and filled both boats how full?|So full that they began to sink\n" +
+        "Luke|5|8|3|General|0|0|When Simon Peter saw this, he fell at whose knees?|Jesus'\n" +
+        "Luke|5|8|3|General|1|0|Who fell at Jesus' knees?|Simon Peter\n" +
+        "Luke|5|8|3|General|1|0|Go away from me, Lord, why?|For I am a sinful man\n" +
+        "Luke|5|9|3|General|1|0|For he and his companions were astonished at what?|The catch of fish they had taken\n" +
+        "Luke|5|9|3|General|0|0|Who were astonished at the catch of fish they had taken?|He (Simon Peter) and his companions, and so were his partners James and John, the sons of Zebedee\n" +
+        "Luke|5|10|3|General|1|0|Who were James and John?|The sons of Zebedee\n" +
+        "Luke|5|10|3|General|1|0|Who were the sons of Zebedee?|James and John\n" +
+        "Luke|5|10|3|General|1|0|When will you catch men?|From now on\n" +
+        "Luke|5|11|3|General|0|0|And when they had brought their boats ashore, they left what and followed Him?|Everything\n" +
+        "Luke|5|11|3|General|1|0|When they had brought their boats ashore, they left everything and followed whom?|Jesus (Him)\n" +
+        "Luke|5|12|3|General|1|0|While Jesus was in one of the towns, a man came along who was covered with what?|Leprosy\n" +
+        "Luke|5|12|3|General|0|0|A man came along who was covered with leprosy when?|While Jesus was in one of the towns\n" +
+        "Luke|5|12|3|General|1|0|Lord, if You are willing, You can make me what?|Clean\n" +
+        "Luke|5|13|3|General|1|0|Jesus reached out His hand and touched whom?|The man\n" +
+        "Luke|5|13|3|General|0|0|What did Jesus say when he touched the man with leprosy?|\"I am willing,\" \"be clean!\"\n" +
+        "Luke|5|13|3|General|1|0|What left him immediately?|The leprosy\n" +
+        "Luke|5|14|3|General|1|0|But go, show yourself to whom?|The priest\n" +
+        "Luke|5|15|3|General|0|0|Who came to hear Him and to be healed of their sicknesses?|Great Crowds\n" +
+        "Luke|5|15|3|General|1|0|Great crowds came to hear whom?|Jesus (Him)\n" +
+        "Luke|5|16|3|General|1|0|He frequently withdrew to the wilderness why?|To pray\n" +
+        "Luke|5|17|3|General|1|0|One day Jesus was teaching, and who were sitting there?|The Pharisees and teachers of the law\n" +
+        "Luke|5|17|3|General|1|0|People had come from Jerusalem and from where?|Every village of Galilee and Judea\n" +
+        "Luke|5|17|3|General|1|0|What was present for Him to heal the sick?|The power of the Lord\n" +
+        "Luke|5|18|3|General|1|0|Who came carrying a paralyzed man on a mat?|Some men\n" +
+        "Luke|5|18|3|General|1|0|They tried to bring him inside to set him before whom?|Jesus\n" +
+        "Luke|5|19|3|General|0|0|But they could not find a way through whom?|The crowd\n" +
+        "Luke|5|19|3|General|1|0|Who went up on the roof and lowered him on his mat through the tiles into the middle of the crowd?|Some men came carrying a paralyzed man on a mat\n" +
+        "Luke|5|20|3|General|1|0|Who saw their faith?|Jesus\n" +
+        "Luke|5|20|3|General|0|0|When Jesus saw their faith, He said, what?|\"Friend, your sins are forgiven.\"\n" +
+        "Luke|5|20|3|General|1|0|What are forgiven?|Your sins\n" +
+        "Luke|5|21|3|General|0|0|What did the scribes and Pharisses begin thinking to themselves?|\"Who is this man who speaks blasphemy? Who can forgive sins but God alone?\"\n" +
+        "Luke|5|22|3|General|0|0|Where are you thinking these things?|In your hearts\n" +
+        "Luke|5|24|3|General|1|0|Who has authority on the earth to forgive sins?|The Son of Man\n" +
+        "Luke|5|25|3|General|0|0|Who stood up before them, took what he had been lying on, and went home glorifying God?|The man\n" +
+        "Luke|5|25|3|General|1|0|Who went home glorifying God?|The man\n" +
+        "Luke|5|26|3|General|1|0|Everyone was taken with what?|Amazement\n" +
+        "Luke|5|26|3|General|0|0|Who was taken with amazement and glorified God?|Everyone\n" +
+        "Luke|5|26|3|General|1|0|They were filled with awe and said, what?|\"We have seen remarkable things today.\"\n" +
+        "Luke|5|27|3|General|1|0|Jesus went out and saw a tax collector named Levi sitting where?|At the tax booth\n" +
+        "Luke|5|27|3|General|0|0|Who saw a tax collector named Levi sitting at the tax booth?|Jesus\n" +
+        "Luke|5|28|3|General|1|0|Who got up, left everything, and followed Him?|Levi\n" +
+        "Luke|5|29|3|General|0|0|Then Levi hosted a great banquet for Jesus where?|At his house\n" +
+        "Luke|5|29|3|General|0|0|A large crowd of tax collectors was there, along with whom?|Others who were eating with them\n" +
+        "Luke|5|30|3|General|1|0|Who complained to Jesus' disciples?|The Pharisees and their scribes\n" +
+        "Luke|5|30|3|General|1|0|With whom do you eat and drink?|With tax collectors and sinners\n" +
+        "Luke|5|31|3|General|1|0|Who need a doctor?|The sick\n" +
+        "Luke|5|32|3|General|0|0|I have not come to call the righteous, but sinners, to what?|Repentance\n" +
+        "Luke|5|32|3|General|1|0|Whom have I come to call to repentance?|Sinners\n" +
+        "Luke|5|33|3|General|0|0|Whose disciples frequently fast and pray?|John's disciples and those of the Pharisees\n" +
+        "Luke|5|35|3|General|0|0|Who will be taken from them?|The bridegroom\n" +
+        "Luke|5|35|3|General|1|0|When will they fast?|When the bridegroom will be taken from them\n" +
+        "Luke|5|36|3|General|1|0|He also told them what?|A parable\n" +
+        "Luke|5|36|3|General|0|0|No one tears a piece of cloth from a new garment and sews it on what?|An old one\n" +
+        "Luke|5|36|3|General|1|0|If he does, he will tear what as well?|The new garment\n" +
+        "Luke|5|36|3|General|1|0|What will not match the old?|The patch from the new\n" +
+        "Luke|5|37|3|General|1|0|And no one pours new wine into what?|Old wineskins\n" +
+        "Luke|5|38|3|General|1|0|New wine is poured into what?|New wineskins\n" +
+        "Luke|5|39|3|General|0|0|And no one after drinking old wine wants new, why?|For he says, 'The old is better.'\n" +
+        "Luke|5|8|3|FTV|1|0|When Simon Peter saw this, he fell at Jesus' knees. \"Go away from me, Lord,\" he said, \"for I am a sinful man.\"|\n" +
+        "Luke|5|11|3|FTV|1|0|And when they had brought their boats ashore, they left everything and followed Him.|\n" +
+        "Luke|5|13|3|FTV|0|0|Jesus reached out His hand and touched the man. \"I am willing,\" He said. \"Be clean!\" And immediately the leprosy left him.|\n" +
+        "Luke|5|15|3|FTV|1|0|But the news about Jesus spread all the more, and great crowds came to hear Him and to be healed of their sicknesses.|\n" +
+        "Luke|5|20|3|FTV|1|0|When Jesus saw their faith, He said, \"Friend, your sins are forgiven.\"|\n" +
+        "Luke|5|24|3|FTV|0|0|\"But so that you may know that the Son of Man has authority on the earth to forgive sins. . . \" He said to the paralytic, \"I tell you, get up, pick up your mat, and go home.\"|\n" +
+        "Luke|5|30|3|FTV|1|0|But the Pharisees and their scribes complained to Jesus' disciples, \"Why do you eat and drink with tax collectors and sinners?\"|\n" +
+        "Luke|5|31|3|FTV|1|0|Jesus answered, \"It is not the healthy who need a doctor, but the sick.\"|\n" +
+        "Luke|5|8|3|AT|0|0|According to Luke 5:8, What am I?|A sinful man\n" +
+        "Luke|5|10|3|AT|0|0|According to Luke 5:10, Do not be what?|Afraid\n" +
+        "Luke|5|12|3|AT|0|0|According to Luke 5:12, Where was Jesus?|In one of the towns\n" +
+        "Luke|5|12|3|AT|0|0|According to Luke 5:12, Who saw Jesus?|A man who was covered with leprosy\n" +
+        "Luke|5|20|3|AT|0|0|According to Luke 5:20, Jesus saw what?|Their faith\n" +
+        "Luke|5|21|3|AT|0|0|According to Luke 5:21, But the scribes and Pharisees began thinking to themselves, what?|\"Who is this man who speaks blasphemy?\"\n" +
+        "Luke|5|24|3|AT|0|0|According to Luke 5:24, What may you know?|That the Son of Man has authority on the earth to forgive sins\n" +
+        "Luke|5|28|3|AT|0|0|According to Luke 5:28, Who left everything, and followed Him?|Levi\n" +
+        "Luke|5|32|3|AT|0|0|According to Luke 5:32, Why have I come?|To call sinners to repentance\n" +
+        "Luke|5|35|3|AT|0|0|According to Luke 5:35, What time will come?|The time when the bridegroom will be taken from them\n" +
+        "Luke|5|36|3|AT|0|0|According to Luke 5:36, What if he does?|He will tear the new garment as well, and the patch from the new will not match the old\n" +
+        "Luke|5|37|3|AT|0|0|According to Luke 5:37, What if he does?|The new wine will burst the skins, the wine will spill, and the wineskins will be ruined\n" +
+        "Luke|5|4|3|SQ|0|0|Who said it? To whom was it said? \"Put out into deep water and let down your nets for a catch.\"|Jesus to Simon\n" +
+        "Luke|5|5|3|SQ|0|0|Who said it? To whom was it said? \"Master, we have worked hard all night without catching anything. But because You say so, I will let down the nets.\"|Simon to Jesus\n" +
+        "Luke|5|8|3|SQ|0|0|Who said it? To whom was it said? \"Go away from me, Lord, for I am a sinful man.\"|Simon Peter to Jesus\n" +
+        "Luke|5|10|3|SQ|0|0|Who said it? To whom was it said? \"Do not be afraid. From now on you will catch men.\"|Jesus to Simon\n" +
+        "Luke|5|12|3|SQ|0|0|Who said it? To whom was it said? \"Lord, if You are willing, You can make me clean.\"|A man who was covered with leprosy to Jesus\n" +
+        "Luke|5|13|3|SQ|0|0|Who said it? To whom was it said? \"I am willing. Be clean!\"|Jesus to a man who was covered with leprosy\n" +
+        "Luke|5|20|3|SQ|0|0|Who said it? To whom was it said? \"Friend, your sins are forgiven.\"|Jesus to the paralyzed man\n" +
+        "Luke|5|22|3|SQ|0|0|Who said it? To whom was it said? \"Why are you thinking these things in your hearts?\"|Jesus to the Pharisees and their scribes\n" +
+        "Luke|5|24|3|SQ|0|0|Who said it? To whom was it said? \"I tell you, get up, pick up your mat, and go home.\"|Jesus to the paralyzed man\n" +
+        "Luke|5|30|3|SQ|0|0|Who said it? To whom was it said? \"Why do you eat and drink with tax collectors and sinners?\"|The Pharisees and their scribes to Jesus' disciples\n" +
+        "Luke|5|31|3|SQ|0|0|Who said it? To whom was it said? \"It is not the healthy who need a doctor, but the sick.\"|Jesus to the Pharisees and their scribes\n" +
+        "Luke|5|33|3|SQ|0|0|Who said it? To whom was it said? \"John's disciples and those of the Pharisees frequently fast and pray, but Yours keep on eating and drinking.\"|The Pharisees and their scribes to Jesus\n" +
+        "Luke|5|34|3|SQ|0|0|Who said it? To whom was it said? \"Can you make the guests of the bridegroom fast while He is with them?\"|Jesus to the Pharisees and their scribes\n" +
+        "Luke|5|36|3|SQ|0|0|Who said it? To whom was it said? \"No one tears a piece of cloth from a new garment and sews it on an old one. If he does, he will tear the new garment as well, and the patch from the new will not match the old.\"|Jesus to the Pharisees and their scribes\n";           
     }
 }

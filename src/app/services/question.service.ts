@@ -36,4 +36,70 @@ export class QuestionService {
 
     return questionArray;
   }
+
+  getQuestionObjectListAsCSV() {
+    var stringCSVArray: Array<string> = [];
+    var questionsJson = localStorage.getItem('questions');
+    if (questionsJson == null) {
+      alert("Failed to read questions from local storage");
+      return [];
+    } 
+    var parsedJson = JSON.parse(questionsJson);
+
+    var headerLine = "Book|Chapter|Verse|Section|Type|isBFlight|isUnpublished|Question|Answer";
+    stringCSVArray.push(headerLine + "\n");
+
+    for (var i = 0; i < parsedJson.length; i++) {
+      var tempLine = parsedJson[i].book + '|' + parsedJson[i].chapter + '|' + parsedJson[i].verse + '|' + parsedJson[i].section + '|' + parsedJson[i].type + '|' + 
+      parsedJson[i].isBFlight + '|' +  parsedJson[i].isUnpublished + '|' +  parsedJson[i].question + '|' +  parsedJson[i].answer + '\n';
+
+        stringCSVArray.push(tempLine);
+    }
+
+    if (stringCSVArray.length > 1) {
+      return stringCSVArray;
+    }
+    else {
+      alert("Failed to create file.");
+      return [];
+    }
+  }
+
+  getQuestionObjectListAsStrictText() {
+    var stringCSVArray: Array<string> = [];
+    var questionsJson = localStorage.getItem('questions');
+    if (questionsJson == null) {
+      alert("Failed to read questions from local storage");
+      return [];
+    } 
+    var parsedJson = JSON.parse(questionsJson);
+
+    var headerLine = '"Book|Chapter|Verse|Section|Type|isBFlight|isUnpublished|Question|Answer\\n" +' + "\n";
+    stringCSVArray.push(headerLine);
+
+    for (var i = 0; i < parsedJson.length; i++) {
+      let tempQuestion: string = parsedJson[i].question;
+      let escapedQuestion: string = tempQuestion.replaceAll('"', '\\"');
+
+      let escapedAnswer: string = '';
+      if (parsedJson[i].type != 'FTV') {
+        let tempAnswer: string = parsedJson[i].answer;
+        let removeCarriageReturn = tempAnswer.replaceAll('\r', '');
+        escapedAnswer = removeCarriageReturn.replaceAll('"', '\\"');
+      }
+    
+      var tempLine = '"' + parsedJson[i].book + '|' + parsedJson[i].chapter + '|' + parsedJson[i].verse + '|' + parsedJson[i].section + '|' + parsedJson[i].type + '|' + 
+        parsedJson[i].isBFlight + '|' +  parsedJson[i].isUnpublished + '|' +  escapedQuestion + '|' + escapedAnswer + '\\n" +' + "\n";
+
+        stringCSVArray.push(tempLine);
+    }
+
+    if (stringCSVArray.length > 1) {
+      return stringCSVArray;
+    }
+    else {
+      alert("Failed to create file.");
+      return [];
+    }
+  }
 }

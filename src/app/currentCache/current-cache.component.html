@@ -1,8 +1,26 @@
 <div class="container">
     <h4>Current Cache Screen</h4>
+    <h6>Click "Clear Cache" to clear current cache.</h6>
+    <h6>Click "Reload Cache" to reload current cache as found out in the github "src/app/model/defaultQuestionsTextBlob.ts" file.</h6>
+    <h6> If you would like to have a copy of the CSV that can be modified and uploaded, click "Download As CSV"</h6>
+    <h6> If you would like to have a copy of the text blob needed to update the github repo, click "Download As Text"</h6>
+    <div class="row">
+        <div class="col-1">
+            <button (click)="clearStandardCache()">Clear Cache</button>
+        </div>
+        <div class="col-1">
+            <button (click)="reloadStandardCache()">Reload Cache</button>
+        </div>
+        <div class="col-1">
+            <button (click)="downloadQuestions()">Download As CSV</button>  
+        </div>
+        <div class="col-1">
+            <button (click)="downloadQuestionsAsStrictText()">Download As Text</button>  
+        </div>
+    </div> 
+
     <div>
-        <h6>Click button to clear current cache</h6>
-        <button (click)="clearStandardCache()">Clear Cache</button>
+       
         <br />
         <br />
     </div>

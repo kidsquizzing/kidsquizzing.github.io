@@ -1,6 +1,23 @@
 <div class="container">
     <h4>Upload Screen</h4>
-    <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+    <h6>If this screen confuses you, go to the Current Cache Screen to see a working example. Button is labeled "View Cache" for convenience</h6>
+    <h6>Click "Choose File" to upload a CSV with your questions on it. If it is formatted correctly it will load.</h6>
+    <h6> If you would like to have a copy of the CSV to verify it is being ingested properly, click "Download As CSV"</h6>
+    <h6> If you would like to have a copy of the text blob needed to update the github repo, click "Download As Text"</h6>
+    <div class="row">
+        <div class="col-3">
+            <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+        </div>
+        <div class="col-1">
+            <button (click)="downloadQuestions()">Download As CSV</button>  
+        </div>
+        <div class="col-1">
+            <button (click)="downloadQuestionsAsStrictText()">Download As Text</button>  
+        </div>
+        <div class="col-1">
+            <button (click)="viewCache()">View Cache</button>  
+        </div>
+    </div> 
     <div>
         <br/>
     </div>
