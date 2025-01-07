@@ -345,6 +345,105 @@ export class defaultQuestionsTextBlob {
         "Luke|5|31|3|SQ|0|0|Who said it? To whom was it said? \"It is not the healthy who need a doctor, but the sick.\"|Jesus to the Pharisees and their scribes\n" +
         "Luke|5|33|3|SQ|0|0|Who said it? To whom was it said? \"John's disciples and those of the Pharisees frequently fast and pray, but Yours keep on eating and drinking.\"|The Pharisees and their scribes to Jesus\n" +
         "Luke|5|34|3|SQ|0|0|Who said it? To whom was it said? \"Can you make the guests of the bridegroom fast while He is with them?\"|Jesus to the Pharisees and their scribes\n" +
-        "Luke|5|36|3|SQ|0|0|Who said it? To whom was it said? \"No one tears a piece of cloth from a new garment and sews it on an old one. If he does, he will tear the new garment as well, and the patch from the new will not match the old.\"|Jesus to the Pharisees and their scribes\n";           
-    }
+        "Luke|5|36|3|SQ|0|0|Who said it? To whom was it said? \"No one tears a piece of cloth from a new garment and sews it on an old one. If he does, he will tear the new garment as well, and the patch from the new will not match the old.\"|Jesus to the Pharisees and their scribes\n" +
+        "Luke|6|1|4|General|0|0|Who began to pick the heads of grain, rub them in their hands, and eat them?|His disciples\n" +
+        "Luke|6|3|4|General|1|0|Who were hungry?|David (He) and his companions\n" +
+        "Luke|6|4|4|General|1|0|David entered the house of God, took the consecrated bread and gave it to whom?|His companions\n" +
+        "Luke|6|4|4|General|0|0|David and his companions ate what?|consecrated bread that is lawful only for the priests to eat\n" +
+        "Luke|6|5|4|General|1|0|Who is Lord of the Sabbath?|The Son of Man\n" +
+        "Luke|6|6|4|General|0|0|On another Sabbath Jesus entered what?|The synagogue\n" +
+        "Luke|6|6|4|General|1|0|And a man was there whose right hand was what?|Withered\n" +
+        "Luke|6|7|4|General|1|0|Why were the scribes and Pharisees watching Him closely?|to see if Jesus would heal on the Sabbath\n" +
+        "Luke|6|8|4|General|1|0|Who knew their thoughts?|Jesus\n" +
+        "Luke|6|9|4|General|0|0|What did Jesus ask them about the Sabbath?|which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?”\n" +
+        "Luke|6|10|4|General|1|0|Who, after looking around at all of them, said to the man, “Stretch out your hand.” ?|Jesus\n" +
+        "Luke|6|10|4|General|1|0|The withered hand was what?|restored\n" +
+        "Luke|6|11|4|General|1|0|Who were filled with rage?|The scribes and Pharisees\n" +
+        "Luke|6|11|4|General|0|0|The scribes and Pharisees began to discuss what?|what they might do to Jesus\n" +
+        "Luke|6|12|4|General|1|0|Jesus went out to the mountain why?|To pray\n" +
+        "Luke|6|13|4|General|1|0|He called His disciples to Him and chose twelve of them, whom He also designated as what?|Apostles\n" +
+        "Luke|6|14|4|General|1|0|He named Simon what?|Peter\n" +
+        "Luke|6|14|4|General|1|0|Who was Simon's brother?|Andrew\n" +
+        "Luke|6|15|4|General|1|0|Who was called the Zealot?|Simon\n" +
+        "Luke|6|16|4|General|1|0|Judas Iscariot became what?|A traitor\n" +
+        "Luke|6|13-16|4|General|0|0|Whom did Jesus choose and also designate as apostles?|Simon, whom He named Peter, and his brother Andrew, James and John, Philip and Bartholomew, Matthew and Thomas, James son of Alphaeus and Simon called the Zealot, Judas son of James and Judas Iscariot, who became a traitor.\n" +
+        "Luke|6|17|4|General|1|0|Then Jesus came down with them and stood on what?|A level place\n" +
+        "Luke|6|17|4|General|0|0|A large crowd of His disciples was there, along with whom?|A great number of people from all over Judea, Jerusalem, and the seacoast of Tyre and Sidon\n" +
+        "Luke|6|18|4|General|1|0|They had come to hear Him and to be healed of what?|Their diseases\n" +
+        "Luke|6|18|4|General|0|0|And those troubled by unclean spirits were what?|Healed\n" +
+        "Luke|6|19|4|General|1|0|Why was the entire crowd trying to touch Him?|Because power was coming from Him and healing them all\n" +
+        "Luke|6|20|4|General|1|0|Blessed are you who are poor, why?|For yours is the kingdom of God\n" +
+        "Luke|6|21|4|General|1|0|Who will be filled?|You who hunger now\n" +
+        "Luke|6|21|4|General|1|0|Who will laugh?|You who weep now\n" +
+        "Luke|6|22|4|General|0|0|What are you when people hate you, and when they exclude you and insult you and reject your name as evil because of the Son of Man?|Blessed\n" +
+        "Luke|6|23|4|General|1|0|Rejoice in that day and leap for joy, why?|Because great is your reward in heaven\n" +
+        "Luke|6|24|4|General|0|0|But woe to you who are rich, why?|For you have already received your comfort\n" +
+        "Luke|6|24|4|General|0|1|What have you who are rich already received?|Your comfort\n" +
+        "Luke|6|25|4|General|1|0|Woe to you who are well fed now, why?|For you will hunger\n" +
+        "Luke|6|25|4|General|1|0|Who will mourn and weep?|You who laugh now\n" +
+        "Luke|6|26|4|General|0|0|Who treated the false prophets in the same way?|Their fathers\n" +
+        "Luke|6|27|4|General|1|0|Love your enemies and do good to whom?|Those who hate you\n" +
+        "Luke|6|28|4|General|1|0|Bless those who curse you, pray for whom?|Those who mistreat you\n" +
+        "Luke|6|29|4|General|1|0|What if someone strikes you on one cheek?|Turn to him the other also\n" +
+        "Luke|6|29|4|General|0|0|And if someone takes your cloak, do not withhold what?|Your tunic as well\n" +
+        "Luke|6|30|4|General|1|0|What if anyone takes what is yours?|Do not demand it back\n" +
+        "Luke|6|31|4|General|1|0|Do to others how?|As you would have them do to you\n" +
+        "Luke|6|32|4|General|1|0|What if you love those who love you?|What credit is that to you?\n" +
+        "Luke|6|32|4|General|1|0|Even sinners love whom?|Those who love them\n" +
+        "Luke|6|33|4|General|0|0|What if you do good to those who do good to you?|What credit is that to you?\n" +
+        "Luke|6|34|4|General|1|0|Even sinners lend to sinners, how?|Expecting to be repaid in full\n" +
+        "Luke|6|35|4|General|0|0|But love your enemies, do good to them, and lend to them, how?|Expecting nothing in return\n" +
+        "Luke|6|35|4|General|0|0|Then your reward will be great, and you will be sons of whom?|The Most High\n" +
+        "Luke|6|35|4|General|1|0|For the Most High is kind to whom?|The ungrateful and wicked\n" +
+        "Luke|6|36|4|General|1|0|Be merciful, how?|Just as your Father is merciful\n" +
+        "Luke|6|37|4|General|1|0|Do not judge, and you will not be what?|Judged\n" +
+        "Luke|6|37|4|General|1|0|Do not condemn, and you will not be what?|Condemned\n" +
+        "Luke|6|37|4|General|1|0|Forgive, and you will be what?|Forgiven\n" +
+        "Luke|6|38|4|General|0|0|Give, and it will be given to you how?|A good measure, pressed down, shaken together, and running over will be poured into your lap\n" +
+        "Luke|6|38|4|General|1|0|How will it be measured back to you?|With the measure you use\n" +
+        "Luke|6|39|4|General|0|0|Can a blind man lead a blind man?|Will they not both fall into a pit?\n" +
+        "Luke|6|40|4|General|1|0|A disciple is not above whom?|His teacher\n" +
+        "Luke|6|40|4|General|1|0|Who will be like his teacher?|Everyone who is fully trained\n" +
+        "Luke|6|41|4|General|1|0|At what do you look?|At the speck in your brother’s eye\n" +
+        "Luke|6|41|4|General|1|0|You fail to notice the beam in what?|Your own eye\n" +
+        "Luke|6|42|4|General|1|0|First take the beam out of what?|Your own eye\n" +
+        "Luke|6|43|4|General|1|0|No good tree bears what?|Bad fruit\n" +
+        "Luke|6|43|4|General|1|0|Nor does a bad tree bear what?|Good fruit\n" +
+        "Luke|6|44|4|General|1|0|For each tree is known by what?|Its own fruit\n" +
+        "Luke|6|44|4|General|1|0|Figs are not gathered from what?|Thornbushes\n" +
+        "Luke|6|44|4|General|1|0|Grapes are not gathered from what?|Brambles\n" +
+        "Luke|6|45|4|General|1|0|The good man brings good things out of what?|The good treasure of his heart\n" +
+        "Luke|6|45|4|General|1|0|And the evil man brings evil things out of what?|The evil treasure of his heart\n" +
+        "Luke|6|45|4|General|1|0|What speaks out of the overflow of the heart?|The mouth\n" +
+        "Luke|6|47|4|General|0|0|I will show you what he is like who comes to Me and hears what?|My words\n" +
+        "Luke|6|48|4|General|1|0|A man building a house dug down deep and laid his foundation on what?|The rock\n" +
+        "Luke|6|48|4|General|1|0|When the flood came, the torrent crashed against that house but could not shake it, why?|Because it was well built\n" +
+        "Luke|6|49|4|General|0|0|But the one who hears My words and does not act on them is like who?|A man who built his house on ground without a foundation\n" +
+        "Luke|6|9|4|FTV|1|0|Then Jesus said to them, “I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?|\n" +
+        "Luke|6|20|4|FTV|1|0|Looking up at His disciples, Jesus said: “Blessed are you who are poor, for yours is the kingdom of God.|\n" +
+        "Luke|6|25|4|FTV|1|0|Woe to you who are well fed now, for you will hunger. Woe to you who laugh now, for you will mourn and weep.|\n" +
+        "Luke|6|29|4|FTV|0|0|If someone strikes you on one cheek, turn to him the other also. And if someone takes your cloak, do not withhold your tunic as well.|\n" +
+        "Luke|6|32|4|FTV|1|0|If you love those who love you, what credit is that to you? Even sinners love those who love them|\n" +
+        "Luke|6|36|4|FTV|1|0|Be merciful, just as your Father is merciful.|\n" +
+        "Luke|6|41|4|FTV|1|0|Why do you look at the speck in your brother’s eye, but fail to notice the beam in your own eye?|\n" +
+        "Luke|6|45|4|FTV|0|0|The good man brings good things out of the good treasure of his heart, and the evil man brings evil things out of the evil treasure of his heart. For out of the overflow of the heart, the mouth speaks.|\n" +
+        "Luke|6|4|4|AT|0|0|According to Luke 6:4, He entered what?|The house of God\n" +
+        "Luke|6|5|4|AT|0|0|According to Luke 6:5, Who is the Son of Man?|Lord of the Sabbath\n" +
+        "Luke|6|20|4|AT|0|0|According to Luke 6:20, Who are blessed?|You who are poor\n" +
+        "Luke|6|21|4|AT|0|0|According to Luke 6:21, Who are blessed?|You who hunger now / you who weep now\n" +
+        "Luke|6|23|4|AT|0|0|According to Luke 6:23, For their fathers treated the prophets how?|In the same way\n" +
+        "Luke|6|24|4|AT|0|0|According to Luke 6:24, Woe be to whom?|You who are rich\n" +
+        "Luke|6|25|4|AT|0|0|According to Luke 6:25, Woe be to whom?|You who are well fed now / you who laugh now\n" +
+        "Luke|6|26|4|AT|0|0|According to Luke 6:26, For their fathers treated the false prophets how?|In the same way\n" +
+        "Luke|6|27|4|AT|0|0|According to Luke 6:27, Love whom?|Your enemies\n" +
+        "Luke|6|27|4|AT|0|0|According to Luke 6:27, Do good to whom?|Those who hate you\n" +
+        "Luke|6|30|4|AT|0|0|According to Luke 6:30, Give to whom?|Everyone who asks you\n" +
+        "Luke|6|2|4|SQ|0|0|Who said it? To whom was it said? “Why are you doing what is unlawful on the Sabbath?”|Some of the Pharisees to Jesus\n" +
+        "Luke|6|3|4|SQ|0|0|Who said it? To whom was it said? “Have you not read what David did when he and his companions were hungry?|Jesus to some of the Pharisees\n" +
+        "Luke|6|5|4|SQ|0|0|Who said it? To whom was it said? “The Son of Man is Lord of the Sabbath.”|Jesus to some of the Pharisees\n" +
+        "Luke|6|8|4|SQ|0|0|Who said it? To whom was it said? “Get up and stand among us.”|Jesus to the man with the withered hand\n" +
+        "Luke|6|9|4|SQ|0|0|Who said it? To whom was it said? “I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?”|Jesus to the scribes and Pharisees\n" +
+        "Luke|6|10|4|SQ|0|0|Who said it? To whom was it said? “Stretch out your hand.”|Jesus to the man with the withered hand\n" +
+        "Luke|6|20|4|SQ|0|0|Who said it? To whom was it said? “Blessed are you who are poor, for yours is the kingdom of God.|Jesus to His disciples\n";
+}
 }
