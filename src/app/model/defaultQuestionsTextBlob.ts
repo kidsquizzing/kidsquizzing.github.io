@@ -1,7 +1,7 @@
 export class defaultQuestionsTextBlob {
     public questionBlob: string; 
 
-    constructor(){
+    constructor() {
         this.questionBlob =
         "Book|Chapter|Verse|Section|Type|isBFlight|isUnpublished|Question|Answer\n" +
         "Luke|2|1|1|General|1|0|Now in those days a decree went out from whom?|Caesar Augustus\n" +
@@ -378,7 +378,6 @@ export class defaultQuestionsTextBlob {
         "Luke|6|22|4|General|0|0|What are you when people hate you, and when they exclude you and insult you and reject your name as evil because of the Son of Man?|Blessed\n" +
         "Luke|6|23|4|General|1|0|Rejoice in that day and leap for joy, why?|Because great is your reward in heaven\n" +
         "Luke|6|24|4|General|0|0|But woe to you who are rich, why?|For you have already received your comfort\n" +
-        "Luke|6|24|4|General|0|1|What have you who are rich already received?|Your comfort\n" +
         "Luke|6|25|4|General|1|0|Woe to you who are well fed now, why?|For you will hunger\n" +
         "Luke|6|25|4|General|1|0|Who will mourn and weep?|You who laugh now\n" +
         "Luke|6|26|4|General|0|0|Who treated the false prophets in the same way?|Their fathers\n" +
@@ -445,5 +444,6 @@ export class defaultQuestionsTextBlob {
         "Luke|6|9|4|SQ|0|0|Who said it? To whom was it said? “I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?”|Jesus to the scribes and Pharisees\n" +
         "Luke|6|10|4|SQ|0|0|Who said it? To whom was it said? “Stretch out your hand.”|Jesus to the man with the withered hand\n" +
         "Luke|6|20|4|SQ|0|0|Who said it? To whom was it said? “Blessed are you who are poor, for yours is the kingdom of God.|Jesus to His disciples\n";
-}
+
+    }
 }
