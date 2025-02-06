@@ -24,7 +24,8 @@ export class AFlightFTVComponent implements OnInit {
   ngOnInit(): void {
     this.questionArray = this.questionService.getQuestionObjectList();
     this.finishTheVerseArray =  this.questionArray.filter(x => x.type == "FTV");
-    this.memoryQuoteArray = this.questionArray.filter(x => x.type == "MQ");
+    var tempArray = this.questionArray.filter(x => x.type == "FTV");
+    this.memoryQuoteArray = this.reformatToMemoryQuote(tempArray);
 
     var tempQuiz: Quiz;
     var quizQuestionArray: Array<QuizQuestion> = [];
@@ -36,8 +37,8 @@ export class AFlightFTVComponent implements OnInit {
       quoteRandomsCount = 0;
       var tempQuizQuestion: QuizQuestion;
       quizQuestionArray = [];
-      var finishTheVerseRandoms = this.getRandoms(15, this.finishTheVerseArray.length);
-      var quoteRandoms = this.getRandoms(15, this.memoryQuoteArray.length);
+      var finishTheVerseRandoms = this.getRandoms(this.finishTheVerseArray.length, this.finishTheVerseArray.length);
+      var quoteRandoms = this.getRandoms(this.memoryQuoteArray.length, this.memoryQuoteArray.length);
       var whatToPick = 0;
 
       for (var n = 1; n < 16; n++) {
@@ -69,6 +70,18 @@ export class AFlightFTVComponent implements OnInit {
       tempQuiz = new Quiz(quizQuestionArray, 'Quiz ' + (i + 1));
       this.quizzesArray.push(tempQuiz);
     }  
+  }
+
+  reformatToMemoryQuote(passedArray: Array<Question>) {
+    var returnArray = [];
+
+    passedArray.forEach(x => {
+      var temp = new Question(x.book, x.chapter, x.verse, x.section, "MQ", false, false,
+      "Quote " + x.book + " " + x.chapter + ":" + x.verse + "?", x.question);   
+      returnArray.push(temp);
+    });
+
+    return returnArray;
   }
 
   getRandoms(fetchCount: number, maxValue: number) {

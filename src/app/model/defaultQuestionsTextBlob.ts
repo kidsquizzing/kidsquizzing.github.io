@@ -355,8 +355,8 @@ export class defaultQuestionsTextBlob {
         "Luke|6|6|4|General|1|0|And a man was there whose right hand was what?|Withered\n" +
         "Luke|6|7|4|General|1|0|Why were the scribes and Pharisees watching Him closely?|to see if Jesus would heal on the Sabbath\n" +
         "Luke|6|8|4|General|1|0|Who knew their thoughts?|Jesus\n" +
-        "Luke|6|9|4|General|0|0|What did Jesus ask them about the Sabbath?|which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?”\n" +
-        "Luke|6|10|4|General|1|0|Who, after looking around at all of them, said to the man, “Stretch out your hand.” ?|Jesus\n" +
+        "Luke|6|9|4|General|0|0|What did Jesus ask them about the Sabbath?|\"Which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?\"\n" +
+        "Luke|6|10|4|General|1|0|Who, after looking around at all of them, said to the man, \"Stretch out your hand.\" ?|Jesus\n" +
         "Luke|6|10|4|General|1|0|The withered hand was what?|restored\n" +
         "Luke|6|11|4|General|1|0|Who were filled with rage?|The scribes and Pharisees\n" +
         "Luke|6|11|4|General|0|0|The scribes and Pharisees began to discuss what?|what they might do to Jesus\n" +
@@ -403,7 +403,7 @@ export class defaultQuestionsTextBlob {
         "Luke|6|39|4|General|0|0|Can a blind man lead a blind man?|Will they not both fall into a pit?\n" +
         "Luke|6|40|4|General|1|0|A disciple is not above whom?|His teacher\n" +
         "Luke|6|40|4|General|1|0|Who will be like his teacher?|Everyone who is fully trained\n" +
-        "Luke|6|41|4|General|1|0|At what do you look?|At the speck in your brother’s eye\n" +
+        "Luke|6|41|4|General|1|0|At what do you look?|At the speck in your brother's eye\n" +
         "Luke|6|41|4|General|1|0|You fail to notice the beam in what?|Your own eye\n" +
         "Luke|6|42|4|General|1|0|First take the beam out of what?|Your own eye\n" +
         "Luke|6|43|4|General|1|0|No good tree bears what?|Bad fruit\n" +
@@ -418,13 +418,13 @@ export class defaultQuestionsTextBlob {
         "Luke|6|48|4|General|1|0|A man building a house dug down deep and laid his foundation on what?|The rock\n" +
         "Luke|6|48|4|General|1|0|When the flood came, the torrent crashed against that house but could not shake it, why?|Because it was well built\n" +
         "Luke|6|49|4|General|0|0|But the one who hears My words and does not act on them is like who?|A man who built his house on ground without a foundation\n" +
-        "Luke|6|9|4|FTV|1|0|Then Jesus said to them, “I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?|\n" +
-        "Luke|6|20|4|FTV|1|0|Looking up at His disciples, Jesus said: “Blessed are you who are poor, for yours is the kingdom of God.|\n" +
+        "Luke|6|9|4|FTV|1|0|Then Jesus said to them, \"I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?\"|\n" +
+        "Luke|6|20|4|FTV|1|0|Looking up at His disciples, Jesus said: \"Blessed are you who are poor, for yours is the kingdom of God.\"|\n" +
         "Luke|6|25|4|FTV|1|0|Woe to you who are well fed now, for you will hunger. Woe to you who laugh now, for you will mourn and weep.|\n" +
         "Luke|6|29|4|FTV|0|0|If someone strikes you on one cheek, turn to him the other also. And if someone takes your cloak, do not withhold your tunic as well.|\n" +
         "Luke|6|32|4|FTV|1|0|If you love those who love you, what credit is that to you? Even sinners love those who love them|\n" +
         "Luke|6|36|4|FTV|1|0|Be merciful, just as your Father is merciful.|\n" +
-        "Luke|6|41|4|FTV|1|0|Why do you look at the speck in your brother’s eye, but fail to notice the beam in your own eye?|\n" +
+        "Luke|6|41|4|FTV|1|0|Why do you look at the speck in your brother's eye, but fail to notice the beam in your own eye?|\n" +
         "Luke|6|45|4|FTV|0|0|The good man brings good things out of the good treasure of his heart, and the evil man brings evil things out of the evil treasure of his heart. For out of the overflow of the heart, the mouth speaks.|\n" +
         "Luke|6|4|4|AT|0|0|According to Luke 6:4, He entered what?|The house of God\n" +
         "Luke|6|5|4|AT|0|0|According to Luke 6:5, Who is the Son of Man?|Lord of the Sabbath\n" +
@@ -437,13 +437,117 @@ export class defaultQuestionsTextBlob {
         "Luke|6|27|4|AT|0|0|According to Luke 6:27, Love whom?|Your enemies\n" +
         "Luke|6|27|4|AT|0|0|According to Luke 6:27, Do good to whom?|Those who hate you\n" +
         "Luke|6|30|4|AT|0|0|According to Luke 6:30, Give to whom?|Everyone who asks you\n" +
-        "Luke|6|2|4|SQ|0|0|Who said it? To whom was it said? “Why are you doing what is unlawful on the Sabbath?”|Some of the Pharisees to Jesus\n" +
-        "Luke|6|3|4|SQ|0|0|Who said it? To whom was it said? “Have you not read what David did when he and his companions were hungry?|Jesus to some of the Pharisees\n" +
-        "Luke|6|5|4|SQ|0|0|Who said it? To whom was it said? “The Son of Man is Lord of the Sabbath.”|Jesus to some of the Pharisees\n" +
-        "Luke|6|8|4|SQ|0|0|Who said it? To whom was it said? “Get up and stand among us.”|Jesus to the man with the withered hand\n" +
-        "Luke|6|9|4|SQ|0|0|Who said it? To whom was it said? “I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?”|Jesus to the scribes and Pharisees\n" +
-        "Luke|6|10|4|SQ|0|0|Who said it? To whom was it said? “Stretch out your hand.”|Jesus to the man with the withered hand\n" +
-        "Luke|6|20|4|SQ|0|0|Who said it? To whom was it said? “Blessed are you who are poor, for yours is the kingdom of God.|Jesus to His disciples\n";
+        "Luke|6|2|4|SQ|0|0|Who said it? To whom was it said? \"Why are you doing what is unlawful on the Sabbath?\"|Some of the Pharisees to Jesus\n" +
+        "Luke|6|3|4|SQ|0|0|Who said it? To whom was it said? \"Have you not read what David did when he and his companions were hungry?\"|Jesus to some of the Pharisees\n" +
+        "Luke|6|5|4|SQ|0|0|Who said it? To whom was it said? \"The Son of Man is Lord of the Sabbath.\"|Jesus to some of the Pharisees\n" +
+        "Luke|6|8|4|SQ|0|0|Who said it? To whom was it said? \"Get up and stand among us.\"|Jesus to the man with the withered hand\n" +
+        "Luke|6|9|4|SQ|0|0|Who said it? To whom was it said? \"I ask you, which is lawful on the Sabbath: to do good or to do evil, to save life or to destroy it?\"|Jesus to the scribes and Pharisees\n" +
+        "Luke|6|10|4|SQ|0|0|Who said it? To whom was it said? \"Stretch out your hand.\"|Jesus to the man with the withered hand\n" +
+        "Luke|6|20|4|SQ|0|0|Who said it? To whom was it said? \"Blessed are you who are poor, for yours is the kingdom of God.\"|Jesus to His disciples\n" +
+        "Luke|7|2|5|General|0|0|Where was a highly valued servant of a centurion sick and about to die?|Capernaum\n" +
+        "Luke|7|2|5|General|1|0|Who was sick and about to die?|A highly valued servant of a centurion\n" +
+        "Luke|7|3|5|General|1|0|Whom did the centurion hear about?|Jesus\n" +
+        "Luke|7|3|5|General|0|0|For what did the centurion send some Jewish elders to ask Jesus?|To come and heal his servant\n" +
+        "Luke|7|4|5|General|1|0|Who pleaded with Jesus earnestly?|Some Jewish elders\n" +
+        "Luke|7|4|5|General|0|0|Why is the centurion worthy to have You grant this?|For he loves our nation and has built our synagogue\n" +
+        "Luke|7|5|5|General|0|0|Who loves our nation and has built our synagogue?|A centurion (He)\n" +
+        "Luke|7|6|5|General|1|0|When Jesus was not far from the house, the centurion sent whom?|Friends with a message\n" +
+        "Luke|7|6|5|General|1|0|What was the centurion's message to Jesus?|Lord, do not trouble Yourself for I am not worthy to have You come under my roof\n" +
+        "Luke|7|7|5|General|1|0|What did I not consider myself?|Worthy to come to You\n" +
+        "Luke|7|7|5|General|1|0|Say the word, and my servant will be what?|Healed\n" +
+        "Luke|7|8|5|General|0|0|I myself am a man under authority, with soldiers where?|Under me\n" +
+        "Luke|7|8|5|General|0|0|I tell one to go, and he goes, and another to come, and what?|He comes\n" +
+        "Luke|7|9|5|General|1|0|Who marveled at the centurion?|Jesus\n" +
+        "Luke|7|9|5|General|0|0|Jesus said what as He turned to the crowd following Him?|\"I tell you, not even in Israel have I found such great faith!\"\n" +
+        "Luke|7|9|5|General|1|0|Not even in Israel have I found what?|Such great faith\n" +
+        "Luke|7|10|5|General|1|0|Who returned to the house and found the servant in good health?|The messengers\n" +
+        "Luke|7|11|5|General|1|0|Who went with Him, accompanied by a large crowd?|His disciples\n" +
+        "Luke|7|12|5|General|0|0|Jesus saw what as He approached the town gate?|A dead man being carried out\n" +
+        "Luke|7|12|5|General|1|0|Whom did Jesus see carrying out a dead man from the town gate?|a widow and a large crowd from the town with her\n" +
+        "Luke|7|13|5|General|1|0|Who had compassion on her and said, \"Do not weep.\"?|The Lord\n" +
+        "Luke|7|14|5|General|1|0|Then He went up and touched what?|The coffin\n" +
+        "Luke|7|15|5|General|1|0|Who sat up and began to speak?|The dead man\n" +
+        "Luke|7|16|5|General|1|0|What swept over all of them?|A sense of awe\n" +
+        "Luke|7|16|5|General|1|0|Who has appeared among us?|A great prophet\n" +
+        "Luke|7|16|5|General|1|0|God has visited whom?|His people\n" +
+        "Luke|7|18|5|General|0|0|What did John's disciples inform him about?|All these things\n" +
+        "Luke|7|18|5|General|1|0|Who did John send to ask the Lord?|two of his disciples\n" +
+        "Luke|7|20|5|General|1|0|What did John the Baptist send the two disciples to ask?|\"Are You the One who was to come, or should we look for someone else?\"\n" +
+        "Luke|7|21|5|General|1|0|What did Jesus heal?|Their diseases, afflictions, and evil spirits\n" +
+        "Luke|7|21|5|General|1|0|Who gave sight to many who were blind?|Jesus\n" +
+        "Luke|7|22|5|General|1|0|What have you seen and heard?|The blind receive sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor\n" +
+        "Luke|7|22|5|General|1|0|Who receive sight?|The blind\n" +
+        "Luke|7|22|5|General|1|0|Who walk?|The lame\n" +
+        "Luke|7|22|5|General|1|0|Who are cleansed?|The lepers\n" +
+        "Luke|7|22|5|General|1|0|Who are raised?|The dead\n" +
+        "Luke|7|22|5|General|1|0|Who is the good news preached to?|The poor\n" +
+        "Luke|7|23|5|General|1|0|Blessed is who?|The one who does not fall away on account of Me\n" +
+        "Luke|7|24|5|General|1|0|Who began to speak to the crowds about John?|Jesus\n" +
+        "Luke|7|25|5|General|1|0|Who are found in palaces?|Those who wear elegant clothing and live in luxury\n" +
+        "Luke|7|26|5|General|1|0|What then did you go out to see?|A prophet? Yes, I tell you, and more than a prophet\n" +
+        "Luke|7|27|5|General|1|0|Where will I send My messenger?|Ahead of You\n" +
+        "Luke|7|27|5|General|1|0|Who will prepare Your way before You?|My messenger\n" +
+        "Luke|7|28|5|General|1|0|Among whom is there no one greater than John?|Those born of women\n" +
+        "Luke|7|28|5|General|1|0|Who is greater than he?|Even the least in the kingdom of God\n" +
+        "Luke|7|29|5|General|1|0|Who acknowledged God's justice?|All the people who heard this, even the tax collectors\n" +
+        "Luke|7|30|5|General|1|0|Why did the Pharisees and experts in the law reject God's purpose for themselves?|Because they had not been baptized by John\n" +
+        "Luke|7|32|5|General|1|0|Who are like children sitting in the marketplace and calling out to one another?|The men of this generation\n" +
+        "Luke|7|32|5|General|1|0|We played the flute for you, and you did not what?|Dance\n" +
+        "Luke|7|32|5|General|1|0|We sang a dirge, and you did not what?|Weep\n" +
+        "Luke|7|33|5|General|0|0|You say what because John the Baptist came neither eating bread nor drinking wine?|He has a demon!\n" +
+        "Luke|7|33|5|General|0|0|What do you say when the Son of Man came eating and drinking?|Look at this glutton and drunkard, a friend of tax collectors and sinners!\n" +
+        "Luke|7|35|5|General|1|0|How is wisdom vindicated?|By all her children\n" +
+        "Luke|7|36|5|General|1|0|Who invited Jesus to eat with him?|One of the Pharisees\n" +
+        "Luke|7|37|5|General|1|0|Who brought an alabaster jar of perfume?|A sinful woman from that town\n" +
+        "Luke|7|38|5|General|1|0|Who stood behind Him at His feet weeping?|A sinful woman from that town (She)\n" +
+        "Luke|7|38|5|General|1|0|Who kissed His feet and anointed them with the perfume?|A sinful woman from that town (She)\n" +
+        "Luke|7|39|5|General|0|0|What did the Pharisee who had invited Jesus say to himself?|\"If this man were a prophet, He would know who this is and what kind of woman is touching Him—for she is a sinner!\"\n" +
+        "Luke|7|41|5|General|1|0|Who were debtors to a certain moneylender?|Two men\n" +
+        "Luke|7|41|5|General|0|0|One owed him five hundred denarii, and the other what?|Fifty\n" +
+        "Luke|7|42|5|General|1|0|Who forgave both of them when they were unable to repay him?|A certain moneylender\n" +
+        "Luke|7|42|5|General|0|0|Which one, then, will love him more?|the one who was forgiven more\n" +
+        "Luke|7|44|5|General|1|0|When did you not give Me water for My feet?|When I entered your house\n" +
+        "Luke|7|45|5|General|0|0|Who did not greet Me with a kiss?|Simon (You)\n" +
+        "Luke|7|46|5|General|1|0|You did not anoint My head with oil, but she has anointed My feet with what?|Perfume\n" +
+        "Luke|7|47|5|General|1|0|Why has she loved much?|Because her many sins have been forgiven\n" +
+        "Luke|7|47|5|General|1|0|Who loves little?|He who has been forgiven little\n" +
+        "Luke|7|49|5|General|1|0|What did those at the table begin to say to themselves?|\"Who is this who even forgives sins?\"\n" +
+        "Luke|7|50|5|General|1|0|What has saved you?|Your faith\n" +
+        "Luke|7|7|5|FTV|0|0|That is why I did not consider myself worthy to come to You. But just say the word, and my servant will be healed|\n" +
+        "Luke|7|13|5|FTV|1|0|When the Lord saw her, He had compassion on her and said, \"Do not weep.\"|\n" +
+        "Luke|7|14|5|FTV|1|0|Then He went up and touched the coffin, and those carrying it stood still. \"Young man,\" He said, \"I tell you, get up!\"|\n" +
+        "Luke|7|16|5|FTV|1|0|A sense of awe swept over all of them, and they glorified God. \"A great prophet has appeared among us!\" they said. \"God has visited His people!\"|\n" +
+        "Luke|7|22|5|FTV|0|0|Go back and report to John what you have seen and heard: The blind receive sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor.|\n" +
+        "Luke|7|47|5|FTV|1|0|Therefore I tell you, because her many sins have been forgiven, (for) she has loved much. But he who has been forgiven little loves little.|\n" +
+        "Luke|7|50|5|FTV|1|0|And Jesus told the woman, \"Your faith has saved you; go in peace.\"|\n" +
+        "Luke|7|4|5|AT|0|0|According to Luke 7:4, They came to Jesus and pleaded with Him how?|Earnestly\n" +
+        "Luke|7|9|5|AT|0|0|According to Luke 7:9, I tell you what?|Not even in Israel have I found such great faith\n" +
+        "Luke|7|11|5|AT|0|0|According to Luke 7:11, Who went with Him?|His disciples\n" +
+        "Luke|7|12|5|AT|0|0|According to Luke 7:12, He approached what?|The town gate\n" +
+        "Luke|7|16|5|AT|0|0|According to Luke 7:16, Who has visited His people?|God\n" +
+        "Luke|7|17|5|AT|0|0|According to Luke 7:17, And the news about Jesus spread where?|Throughout Judea and all the surrounding region\n" +
+        "Luke|7|20|5|AT|0|0|According to Luke 7:20, Who came to Jesus?|The men\n" +
+        "Luke|7|23|5|AT|0|0|According to Luke 7:23, Who is blessed?|The one who does not fall away on account of Me.\n" +
+        "Luke|7|27|5|AT|0|0|According to Luke 7:27, What is written?|'Behold, I will send My messenger ahead of You, who will prepare Your way before You.'\n" +
+        "Luke|7|27|5|AT|0|0|According to Luke 7:27, Whom will I send?|My messenger ahead of You\n" +
+        "Luke|7|28|5|AT|0|0|According to Luke 7:28, Where is there no one greater than John?|Among those born of women\n" +
+        "Luke|7|34|5|AT|0|0|According to Luke 7:34, The Son of Man came how?|Eating and drinking\n" +
+        "Luke|7|34|5|AT|0|0|According to Luke 7:34, You say what?|'Look at this glutton and drunkard, a friend of tax collectors and sinners!'\n" +
+        "Luke|7|36|5|AT|0|0|According to Luke 7:36, He entered what?|The Pharisee's house\n" +
+        "Luke|7|47|5|AT|0|0|According to Luke 7:47, I tell you what?|Her many sins have been forgiven, for she has loved much\n" +
+        "Luke|7|50|5|AT|0|0|According to Luke 7:50, Go in peace why?|Your faith has saved you\n" +
+        "Luke|7|6|5|SQ|0|0|Who said it? To whom was it said? \"Lord, do not trouble Yourself, for I am not worthy to have You come under my roof.\"|Friends the centurion sent to Jesus\n" +
+        "Luke|7|9|5|SQ|0|0|Who said it? To whom was it said? \"I tell you, not even in Israel have I found such great faith!\"|Jesus to The crowd following him\n" +
+        "Luke|7|13|5|SQ|0|0|Who said it? To whom was it said? \"Do not weep.\"|The Lord to a widow\n" +
+        "Luke|7|14|5|SQ|0|0|Who said it? To whom was it said? \"Young man, I tell you, get up!\"|Jesus to a dead man\n" +
+        "Luke|7|20|5|SQ|0|0|Who said it? To whom was it said? \"John the Baptist sent us to ask, 'Are You the One who was to come, or should we look for someone else?'\"|Two of John's disciples to Jesus\n" +
+        "Luke|7|22|5|SQ|0|0|Who said it? To whom was it said? \"Go back and report to John what you have seen and heard: The blind receive sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor.\"|Jesus to two of John's disciples\n" +
+        "Luke|7|24|5|SQ|0|0|Who said it? To whom was it said? \"What did you go out into the wilderness to see? A reed swaying in the wind?\"|Jesus to the crowds\n" +
+        "Luke|7|41|5|SQ|0|0|Who said it? To whom was it said? \"Two men were debtors to a certain moneylender. One owed him five hundred denarii, and the other fifty.\"|Jesus to Simon the Pharisee\n" +
+        "Luke|7|43|5|SQ|0|0|Who said it? To whom was it said? \"I suppose the one who was forgiven more\"|Simon the Pharisee to Jesus\n" +
+        "Luke|7|44|5|SQ|0|0|Who said it? To whom was it said? \"Do you see this woman? When I entered your house, you did not give Me water for My feet, but she wet My feet with her tears and wiped them with her hair.\"|Jesus to Simon the Pharisee\n" +
+        "Luke|7|48|5|SQ|0|0|Who said it? To whom was it said? \"Your sins are forgiven.\"|Jesus to a sinful woman from that town\n" +
+        "Luke|7|50|5|SQ|0|0|Who said it? To whom was it said? \"Your faith has saved you; go in peace.\"|Jesus to a sinful woman from that town\n";
 
     }
 }

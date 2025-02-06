@@ -35,7 +35,7 @@ export class BFlightFTVComponent implements OnInit {
       finishTheVerseRandomsCount = 0;
       var tempQuizQuestion: QuizQuestion;
       quizQuestionArray = [];
-      var finishTheVerseRandoms = this.getRandoms(26, this.finishTheVerseArray.length);
+      var finishTheVerseRandoms = this.getRandoms(this.finishTheVerseArray.length, this.finishTheVerseArray.length);
 
       for (var n = 1; n < 16; n++) {
         tempQuizQuestion = new QuizQuestion(this.finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], n.toString() + '.');
