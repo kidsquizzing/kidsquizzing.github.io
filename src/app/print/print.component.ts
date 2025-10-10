@@ -57,42 +57,41 @@ export class PrintComponent implements OnInit {
     this.filterQuestions();
     this.generateQuizzes();
   }
-  
+
   filterQuestions() {
     if (this.useAllMaterial == true) {
       this.filteredQuestionArray = this.questionArray;
       console.log("Used all materials checkbox");
     }
     else {
-      if(this.sectionsToIncludeArray.length > 0 && this.materialToIncludeArray.length > 0)
-      {
+      if (this.sectionsToIncludeArray.length > 0 && this.materialToIncludeArray.length > 0) {
         var tempArray = [];
         this.sectionsToIncludeArray.forEach(section => {
           var sectionPart = this.questionArray.filter(x => x.section == section.section);
-          sectionPart.forEach(x => {tempArray.push(x)});
+          sectionPart.forEach(x => { tempArray.push(x) });
         })
         this.materialToIncludeArray.forEach(material => {
           var materialPart = tempArray.filter(x => x.book == material.book && x.chapter == material.chapter);
-          materialPart.forEach(x => {this.filteredQuestionArray.push(x)});
+          materialPart.forEach(x => { this.filteredQuestionArray.push(x) });
         })
         console.log("Filtered by Section and Material");
       }
-      else if(this.sectionsToIncludeArray.length > 0) {
+      else if (this.sectionsToIncludeArray.length > 0) {
         this.sectionsToIncludeArray.forEach(section => {
           var sectionPart = this.questionArray.filter(x => x.section == section.section);
-          sectionPart.forEach(x => {this.filteredQuestionArray.push(x)});
+          sectionPart.forEach(x => { this.filteredQuestionArray.push(x) });
         })
         console.log("Filtered by Section");
       }
-      else if(this.materialToIncludeArray.length > 0) {
+      else if (this.materialToIncludeArray.length > 0) {
         this.materialToIncludeArray.forEach(material => {
           var materialPart = this.questionArray.filter(x => x.book == material.book && x.chapter == material.chapter);
-          materialPart.forEach(x => {this.filteredQuestionArray.push(x)});
+          materialPart.forEach(x => { this.filteredQuestionArray.push(x) });
         })
         console.log("Filtered by Material");
       }
     }
-    
+
     if (this.selectedFlight.includes('B Flight')) {
       var bFlightArray = this.filteredQuestionArray.filter(x => x.isBFlight == true);
       this.filteredQuestionArray = bFlightArray;
@@ -117,7 +116,7 @@ export class PrintComponent implements OnInit {
 
       this.useOldAndNewDistribution = true;
       console.log("Filtered by Old and New Sections");
-    } 
+    }
   }
 
   generateQuizzes() {
@@ -158,16 +157,16 @@ export class PrintComponent implements OnInit {
             var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
             //FTV
             var otherSlots = [4, 8, 12, 18];
-  
+
             var generalOldRandoms = this.getRandoms(11, generalOldQuestionArray.length);
             var generalNewRandoms = this.getRandoms(11, generalNewQuestionArray.length);
-            var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);   
-            
+            var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);
+
             var oldCount = 0;
             var newCount = 0;
             var oldOrNew = 0;
 
-            for (var j = 1; j < 21; j++) { 
+            for (var j = 1; j < 21; j++) {
               oldOrNew = Math.floor(Math.random() * (2 - 1 + 1) + 1);
               var tempQuizQuestion: QuizQuestion;
               if (genQuestionSlots.includes(j)) {
@@ -196,9 +195,9 @@ export class PrintComponent implements OnInit {
                 tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], j.toString() + '.');
                 quizQuestionArray.push(tempQuizQuestion);
                 finishTheVerseRandomsCount += 1;
-              }                   
+              }
             }
-            
+
             for (var k = newCount; k < 11; k++) {
               tempQuizQuestion = new QuizQuestion(generalNewQuestionArray[generalNewRandoms[newCount]], '*');
               quizQuestionArray.push(tempQuizQuestion);
@@ -210,19 +209,20 @@ export class PrintComponent implements OnInit {
               quizQuestionArray.push(tempQuizQuestion);
               oldCount += 1;
             }
-  
+
             for (var m = 0; m < 4; m++) {
               tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
               finishTheVerseRandomsCount += 1;
               quizQuestionArray.push(tempQuizQuestion);
             }
           }
-          else {           
+
+
+          else {
             //A flight
             var generalNewRandomsCount = 0;
             var generalOldRandomsCount = 0;
             var unpublishedRandomsCount = 0;
-            //var unpublishedNewRandomsCount = 0;
             var finishTheVerseRandomsCount = 0;
             var situationQuestionsRandomsCount = 0;
             var quoteRandomsCount = 0;
@@ -236,27 +236,22 @@ export class PrintComponent implements OnInit {
               generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
             }
 
-            //var generalUnpublishedOldRandoms = [];
-            //if (generalUnpublishedNewQuestionArray.length > 0) {
-            //  generalUnpublishedOldRandoms = this.getRandoms(2, generalUnpublishedOldQuestionArray.length);
-            //}
-
             var finishTheVerseRandoms = this.getRandoms(4, finishTheVerseArray.length);
             var situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
             var quoteRandoms = this.getRandoms(4, memoryQuoteArray.length);
-            var accordingToRandoms  = this.getRandoms(3, accordingToArray.length);
+            var accordingToRandoms = this.getRandoms(3, accordingToArray.length);
             var whatToPick = 0;
             var oldOrNew = 0;
-  
+
             //SQ, AT, and General
             var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
             //MQ and FTV
             var otherSlots = [4, 8, 12, 18];
-  
+
             var weighted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  
+
             for (var n = 1; n < 21; n++) {
-  
+
               //SQ, AT, and General
               if (genQuestionSlots.includes(n)) {
                 whatToPick = Math.floor(Math.random() * (13 - 1 + 1) + 1);
@@ -265,7 +260,7 @@ export class PrintComponent implements OnInit {
                   tempQuizQuestion = new QuizQuestion(generalNewQuestionArray[generalNewRandoms[generalNewRandomsCount]], n.toString() + '.');
                   quizQuestionArray.push(tempQuizQuestion);
                   generalNewRandomsCount++;
-                } 
+                }
                 else {
                   if (generalNewRandomsCount < 9 && weighted.includes(whatToPick) && oldOrNew == 1) {
                     tempQuizQuestion = new QuizQuestion(generalNewQuestionArray[generalNewRandoms[generalNewRandomsCount]], n.toString() + '.');
@@ -318,10 +313,10 @@ export class PrintComponent implements OnInit {
                       quizQuestionArray.push(tempQuizQuestion);
                       generalNewRandomsCount++;
                     }
-                  } 
-                }                                                                  
+                  }
+                }
               }
-  
+
               //MQ and FTV
               if (otherSlots.includes(n)) {
                 whatToPick = Math.floor(Math.random() * (2 - 1 + 1) + 1);
@@ -347,14 +342,14 @@ export class PrintComponent implements OnInit {
                     finishTheVerseRandomsCount += 1;
                   }
                 }
-              }          
+              }
             }
-  
+
             //extras
             tempQuizQuestion = new QuizQuestion(generalNewQuestionArray[generalNewRandoms[generalNewRandomsCount]], '*');
             quizQuestionArray.push(tempQuizQuestion);
             generalNewRandomsCount++;
-            
+
             tempQuizQuestion = new QuizQuestion(generalNewQuestionArray[generalNewRandoms[generalNewRandomsCount]], '*');
             quizQuestionArray.push(tempQuizQuestion);
             generalNewRandomsCount++;
@@ -375,20 +370,20 @@ export class PrintComponent implements OnInit {
               tempQuizQuestion = new QuizQuestion(generalOldQuestionArray[generalOldRandoms[generalOldRandomsCount]], '*');
               quizQuestionArray.push(tempQuizQuestion);
               generalOldRandomsCount++;
-            }         
-  
+            }
+
             tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
             quizQuestionArray.push(tempQuizQuestion);
-  
-            tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]],'*');
+
+            tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], '*');
             quizQuestionArray.push(tempQuizQuestion);
-  
+
             for (var p = 0; p < 2; p++) {
               tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
               finishTheVerseRandomsCount += 1;
               quizQuestionArray.push(tempQuizQuestion);
             }
-  
+
             for (var q = 0; q < 2; q++) {
               tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], '*');
               quizQuestionArray.push(tempQuizQuestion);
@@ -413,7 +408,7 @@ export class PrintComponent implements OnInit {
                 alert("B Flight quizzes need at least 11 Questions in order to be generated. Please re-upload the cache");
                 this.router.navigate(['']);
                 return;
-              }             
+              }
             }
             if (finishTheVerseArray.length < 8) {
               if (finishTheVerseArray.length > 0) {
@@ -423,19 +418,19 @@ export class PrintComponent implements OnInit {
               else {
                 alert("B Flight quizzes need at least 1 Finish the Verse in order to be generated. Please re-upload the cache");
                 this.router.navigate(['']);
-                return; 
-              }             
+                return;
+              }
             }
 
             //General
             var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
             //FTV
             var otherSlots = [4, 8, 12, 18];
-  
+
             var generalRandoms = this.getRandoms(22, generalQuestionsArray.length);
-            var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);   
-            
-            for (var j = 1; j < 21; j++) { 
+            var finishTheVerseRandoms = this.getRandoms(8, finishTheVerseArray.length);
+
+            for (var j = 1; j < 21; j++) {
               var tempQuizQuestion: QuizQuestion;
               if (genQuestionSlots.includes(j)) {
                 tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], j.toString() + '.');
@@ -446,15 +441,15 @@ export class PrintComponent implements OnInit {
                 tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], j.toString() + '.');
                 quizQuestionArray.push(tempQuizQuestion);
                 finishTheVerseRandomsCount += 1;
-              }                   
+              }
             }
-            
+
             for (var k = 0; k < 4; k++) {
               tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
               generalRandomsCount += 1;
               quizQuestionArray.push(tempQuizQuestion);
             }
-  
+
             for (var m = 0; m < 4; m++) {
               tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
               finishTheVerseRandomsCount += 1;
@@ -462,150 +457,201 @@ export class PrintComponent implements OnInit {
             }
           }
           else {
-  
-            //A flight
-            var generalRandomsCount = 0;
-            var unpublishedRandomsCount = 0;
-            var finishTheVerseRandomsCount = 0;
-            var situationQuestionsRandomsCount = 0;
-            var quoteRandomsCount = 0;
-            var accordingToRandomsCount = 0;
-  
-            var generalRandoms = this.getRandoms(20, generalQuestionsArray.length);
-            var generalUnpublishedRandoms = [];
-            if (generalUnpublishedQuestionsArray.length > 0) {
-              generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
-            }
-            var finishTheVerseRandoms = this.getRandoms(4, finishTheVerseArray.length);
-            var situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
-            var quoteRandoms = this.getRandoms(4, memoryQuoteArray.length);
-            var accordingToRandoms  = this.getRandoms(3, accordingToArray.length);
-            var whatToPick = 0;
-  
-            //SQ, AT, and General
-            var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
-            //MQ and FTV
-            var otherSlots = [4, 8, 12, 18];
-  
-            var weighted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  
-            for (var n = 1; n < 21; n++) {
-  
-              //SQ, AT, and General
-              if (genQuestionSlots.includes(n)) {
-                whatToPick = Math.floor(Math.random() * (13 - 1 + 1) + 1);
-                if (generalRandomsCount < 14 && weighted.includes(whatToPick)) {
-                  tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  generalRandomsCount++;
-                }
-                else if (situationQuestionsRandomsCount < 2 && whatToPick == 11 && n != 1 && n != 20) {
-                  tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  situationQuestionsRandomsCount++;
-                }
-                else if (accordingToRandomsCount < 2 && whatToPick == 12 && n != 1 && n != 20) {
-                  tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  accordingToRandomsCount++;
-                }
-                else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20 && generalUnpublishedQuestionsArray.length > 0) {
-                  tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  unpublishedRandomsCount++;
-                }
-                else if (n == 1 || n == 20) {
-                  tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  generalRandomsCount++;
-                }
-                else {
-                  if (generalRandomsCount < 14) {
-                    tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
-                    quizQuestionArray.push(tempQuizQuestion);
-                    generalRandomsCount++;
-                  }
-                  else if (situationQuestionsRandomsCount < 1) {
-                    tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], n.toString() + '.');
-                    quizQuestionArray.push(tempQuizQuestion);
-                    situationQuestionsRandomsCount++;
-                  }
-                  else if (accordingToRandomsCount < 1) {
-                    tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
-                    quizQuestionArray.push(tempQuizQuestion);
-                    accordingToRandomsCount++;
-                  }
-                }    
-              }
-  
-              //MQ and FTV
-              if (otherSlots.includes(n)) {
-                whatToPick = Math.floor(Math.random() * (2 - 1 + 1) + 1);
-                if (finishTheVerseRandomsCount < 2 && whatToPick == 1) {
-                  tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  finishTheVerseRandomsCount += 1;
-                }
-                else if (quoteRandomsCount < 2 && whatToPick == 2) {
-                  tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], n.toString() + '.');
-                  quizQuestionArray.push(tempQuizQuestion);
-                  quoteRandomsCount += 1;
-                }
-                else {
-                  if (quoteRandomsCount < 2) {
-                    tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], n.toString() + '.');
-                    quizQuestionArray.push(tempQuizQuestion);
-                    quoteRandomsCount += 1;
-                  }
-                  else if (finishTheVerseRandomsCount < 2) {
-                    tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], n.toString() + '.');
-                    quizQuestionArray.push(tempQuizQuestion);
-                    finishTheVerseRandomsCount += 1;
-                  }
-                }
-              }          
-            }
-  
-            //extras
-            for (var o = 0; o < 3; o++) {           
-              tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
-              generalRandomsCount += 1;
-              quizQuestionArray.push(tempQuizQuestion);
-            }
-  
-            if (generalUnpublishedQuestionsArray.length > 0) {
-              tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
-              quizQuestionArray.push(tempQuizQuestion);
-            }
-            else {
-              tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
-              quizQuestionArray.push(tempQuizQuestion);
-            }         
-  
-            tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
-            quizQuestionArray.push(tempQuizQuestion);
-  
-            tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]],'*');
-            quizQuestionArray.push(tempQuizQuestion);
-  
-            for (var p = 0; p < 2; p++) {
-              tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
-              finishTheVerseRandomsCount += 1;
-              quizQuestionArray.push(tempQuizQuestion);
-            }
-  
-            for (var q = 0; q < 2; q++) {
-              tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], '*');
-              quizQuestionArray.push(tempQuizQuestion);
-              quoteRandomsCount += 1;
-            }
+            quizQuestionArray = this.GenerateAFlight(generalQuestionsArray, generalUnpublishedQuestionsArray, finishTheVerseArray, situationQuestionArray, memoryQuoteArray, accordingToArray);
           }
-        }     
+        }
       }
       tempQuiz = new Quiz(quizQuestionArray, 'Quiz ' + (i + 1));
       this.quizzesArray.push(tempQuiz);
       console.log(quizQuestionArray);
     }
+  }
+
+  GenerateAFlight(generalQuestionsArray: Question[], generalUnpublishedQuestionsArray: Question[],
+    finishTheVerseArray: Question[], situationQuestionArray: Question[],
+    memoryQuoteArray: Question[], accordingToArray: Question[]
+  ) {
+    //A flight
+    var generalRandomsCount = 0;
+    var unpublishedRandomsCount = 0;
+    var finishTheVerseRandomsCount = 0;
+    var situationQuestionsRandomsCount = 0;
+    var quoteRandomsCount = 0;
+    var accordingToRandomsCount = 0;
+    var numGeneral = 14;
+    var whatToPickRange = 13;
+    var includeOtherTypedsInExtras = true;
+
+    var tempQuizQuestion: QuizQuestion;
+    var quizQuestionArray: Array<QuizQuestion> = [];
+
+    var generalRandoms = this.getRandoms(24, generalQuestionsArray.length);
+
+    var generalUnpublishedRandoms = [];
+    if (generalUnpublishedQuestionsArray.length > 0) {
+      generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
+    }
+
+    var finishTheVerseRandoms = [];
+    if (finishTheVerseArray.length > 0) {
+      finishTheVerseRandoms = this.getRandoms(4, finishTheVerseArray.length);
+    }
+
+    var situationQuestionsRandoms = [];
+    if (situationQuestionArray.length > 0) {
+      situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
+    }
+
+    var quoteRandoms = [];
+    if (memoryQuoteArray.length > 0) {
+      quoteRandoms = this.getRandoms(4, memoryQuoteArray.length);
+    }
+
+    var accordingToRandoms = [];
+    if (accordingToArray.length > 0) {
+      accordingToRandoms = this.getRandoms(3, accordingToArray.length);
+    }
+
+    if (accordingToArray.length == 0 && situationQuestionArray.length == 0 && generalUnpublishedQuestionsArray.length == 0) {
+      numGeneral = 16;
+      whatToPickRange = 10;
+      includeOtherTypedsInExtras = false;
+    }
+
+    var whatToPick = 0;
+
+    //SQ, AT, and General
+    var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
+    //MQ and FTV
+    var otherSlots = [4, 8, 12, 18];
+
+    var weighted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    for (var n = 1; n < 21; n++) {
+
+      //SQ, AT, and General
+      if (genQuestionSlots.includes(n)) {
+        whatToPick = Math.floor(Math.random() * (whatToPickRange - 1 + 1) + 1);
+        if (generalRandomsCount < numGeneral && weighted.includes(whatToPick)) {
+          tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          generalRandomsCount++;
+        }
+        else if (situationQuestionsRandomsCount < 2 && whatToPick == 11 && n != 1 && n != 20) {
+          tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          situationQuestionsRandomsCount++;
+        }
+        else if (accordingToRandomsCount < 2 && whatToPick == 12 && n != 1 && n != 20) {
+          tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          accordingToRandomsCount++;
+        }
+        else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20 && generalUnpublishedQuestionsArray.length > 0) {
+          tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          unpublishedRandomsCount++;
+        }
+        else if (n == 1 || n == 20) {
+          tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          generalRandomsCount++;
+        }
+        else {
+          if (generalRandomsCount < numGeneral) {
+            tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], n.toString() + '.');
+            quizQuestionArray.push(tempQuizQuestion);
+            generalRandomsCount++;
+          }
+          else if (situationQuestionsRandomsCount < 1) {
+            tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], n.toString() + '.');
+            quizQuestionArray.push(tempQuizQuestion);
+            situationQuestionsRandomsCount++;
+          }
+          else if (accordingToRandomsCount < 1) {
+            tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
+            quizQuestionArray.push(tempQuizQuestion);
+            accordingToRandomsCount++;
+          }
+        }
+      }
+
+      //MQ and FTV
+      if (otherSlots.includes(n)) {
+        whatToPick = Math.floor(Math.random() * (2 - 1 + 1) + 1);
+        if (finishTheVerseRandomsCount < 2 && whatToPick == 1) {
+          tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          finishTheVerseRandomsCount += 1;
+        }
+        else if (quoteRandomsCount < 2 && whatToPick == 2) {
+          tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], n.toString() + '.');
+          quizQuestionArray.push(tempQuizQuestion);
+          quoteRandomsCount += 1;
+        }
+        else {
+          if (quoteRandomsCount < 2) {
+            tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], n.toString() + '.');
+            quizQuestionArray.push(tempQuizQuestion);
+            quoteRandomsCount += 1;
+          }
+          else if (finishTheVerseRandomsCount < 2) {
+            tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], n.toString() + '.');
+            quizQuestionArray.push(tempQuizQuestion);
+            finishTheVerseRandomsCount += 1;
+          }
+        }
+      }
+    }
+
+    //extras
+    for (var o = 0; o < 3; o++) {
+      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+      generalRandomsCount += 1;
+      quizQuestionArray.push(tempQuizQuestion);
+    }
+
+    if (generalUnpublishedQuestionsArray.length > 0) {
+      tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
+      quizQuestionArray.push(tempQuizQuestion);
+    }
+    else {
+      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+      quizQuestionArray.push(tempQuizQuestion);
+      generalRandomsCount += 1;
+    }
+
+    if (includeOtherTypedsInExtras) {
+      tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
+      quizQuestionArray.push(tempQuizQuestion);
+
+      tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], '*');
+      quizQuestionArray.push(tempQuizQuestion);
+    }
+    else {
+      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+      generalRandomsCount += 1;
+      quizQuestionArray.push(tempQuizQuestion);
+
+      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+      generalRandomsCount += 1;
+      quizQuestionArray.push(tempQuizQuestion);
+    }
+
+
+    for (var p = 0; p < 2; p++) {
+      tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
+      finishTheVerseRandomsCount += 1;
+      quizQuestionArray.push(tempQuizQuestion);
+    }
+
+    for (var q = 0; q < 2; q++) {
+      tempQuizQuestion = new QuizQuestion(memoryQuoteArray[quoteRandoms[quoteRandomsCount]], '*');
+      quizQuestionArray.push(tempQuizQuestion);
+      quoteRandomsCount += 1;
+    }
+
+    return quizQuestionArray;
   }
 
   getRandoms(fetchCount: number, maxValue: number) {
@@ -624,7 +670,7 @@ export class PrintComponent implements OnInit {
     return returnArray;
   }
 
-  reformatFinishTheVerse (passedArray: Array<Question>) {
+  reformatFinishTheVerse(passedArray: Array<Question>) {
     var returnArray = [];
 
     passedArray.forEach(x => {
@@ -649,7 +695,7 @@ export class PrintComponent implements OnInit {
 
     passedArray.forEach(x => {
       var temp = new Question(x.book, x.chapter, x.verse, x.section, "MQ", false, false,
-      "Quote " + x.book + " " + x.chapter + ":" + x.verse + "?", x.question);   
+        "Quote " + x.book + " " + x.chapter + ":" + x.verse + "?", x.question);
       returnArray.push(temp);
     });
 
