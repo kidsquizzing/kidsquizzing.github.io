@@ -63,11 +63,11 @@ export class defaultQuestionsTextBlob {
         "1 Corinthians|1|30|1|General|1|0|Who is our wisdom from God?|Christ Jesus\n" +
         "1 Corinthians|1|30|1|General|0|0|For whom has Christ Jesus become our wisdom from God: our righteousness, holiness, and redemption?|for us\n" +
         "1 Corinthians|1|31|1|General|1|0|Let him who boasts boast in whom?|The Lord\n" +
-        "1 Corinthians|1|4|1|FTV|0|0|I always thank my God for you because of the grace He has given you in Christ Jesus.|\n" +
-        "1 Corinthians|1|9|1|FTV|0|0|God, who has called you into fellowship with His Son Jesus Christ our Lord, is faithful.|\n" +
+        "1 Corinthians|1|4|1|FTV|1|0|I always thank my God for you because of the grace He has given you in Christ Jesus.|\n" +
+        "1 Corinthians|1|9|1|FTV|1|0|God, who has called you into fellowship with His Son Jesus Christ our Lord, is faithful.|\n" +
         "1 Corinthians|1|17|1|FTV|0|0|For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power.|\n" +
         "1 Corinthians|1|18|1|FTV|0|0|For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God|\n" +
-        "1 Corinthians|1|23|1|FTV|0|0|but we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles|\n" +
-        "1 Corinthians|1|31|1|FTV|0|0|Therefore, as it is written: \"Let him who boasts boast in the Lord.\"|\n";
+        "1 Corinthians|1|23|1|FTV|1|0|but we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles|\n" +
+        "1 Corinthians|1|31|1|FTV|1|0|Therefore, as it is written: \"Let him who boasts boast in the Lord.\"|\n";
     }
 }
