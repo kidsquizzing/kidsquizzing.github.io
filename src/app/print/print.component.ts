@@ -480,7 +480,21 @@ export class PrintComponent implements OnInit {
     var accordingToRandomsCount = 0;
     var numGeneral = 14;
     var whatToPickRange = 13;
-    var includeOtherTypedsInExtras = true;
+    var situationWeight = 1;
+    var accordingToWeight = 2;
+    var unpubWeight = 3;
+    var includeUnpub = true;
+    var includeAccordingTo = true;
+    var includeSituation = true;
+
+    var whatToPick = 0;
+
+    //SQ, AT, and General
+    var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
+    //MQ and FTV
+    var otherSlots = [4, 8, 12, 18];
+
+    var weighted = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
     var tempQuizQuestion: QuizQuestion;
     var quizQuestionArray: Array<QuizQuestion> = [];
@@ -490,6 +504,11 @@ export class PrintComponent implements OnInit {
     var generalUnpublishedRandoms = [];
     if (generalUnpublishedQuestionsArray.length > 0) {
       generalUnpublishedRandoms = this.getRandoms(3, generalUnpublishedQuestionsArray.length);
+    }
+    else {
+      includeUnpub = false;
+      numGeneral += 2;
+      weighted.push(unpubWeight);
     }
 
     var finishTheVerseRandoms = [];
@@ -501,6 +520,11 @@ export class PrintComponent implements OnInit {
     if (situationQuestionArray.length > 0) {
       situationQuestionsRandoms = this.getRandoms(3, situationQuestionArray.length);
     }
+    else {
+      includeSituation = false;
+      numGeneral += 2;
+      weighted.push(situationWeight);
+    }
 
     var quoteRandoms = [];
     if (memoryQuoteArray.length > 0) {
@@ -510,22 +534,12 @@ export class PrintComponent implements OnInit {
     var accordingToRandoms = [];
     if (accordingToArray.length > 0) {
       accordingToRandoms = this.getRandoms(3, accordingToArray.length);
-    }
-
-    if (accordingToArray.length == 0 && situationQuestionArray.length == 0 && generalUnpublishedQuestionsArray.length == 0) {
-      numGeneral = 16;
-      whatToPickRange = 10;
-      includeOtherTypedsInExtras = false;
-    }
-
-    var whatToPick = 0;
-
-    //SQ, AT, and General
-    var genQuestionSlots = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20];
-    //MQ and FTV
-    var otherSlots = [4, 8, 12, 18];
-
-    var weighted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    } 
+    else {
+      includeAccordingTo = false;
+      numGeneral += 2;
+      weighted.push(accordingToWeight);
+    }   
 
     for (var n = 1; n < 21; n++) {
 
@@ -537,17 +551,17 @@ export class PrintComponent implements OnInit {
           quizQuestionArray.push(tempQuizQuestion);
           generalRandomsCount++;
         }
-        else if (situationQuestionsRandomsCount < 2 && whatToPick == 11 && n != 1 && n != 20) {
+        else if (situationQuestionsRandomsCount < 2 && whatToPick == situationWeight && n != 1 && n != 20 && includeSituation) {
           tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], n.toString() + '.');
           quizQuestionArray.push(tempQuizQuestion);
           situationQuestionsRandomsCount++;
         }
-        else if (accordingToRandomsCount < 2 && whatToPick == 12 && n != 1 && n != 20) {
+        else if (accordingToRandomsCount < 2 && whatToPick == accordingToWeight && n != 1 && n != 20 && includeAccordingTo) {
           tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], n.toString() + '.');
           quizQuestionArray.push(tempQuizQuestion);
           accordingToRandomsCount++;
         }
-        else if (unpublishedRandomsCount < 2 && whatToPick == 13 && n != 1 && n != 20 && generalUnpublishedQuestionsArray.length > 0) {
+        else if (unpublishedRandomsCount < 2 && whatToPick == unpubWeight && n != 1 && n != 20 && includeUnpub) {
           tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], n.toString() + '.');
           quizQuestionArray.push(tempQuizQuestion);
           unpublishedRandomsCount++;
@@ -611,7 +625,7 @@ export class PrintComponent implements OnInit {
       quizQuestionArray.push(tempQuizQuestion);
     }
 
-    if (generalUnpublishedQuestionsArray.length > 0) {
+    if (includeUnpub) {
       tempQuizQuestion = new QuizQuestion(generalUnpublishedQuestionsArray[generalUnpublishedRandoms[unpublishedRandomsCount]], '*');
       quizQuestionArray.push(tempQuizQuestion);
     }
@@ -621,10 +635,17 @@ export class PrintComponent implements OnInit {
       generalRandomsCount += 1;
     }
 
-    if (includeOtherTypedsInExtras) {
+    if (includeSituation) {
       tempQuizQuestion = new QuizQuestion(situationQuestionArray[situationQuestionsRandoms[situationQuestionsRandomsCount]], '*');
       quizQuestionArray.push(tempQuizQuestion);
+    }
+    else {
+      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
+      generalRandomsCount += 1;
+      quizQuestionArray.push(tempQuizQuestion);
+    }
 
+    if (includeAccordingTo) {
       tempQuizQuestion = new QuizQuestion(accordingToArray[accordingToRandoms[accordingToRandomsCount]], '*');
       quizQuestionArray.push(tempQuizQuestion);
     }
@@ -632,12 +653,7 @@ export class PrintComponent implements OnInit {
       tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
       generalRandomsCount += 1;
       quizQuestionArray.push(tempQuizQuestion);
-
-      tempQuizQuestion = new QuizQuestion(generalQuestionsArray[generalRandoms[generalRandomsCount]], '*');
-      generalRandomsCount += 1;
-      quizQuestionArray.push(tempQuizQuestion);
     }
-
 
     for (var p = 0; p < 2; p++) {
       tempQuizQuestion = new QuizQuestion(finishTheVerseArray[finishTheVerseRandoms[finishTheVerseRandomsCount]], '*');
