@@ -163,6 +163,99 @@ export class defaultQuestionsTextBlob {
         "1 Corinthians|3|16|2|AT|0|0|What are you?|God's temple\n" +
         "1 Corinthians|3|18|2|AT|0|0|What if any of you thinks he is wise in this age?|He should become a fool, so that he may become wise\n" +
         "1 Corinthians|3|19|2|AT|0|0|What is written?|He catches the wise in their craftiness.\n" +
-        "1 Corinthians|3|20|2|AT|0|0|The Lord knows what?|the thoughts of the wise are futile.\n";
+        "1 Corinthians|3|20|2|AT|0|0|The Lord knows what?|the thoughts of the wise are futile.\n" +
+        "1 Corinthians|10|1|3|General|1|0|Who were all under the cloud?|Our forefathers\n" +
+        "1 Corinthians|10|1|3|General|1|0|Who all passed through the sea?|Our forefathers\n" +
+        "1 Corinthians|10|2|3|General|1|0|Where were they all baptized into Moses?|In the cloud and in the sea\n" +
+        "1 Corinthians|10|3|3|General|0|0|What did our forefathers all do?|ate the same spiritual food and drank the same spiritual drink\n" +
+        "1 Corinthians|10|3|3|General|1|0|What did they all eat?|the same spiritual food\n" +
+        "1 Corinthians|10|4|3|General|0|0|They all drank what?|the same spiritual drink\n" +
+        "1 Corinthians|10|4|3|General|1|0|Who was the spiritual rock they drank from?|Christ\n" +
+        "1 Corinthians|10|4|3|General|0|0|What accompanied them?|The spiritual rock (Christ)\n" +
+        "1 Corinthians|10|4|3|General|0|0|Who drank from the spiritual rock that accompanied them?|Our forefathers (They)\n" +
+        "1 Corinthians|10|5|3|General|1|0|Who was not pleased with most of them?|God\n" +
+        "1 Corinthians|10|5|3|General|1|0|Where did they get struck down?|In the wilderness\n" +
+        "1 Corinthians|10|6|3|General|1|0|Why did these things take place?|to keep us from craving evil things as they did\n" +
+        "1 Corinthians|10|7|3|General|1|0|What did the people sit down to do?|eat and drink\n" +
+        "1 Corinthians|10|7|3|General|1|0|Why did the people get up?|to indulge in revelry\n" +
+        "1 Corinthians|10|7|3|General|0|0|Who sat down to eat and drink and got up to indulge in revelry?|The people\n" +
+        "1 Corinthians|10|8|3|General|1|0|In one day, how many of them died?|Twenty-three thousand\n" +
+        "1 Corinthians|10|9|3|General|1|0|What were some of them killed by who tested Christ?|Snakes\n" +
+        "1 Corinthians|10|9|3|General|1|0|Whom should we not test?|Christ\n" +
+        "1 Corinthians|10|10|3|General|0|0|What killed some of them who complained?|the destroying angel\n" +
+        "1 Corinthians|10|10|3|General|1|0|Who were killed by the destroying angel?|Some of them who complained\n" +
+        "1 Corinthians|10|11|3|General|0|0|How did these things happen to them and for what reason were they written down for us?|As examples and warnings\n" +
+        "1 Corinthians|10|11|3|General|1|0|What were these things written down as?|As warnings for us.\n" +
+        "1 Corinthians|10|11|3|General|0|0|For whom were these things written down as warnings?|For us, on whom the fulfillment of the ages has come\n" +
+        "1 Corinthians|10|12|3|General|0|0|What should the one who thinks he is standing firm be?|Careful not to fall\n" +
+        "1 Corinthians|10|12|3|General|1|0|Who should be careful not to fall?|The one who thinks he is standing firm\n" +
+        "1 Corinthians|10|13|3|General|1|0|What has seized you?|No temptation except what is common to man\n" +
+        "1 Corinthians|10|13|3|General|1|0|How is God faithful?|He will not let you be tempted beyond what you can bear\n" +
+        "1 Corinthians|10|13|3|General|1|0|What will you not be?|tempted beyond what you can bear\n" +
+        "1 Corinthians|10|13|3|General|1|0|What will he not let you be tempted beyond?|What you can bear\n" +
+        "1 Corinthians|10|13|3|General|1|0|He will also provide what when you are tempted?|An escape\n" +
+        "1 Corinthians|10|13|3|General|1|0|When will He also provide an escape?|When you are tempted\n" +
+        "1 Corinthians|10|13|3|General|1|0|Why will He also provide an escape?|So that you can stand up under it\n" +
+        "1 Corinthians|10|14|3|General|1|0|My beloved, flee from what?|Idolatry\n" +
+        "1 Corinthians|10|15|3|General|1|0|Judge for yourselves what?|What I say\n" +
+        "1 Corinthians|10|15|3|General|1|0|I speak to whom?|Reasonable people\n" +
+        "1 Corinthians|10|16|3|General|1|0|What is the cup of blessing that we bless?|a participation in the blood of Christ\n" +
+        "1 Corinthians|10|16|3|General|1|0|What is a participation in the blood of Christ?|The cup of blessing\n" +
+        "1 Corinthians|10|16|3|General|1|0|In what do we take part when we break the bread?|The body of Christ\n" +
+        "1 Corinthians|10|17|3|General|1|0|What are we who are many because there is one loaf?|One body\n" +
+        "1 Corinthians|10|17|3|General|1|0|We all partake of what?|The one loaf\n" +
+        "1 Corinthians|10|18|3|General|1|0|What are those who eat the sacrifices?|fellow partakers in the altar\n" +
+        "1 Corinthians|10|19|3|General|1|0|What is not anything?|an idol or food sacrificed to an idol\n" +
+        "1 Corinthians|10|20|3|General|1|0|Who are the sacrifices of pagans offered to?|demons\n" +
+        "1 Corinthians|10|20|3|General|1|0|To whom are the sacrifices of pagans not offered?|To God\n" +
+        "1 Corinthians|10|20|3|General|1|0|Whom do I not want you to be participants with?|Demons\n" +
+        "1 Corinthians|10|21|3|General|1|0|You cannot drink what?|the cup of the Lord and the cup of demons too\n" +
+        "1 Corinthians|10|21|3|General|1|0|You cannot partake in what?|the table of the Lord and the table of demons too\n" +
+        "1 Corinthians|10|23|3|General|1|0|Not everything is what?|Beneficial and Edifying\n" +
+        "1 Corinthians|10|23|3|General|1|0|What is permissible?|Everything\n" +
+        "1 Corinthians|10|24|3|General|0|0|No one should seek his own good, but the good of whom?|Others\n" +
+        "1 Corinthians|10|24|3|General|1|0|Whose good should you seek?|the good of others\n" +
+        "1 Corinthians|10|24|3|General|1|0|What should no one seek?|His own good\n" +
+        "1 Corinthians|10|25|3|General|1|0|Eat anything sold where?|In the meat market\n" +
+        "1 Corinthians|10|25|3|General|1|0|What can you eat from the meat market?|anything sold\n" +
+        "1 Corinthians|10|25|3|General|0|0|How can anything sold in the meat market be eaten?|without raising questions of conscience\n" +
+        "1 Corinthians|10|25|3|General|0|0|Why should you eat anything sold in the meat market without raising questions of conscience?|\"For \"\"The earth is the Lord's, and the fullness thereof.\"\"\"\n" +
+        "1 Corinthians|10|26|3|General|1|0|The earth is whose?|The Lord's\n" +
+        "1 Corinthians|10|27|3|General|0|0|Eat without what when you eat anything set before you?|Questions of conscience\n" +
+        "1 Corinthians|10|27|3|General|0|0|What if an unbeliever invites you to a meal and you want to go?|Eat anything set before you without raising questions of conscience\n" +
+        "1 Corinthians|10|28|3|General|1|0|Do not do what if someone tells you, \"This food was offered to idols\"?|do not eat it\n" +
+        "1 Corinthians|10|28|3|General|1|0|What should you not eat?|food offered to idols\n" +
+        "1 Corinthians|10|28|3|General|0|0|Why should you not eat food offered to idols?|for the sake of the one who told you and for the sake of conscience\n" +
+        "1 Corinthians|10|29|3|General|1|0|By what should my freedom not be determined?|By someone else’s conscience\n" +
+        "1 Corinthians|10|30|3|General|0|0|What if I partake in the meal with thankfulness?|Why am I denounced because of that for which I give thanks?\n" +
+        "1 Corinthians|10|30|3|General|1|0|How should you eat or drink?|To the glory of God\n" +
+        "1 Corinthians|10|31|3|General|0|0|Do what to the glory of God?|eat or drink or whatever you do\n" +
+        "1 Corinthians|10|31|3|General|1|0|To whose glory should you do all things?|To the glory of God\n" +
+        "1 Corinthians|10|32|3|General|1|0|Who should you not become a stumbling block to?|Jews or Greeks or the church of God\n" +
+        "1 Corinthians|10|33|3|General|1|0|What do I also try?|To please everyone in all I do\n" +
+        "1 Corinthians|10|33|3|General|1|0|What am I not seeking?|My own good\n" +
+        "1 Corinthians|10|33|3|General|1|0|What am I seeking?|The good of many, that they may be saved\n" +
+        "1 Corinthians|10|33|3|General|1|0|Why am I seeking the good of many?|That they may be saved\n" +
+        "1 Corinthians|10|7|3|AT|0|0|According to 1 Corinthians 10:7, Do not be what?|idolaters\n" +
+        "1 Corinthians|10|7|3|AT|0|0|According to 1 Corinthians 10:7, What is written?|The people sat down to eat and drink and got up to indulge in revelry\n" +
+        "1 Corinthians|10|9|3|AT|0|0|According to 1 Corinthians 10:9, Some of them did what?|Test Christ\n" +
+        "1 Corinthians|10|10|3|AT|0|0|According to 1 Corinthians 10:10, Some of them did what?|Complain\n" +
+        "1 Corinthians|10|11|3|AT|0|0|According to 1 Corinthians 10:11, What has come?|The fulfillment of the ages\n" +
+        "1 Corinthians|10|13|3|AT|0|0|According to 1 Corinthians 10:13, Who is faithful?|God\n" +
+        "1 Corinthians|10|14|3|AT|0|0|According to 1 Corinthians 10:14, Flee from what?|Idolatry\n" +
+        "1 Corinthians|10|15|3|AT|0|0|According to 1 Corinthians 10:15, Judge for yourselves what?|What I say\n" +
+        "1 Corinthians|10|18|3|AT|0|0|According to 1 Corinthians 10:18, Consider whom?|The people of Israel\n" +
+        "1 Corinthians|10|19|3|AT|0|0|According to 1 Corinthians 10:19, What am I suggesting?|that food sacrificed to an idol is anything, or that an idol is anything?\n" +
+        "1 Corinthians|10|21|3|AT|0|0|According to 1 Corinthians 10:21, You cannot what?|\"drink the cup of the Lord and the cup of demons too. partake in the table of the Lord and the table of demons too.\"\n" +
+        "1 Corinthians|10|32|3|AT|0|0|According to 1 Corinthians 10:32, Do not become what?|a stumbling block\n" +
+        "1 Corinthians|10|6|3|FTV|1|0|These things took place as examples to keep us from craving evil things as they did.|\n" +
+        "1 Corinthians|10|11|3|FTV|1|0|Now these things happened to them as examples and were written down as warnings for us, on whom the fulfillment of the ages has come.|\n" +
+        "1 Corinthians|10|13|3|FTV|0|0|No temptation has seized you except what is common to man. And God is faithful; He will not let you be tempted beyond what you can bear. But when you are tempted, He will also provide an escape, so that you can stand up under it.|\n" +
+        "1 Corinthians|10|17|3|FTV|1|0|Because there is one loaf, we who are many are one body; for we all partake of the one loaf.|\n" +
+        "1 Corinthians|10|23|3|FTV|0|0|\"Everything is permissible,\" but not everything is beneficial. \"Everything is permissible,\" but not everything is edifying.|\n" +
+        "1 Corinthians|10|24|3|FTV|1|0|No one should seek his own good, but the good of others|\n" +
+        "1 Corinthians|10|31|3|FTV|1|0|So whether you eat or drink or whatever you do, do it all to the glory of God|\n" +
+        "1 Corinthians|10|32|3|FTV|1|0|Do not become a stumbling block, whether to Jews or Greeks or the church of God|\n";
+
     }
 }
