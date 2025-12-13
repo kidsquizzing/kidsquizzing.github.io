@@ -255,7 +255,83 @@ export class defaultQuestionsTextBlob {
         "1 Corinthians|10|23|3|FTV|0|0|\"Everything is permissible,\" but not everything is beneficial. \"Everything is permissible,\" but not everything is edifying.|\n" +
         "1 Corinthians|10|24|3|FTV|1|0|No one should seek his own good, but the good of others|\n" +
         "1 Corinthians|10|31|3|FTV|1|0|So whether you eat or drink or whatever you do, do it all to the glory of God|\n" +
-        "1 Corinthians|10|32|3|FTV|1|0|Do not become a stumbling block, whether to Jews or Greeks or the church of God|\n";
-
+        "1 Corinthians|10|32|3|FTV|1|0|Do not become a stumbling block, whether to Jews or Greeks or the church of God|\n" +
+        "1 Corinthians|12|1|4|General|1|0|About what do I not want you to be uninformed?|Spiritual gifts\n" +
+        "1 Corinthians|12|2|4|General|1|0|What were you influenced and led astray by?|Mute idols\n" +
+        "1 Corinthians|12|2|4|General|1|0|When were you influenced and led astray to mute idols?|When you were pagans\n" +
+        "1 Corinthians|12|3|4|General|1|0|What does no one who is speaking by the Spirit of God say?|\"Jesus be cursed\"\n" +
+        "1 Corinthians|12|3|4|General|1|0|Except by the Holy Spirit, what can no one say?|\"Jesus is Lord\"\n" +
+        "1 Corinthians|12|4|4|General|0|0|What do we have while also having the same Spirit?|different gifts\n" +
+        "1 Corinthians|12|6|4|General|0|0|There are different ways of what?|Working\n" +
+        "1 Corinthians|12|6|4|General|1|0|In whom does God work all things?|All people\n" +
+        "1 Corinthians|12|6|4|General|0|0|Who works all things in all people?|The same God\n" +
+        "1 Corinthians|12|7|4|General|1|0|Why is the manifestation of the Spirit given?|For the common good\n" +
+        "1 Corinthians|12|7|4|General|0|0|To whom is the manifestation of the Spirit given?|Each one\n" +
+        "1 Corinthians|12|8|4|General|1|0|What is given to one through the Spirit?|the message of Wisdom\n" +
+        "1 Corinthians|12|8|4|General|0|0|To another, the message of what is given by the same Spirit?|Knowledge\n" +
+        "1 Corinthians|12|9|4|General|1|0|By whom is faith given?|By the Spirit\n" +
+        "1 Corinthians|12|9|4|General|1|0|Gifts of what is given by the Spirit?|Healing\n" +
+        "1 Corinthians|12|10|4|General|1|0|Working of what is given by the Spirit?|Miracles\n" +
+        "1 Corinthians|12|10|4|General|1|0|By whom is prophecy given?|By the Spirit\n" +
+        "1 Corinthians|12|10|4|General|1|0|Distinguishing between what is given by the Spirit?|Spirits\n" +
+        "1 Corinthians|12|10|4|General|1|0|Speaking in various what is given by the Spirit?|Tongues\n" +
+        "1 Corinthians|12|10|4|General|1|0|The Interpretation of what is given by the Spirit?|Tongues\n" +
+        "1 Corinthians|12|11|4|General|1|0|All these are the work of whom?|One and the same Spirit\n" +
+        "1 Corinthians|12|11|4|General|1|0|How does the Spirit apportion them to each one?|As He determines\n" +
+        "1 Corinthians|12|12|4|General|1|0|What is a unit, though it is composed of many parts?|The body\n" +
+        "1 Corinthians|12|12|4|General|1|0|What do the many parts all form?|One body\n" +
+        "1 Corinthians|12|13|4|General|1|0|What were we all baptized into?|One body\n" +
+        "1 Corinthians|12|13|4|General|0|0|Who were we all baptized into ony body by the Spirit?|Jews or Greeks, slave or free\n" +
+        "1 Corinthians|12|13|4|General|0|0|Whom were we all given to drink?|One Spirit\n" +
+        "1 Corinthians|12|15|4|General|1|0|What if the foot should say, \"Because I am not a hand, I do not belong to the body\"?|That would not make it any less a part of the body\n" +
+        "1 Corinthians|12|16|4|General|0|0|What would not be any less a part of the body if it should say \"Because I am not an eye, I do not belong to the body\"?|The ear\n" +
+        "1 Corinthians|12|17|4|General|0|0|What if the whole body were an eye?|Where would the sense of hearing be?\n" +
+        "1 Corinthians|12|17|4|General|0|0|What if the whole body were an ear?|Where would the sense of smell be?\n" +
+        "1 Corinthians|12|18|4|General|1|0|According to what has God arranged the members of the body?|His design\n" +
+        "1 Corinthians|12|18|4|General|1|0|What was arranged according to His design?|the members of the body\n" +
+        "1 Corinthians|12|19|4|General|1|0|What if they were all one part?|Where would the body be?\n" +
+        "1 Corinthians|12|21|4|General|1|0|What cannot say to the hand, \"I do not need you\"?|the eye\n" +
+        "1 Corinthians|12|21|4|General|1|0|What can the head not say to the feet?|\"I do not need you\"\n" +
+        "1 Corinthians|12|22|4|General|1|0|What are the parts of the body that seem to be weaker?|indispensable\n" +
+        "1 Corinthians|12|22|4|General|1|0|What are indispensable?|The parts of the body that seem to be weaker\n" +
+        "1 Corinthians|12|23|4|General|1|0|What do we treat with greater honor?|The parts we consider less honorable\n" +
+        "1 Corinthians|12|23|4|General|0|0|What are treated with special modesty?|Our unpresentable parts\n" +
+        "1 Corinthians|12|24|4|General|0|0|What do our presentable parts have?|No such need\n" +
+        "1 Corinthians|12|24|4|General|1|0|To what has God composed the body and given greater honor?|The parts that lacked it\n" +
+        "1 Corinthians|12|25|4|General|1|0|In the Body, what should there not be?|division\n" +
+        "1 Corinthians|12|25|4|General|1|0|The members should have what for one another?|mutual concern\n" +
+        "1 Corinthians|12|26|4|General|1|0|What if one part suffers?|Every part suffers with it\n" +
+        "1 Corinthians|12|26|4|General|1|0|When does every part rejoice?|If one part is honored\n" +
+        "1 Corinthians|12|27|4|General|0|0|Now whom are you the body of?|Christ\n" +
+        "1 Corinthians|12|27|4|General|1|0|Each of you is a member of what?|the body of Christ\n" +
+        "1 Corinthians|12|28|4|General|1|0|In the church, whom has God appointed first?|Apostles\n" +
+        "1 Corinthians|12|28|4|General|1|0|When were the prophets appointed?|Second\n" +
+        "1 Corinthians|12|28|4|General|1|0|Who was appointed third in the church?|Teachers\n" +
+        "1 Corinthians|12|28|4|General|0|0|Where were workers of miracles, and those with gifts of healing, helping, administration, and various tongues appointed?|In the Church\n" +
+        "1 Corinthians|12|31|4|General|1|0|Eagerly desire what?|The greater gifts\n" +
+        "1 Corinthians|12|31|4|General|1|0|What will I show you now?|The most excellent way\n" +
+        "1 Corinthians|12|1|4|FTV|1|0|Now about spiritual gifts, brothers, I do not want you to be uninformed.|\n" +
+        "1 Corinthians|12|3|4|FTV|0|0|Therefore I inform you that no one who is speaking by the Spirit of God says, \"Jesus be cursed,\" and no one can say, \"Jesus is Lord,\" except by the Holy Spirit.|\n" +
+        "1 Corinthians|12|11|4|FTV|1|0|All these are the work of one and the same Spirit, who apportions them to each one as He determines.|\n" +
+        "1 Corinthians|12|13|4|FTV|0|0|For in one Spirit we were all baptized into one body, whether Jews or Greeks, slave or free, and we were all given one Spirit to drink.|\n" +
+        "1 Corinthians|12|15|4|FTV|1|0|If the foot should say, \"Because I am not a hand, I do not belong to the body,\" that would not make it any less a part of the body.|\n" +
+        "1 Corinthians|12|17|4|FTV|1|0|If the whole body were an eye, where would the sense of hearing be? If the whole body were an ear, where would the sense of smell be?|\n" +
+        "1 Corinthians|12|26|4|FTV|1|0|If one part suffers, every part suffers with it; if one part is honored, every part rejoices with it.|\n" +
+        "1 Corinthians|12|27|4|FTV|1|0|Now you are the body of Christ, and each of you is a member of it.|\n" +
+        "1 Corinthians|12|1|4|AT|0|0|According to 1 Corinthians 12:1, What do I not want?|You to be uninformed about spiritual gifts\n" +
+        "1 Corinthians|12|2|4|AT|0|0|According to 1 Corinthians 12:2, You know what?|That when you were pagans, you were influenced and led astray to mute idols\n" +
+        "1 Corinthians|12|3|4|AT|0|0|According to 1 Corinthians 12:3, What can no one say, except by the Holy Spirit?|\"Jesus is Lord\"\n" +
+        "1 Corinthians|12|4|4|AT|0|0|According to 1 Corinthians 12:4, There are different what?|Gifts\n" +
+        "1 Corinthians|12|5|4|AT|0|0|According to 1 Corinthians 12:5, There are different what?|Ministries\n" +
+        "1 Corinthians|12|6|4|AT|0|0|According to 1 Corinthians 12:6, There are different what?|Ways of working\n" +
+        "1 Corinthians|12|15|4|AT|0|0|According to 1 Corinthians 12:15, What would not be any less a part of the body?|The foot\n" +
+        "1 Corinthians|12|16|4|AT|0|0|According to 1 Corinthians 12:16, What would not be any less a part of the body?|The ear\n" +
+        "1 Corinthians|12|22|4|AT|0|0|According to 1 Corinthians 12:22, What are indispensable?|The parts of the body that seem to be weaker\n" +
+        "1 Corinthians|12|24|4|AT|0|0|According to 1 Corinthians 12:24, What have no such need?|Our presentable parts\n" +
+        "1 Corinthians|12|25|4|AT|0|0|According to 1 Corinthians 12:25, Where should there be no division?|In the body\n" +
+        "1 Corinthians|12|27|4|AT|0|0|According to 1 Corinthians 12:27, What are you?|The body of Christ\n" +
+        "1 Corinthians|12|28|4|AT|0|0|According to 1 Corinthians 12:28, Who were appointed first?|Apostles\n" +
+        "1 Corinthians|12|28|4|AT|0|0|According to 1 Corinthians 12:28, Who were appointed third?|Teachers\n" +
+        "1 Corinthians|12|31|4|AT|0|0|According to 1 Corinthians 12:31, Eagerly desire what?|The greater gifts\n";
     }
 }
