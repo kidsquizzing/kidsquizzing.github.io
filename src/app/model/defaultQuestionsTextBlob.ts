@@ -332,6 +332,137 @@ export class defaultQuestionsTextBlob {
         "1 Corinthians|12|27|4|AT|0|0|According to 1 Corinthians 12:27, What are you?|The body of Christ\n" +
         "1 Corinthians|12|28|4|AT|0|0|According to 1 Corinthians 12:28, Who were appointed first?|Apostles\n" +
         "1 Corinthians|12|28|4|AT|0|0|According to 1 Corinthians 12:28, Who were appointed third?|Teachers\n" +
-        "1 Corinthians|12|31|4|AT|0|0|According to 1 Corinthians 12:31, Eagerly desire what?|The greater gifts\n";
+        "1 Corinthians|12|31|4|AT|0|0|According to 1 Corinthians 12:31, Eagerly desire what?|The greater gifts\n" +
+        "1 Corinthians|13|2|5|General|0|0|What if I have the gift of prophecy and can fathom all mysteries and all knowledge, but have not love?|I am nothing\n" +
+        "1 Corinthians|13|2|5|General|1|0|What if I have absolute faith so as to move mountains, but have not love?|I am nothing\n" +
+        "1 Corinthians|13|3|5|General|0|0|What if I give all I possess to the poor and exult in the surrender of my body, but have not love?|I gain nothing\n" +
+        "1 Corinthians|13|4|5|General|1|0|What is patient?|Love\n" +
+        "1 Corinthians|13|4|5|General|1|0|What is kind?|Love\n" +
+        "1 Corinthians|13|4|5|General|1|0|What does not envy?|Love\n" +
+        "1 Corinthians|13|4|5|General|1|0|What does not boast?|Love\n" +
+        "1 Corinthians|13|4|5|General|1|0|What is not proud?|Love\n" +
+        "1 Corinthians|13|5|5|General|1|0|What is not rude?|Love\n" +
+        "1 Corinthians|13|5|5|General|1|0|What is not self-seeking?|Love\n" +
+        "1 Corinthians|13|5|5|General|1|0|What is not easily angered?|Love\n" +
+        "1 Corinthians|13|5|5|General|1|0|What keeps no account of wrongs?|Love\n" +
+        "1 Corinthians|13|6|5|General|1|0|What takes no pleasure in evil?|Love\n" +
+        "1 Corinthians|13|6|5|General|1|0|What rejoices in the truth?|Love\n" +
+        "1 Corinthians|13|7|5|General|1|0|What bears all things?|Love\n" +
+        "1 Corinthians|13|7|5|General|1|0|What believes all things?|Love\n" +
+        "1 Corinthians|13|7|5|General|1|0|What hopes all things?|Love\n" +
+        "1 Corinthians|13|7|5|General|1|0|What endures all things?|Love\n" +
+        "1 Corinthians|13|8|5|General|1|0|What never fails?|Love\n" +
+        "1 Corinthians|13|8|5|General|1|0|What will cease?|Prophecies\n" +
+        "1 Corinthians|13|8|5|General|1|0|What will be restrained?|Tongues\n" +
+        "1 Corinthians|13|8|5|General|1|0|What will be dismissed?|Knowledge\n" +
+        "1 Corinthians|13|10|5|General|1|0|What passes away when the perfect comes?|The partial\n" +
+        "1 Corinthians|13|11|5|General|1|0|How did I talk when I was a child?|Like a child\n" +
+        "1 Corinthians|13|11|5|General|0|0|I thought like a child when?|When I was a child\n" +
+        "1 Corinthians|13|11|5|General|1|0|When did I reason like a child?|When I was a child\n" +
+        "1 Corinthians|13|11|5|General|1|0|When did I set aside childish ways?|When I became a man\n" +
+        "1 Corinthians|13|12|5|General|0|0|What do we see now?|a dim reflection as in a mirror\n" +
+        "1 Corinthians|13|12|5|General|0|0|I know in part now, how shall I know then?|fully\n" +
+        "1 Corinthians|13|13|5|General|0|0|What three remain?|These three: faith, hope, and love\n" +
+        "1 Corinthians|13|13|5|General|1|0|What is the greatest of these?|Love\n" +
+        "1 Corinthians|15|1|5|General|1|0|In what do you stand firm?|the gospel I preached to you\n" +
+        "1 Corinthians|15|2|5|General|1|0|By what are you saved?|This Gospel\n" +
+        "1 Corinthians|15|2|5|General|0|0|When are you saved by this gospel?|if you hold firmly to the word I preached to you.\n" +
+        "1 Corinthians|15|3|5|General|1|0|According to what did Christ die for our sins?|The scriptures\n" +
+        "1 Corinthians|15|4|5|General|1|0|On what day was Christ raised?|The third day\n" +
+        "1 Corinthians|15|4|5|General|0|0|Who was raised on the third day according to the Scriptures?|Christ\n" +
+        "1 Corinthians|15|5|5|General|1|0|Who appeared to Cephas and then to the Twelve?|Christ\n" +
+        "1 Corinthians|15|6|5|General|1|0|After that, Christ appeared to how many brothers?|more than five hundred\n" +
+        "1 Corinthians|15|7|5|General|0|0|Christ appeared to James and then to whom?|all the apostles.\n" +
+        "1 Corinthians|15|8|5|General|1|0|To whom did Christ appear last of all?|To me (Paul)\n" +
+        "1 Corinthians|15|9|5|General|1|0|What am I unworthy to be called?|An apostle\n" +
+        "1 Corinthians|15|9|5|General|0|0|Why am I the least of the apostles and am unworthy to be called an apostle?|Because I persecuted the church of God\n" +
+        "1 Corinthians|15|10|5|General|1|0|What was not in vain?|His grace to me\n" +
+        "1 Corinthians|15|10|5|General|0|0|By the grace of God I am what?|What I am\n" +
+        "1 Corinthians|15|10|5|General|1|0|I worked how?|Harder than all of them\n" +
+        "1 Corinthians|15|12|5|General|1|0|Christ has been raised from what?|The dead\n" +
+        "1 Corinthians|15|13|5|General|1|0|What If there is no resurrection of the dead?|then not even Christ has been raised\n" +
+        "1 Corinthians|15|14|5|General|0|0|What are worthless if Christ has not been raised?|Our preaching and your faith\n" +
+        "1 Corinthians|15|15|5|General|0|0|What are we exposed as in that case?|false witnesses about God.\n" +
+        "1 Corinthians|15|15|5|General|1|0|What have we testified about God?|That He raised Christ from the dead\n" +
+        "1 Corinthians|15|18|5|General|0|0|Who has perished if Christ has not been raised?|Those who have fallen asleep in Christ\n" +
+        "1 Corinthians|15|19|5|General|0|0|What if our hope in Christ is for this life alone?|We are to be pitied more than all men\n" +
+        "1 Corinthians|15|20|5|General|1|0|Who has been raised from the dead?|Christ\n" +
+        "1 Corinthians|15|20|5|General|1|0|Who is the firstfruits of those who have fallen asleep?|Christ\n" +
+        "1 Corinthians|15|21|5|General|1|0|What came through a man?|Death\n" +
+        "1 Corinthians|15|21|5|General|0|0|Through whom did the resurrection of the dead come?|a man\n" +
+        "1 Corinthians|15|22|5|General|0|0|Who die in Adam?|All\n" +
+        "1 Corinthians|15|22|5|General|1|0|In whom will all be made alive?|Christ\n" +
+        "1 Corinthians|15|24|5|General|1|0|What will Christ hand over to God the Father?|The kingdom\n" +
+        "1 Corinthians|15|24|5|General|0|0|When will the end come?|When Christ hands over the kingdom to God the Father after He has destroyed all dominion, authority, and power\n" +
+        "1 Corinthians|15|25|5|General|0|0|Until when must He reign?|Until He has put all His enemies under His feet.\n" +
+        "1 Corinthians|15|25|5|General|1|0|Whom will He put under His feet?|all His enemies\n" +
+        "1 Corinthians|15|26|5|General|1|0|What is death?|The last enemy to be destroyed\n" +
+        "1 Corinthians|15|27|5|General|1|0|Who has put everything under His feet?|God\n" +
+        "1 Corinthians|15|31|5|General|0|0|What do I do as surely as I face death every day?|Boast about you in Christ Jesus our Lord\n" +
+        "1 Corinthians|15|33|5|General|1|0|What corrupts good character?|Bad company\n" +
+        "1 Corinthians|15|34|5|General|1|0|Who are ignorant of God?|Some of you\n" +
+        "1 Corinthians|15|35|5|General|0|0|What will someone ask?|How are the dead raised? With what kind of body will they come?\n" +
+        "1 Corinthians|15|36|5|General|1|0|What does not come to life unless it dies?|What you sow\n" +
+        "1 Corinthians|15|37|5|General|0|0|What is just a seed, perhaps of wheat or something else?|What you sow\n" +
+        "1 Corinthians|15|38|5|General|1|0|What does God give to each kind of seed?|Its own body\n" +
+        "1 Corinthians|15|39|5|General|1|0|Not all flesh is what?|The same\n" +
+        "1 Corinthians|15|39|5|General|0|0|How is not all flesh the same?|Men have one kind of flesh, animals have another, birds another, and fish another\n" +
+        "1 Corinthians|15|40|5|General|0|0|The splendor of the heavenly bodies is of what?|one degree, and the splendor of the earthly bodies is of another.\n" +
+        "1 Corinthians|15|40|5|General|0|0|What kinds of bodies are there?|Heavenly bodies and earthly bodies\n" +
+        "1 Corinthians|15|41|5|General|1|0|In what does star differ from star?|In splendor\n" +
+        "1 Corinthians|15|42|5|General|0|0|What will be raised imperishable?|What is sown perishable\n" +
+        "1 Corinthians|15|42|5|General|0|0|How will it be with the resurrection of the dead?|What is sown is perishable; it is raised imperishable\n" +
+        "1 Corinthians|15|43|5|General|1|0|It is sown in dishonor; it is raised in what?|Glory\n" +
+        "1 Corinthians|15|43|5|General|1|0|It is sown in weakness; it is raised in what?|Power\n" +
+        "1 Corinthians|15|44|5|General|1|0|It is sown a natural body; it is raised what?|A spiritual body\n" +
+        "1 Corinthians|15|44|5|General|1|0|What if there is a natural body?|There is also a spiritual body\n" +
+        "1 Corinthians|15|45|5|General|1|0|What did the first man Adam become?|A living being\n" +
+        "1 Corinthians|15|45|5|General|1|0|The last Adam became what?|A life-giving spirit\n" +
+        "1 Corinthians|15|47|5|General|1|0|Where was the second man from?|heaven\n" +
+        "1 Corinthians|15|47|5|General|1|0|Who was of the dust of the earth?|The first man\n" +
+        "1 Corinthians|15|49|5|General|1|0|Whose likeness have we borne?|The earthly man's\n" +
+        "1 Corinthians|15|49|5|General|0|0|Just as we have borne the likeness of the earthly man, whose likeness shall we also bear?|the likeness of the heavenly man.\n" +
+        "1 Corinthians|15|49|5|General|0|0|How shall we bear the likeness of the heavenly man?|Just as we have borne the likeness of the earthly man\n" +
+        "1 Corinthians|15|50|5|General|1|0|What cannot inherit the kingdom of God?|Flesh and blood\n" +
+        "1 Corinthians|15|50|5|General|1|0|What can the perishable not inherit?|the imperishable.\n" +
+        "1 Corinthians|15|51|5|General|1|0|What mystery do I tell you?|We will not all sleep, but we will all be changed\n" +
+        "1 Corinthians|15|52|5|General|0|0|What will happen in an instant, in the twinkling of an eye, at the last trumpet?|We will all be changed\n" +
+        "1 Corinthians|15|52|5|General|1|0|What will sound?|The trumpet\n" +
+        "1 Corinthians|15|52|5|General|1|0|Who will be raised imperishable?|The dead\n" +
+        "1 Corinthians|15|53|5|General|0|0|What must the perishable be clothed with?|the imperishable\n" +
+        "1 Corinthians|15|53|5|General|0|0|With what must the mortal be clothed?|Immortality\n" +
+        "1 Corinthians|15|54|5|General|1|0|Death has been swallowed up in what?|Victory\n" +
+        "1 Corinthians|15|56|5|General|1|0|What is the sting of death?|Sin\n" +
+        "1 Corinthians|15|56|5|General|0|0|What is the law?|The power of sin\n" +
+        "1 Corinthians|15|57|5|General|1|0|Through whom does God give us the victory?|Our Lord Jesus Christ\n" +
+        "1 Corinthians|15|58|5|General|1|0|Therefore my beloved brothers, be what?|Steadfast and immoveable\n" +
+        "1 Corinthians|15|58|5|General|0|0|Always excel in what?|the work of the Lord\n" +
+        "1 Corinthians|15|58|5|General|1|0|What is not in vain?|Your labor in the Lord\n" +
+        "1 Corinthians|13|4|5|FTV|1|0|Love is patient, love is kind. It does not envy, it does not boast, it is not proud.|\n" +
+        "1 Corinthians|13|5|5|FTV|1|0|It is not rude, it is not self-seeking, it is not easily angered, it keeps no account of wrongs.|\n" +
+        "1 Corinthians|13|6|5|FTV|1|0|Love takes no pleasure in evil, but rejoices in the truth.|\n" +
+        "1 Corinthians|13|7|5|FTV|1|0|It bears all things, believes all things, hopes all things, endures all things|\n" +
+        "1 Corinthians|13|12|5|FTV|0|0|Now we see but a dim reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known.|\n" +
+        "1 Corinthians|15|3|5|FTV|0|0|For what I received I passed on to you as of first importance: that Christ died for our sins according to the Scriptures|\n" +
+        "1 Corinthians|15|55|5|FTV|1|0|\"Where, O Death, is your victory? Where, O Death, is your sting?\"|\n" +
+        "1 Corinthians|13|4|5|AT|0|0|According to 1 Corinthians 13:4, Love is not what?|Proud\n" +
+        "1 Corinthians|13|4|5|AT|0|0|According to 1 Corinthians 13:4, What does love not do?|Envy or boast\n" +
+        "1 Corinthians|13|4|5|AT|0|0|According to 1 Corinthians 13:4, What is love?|Patient and kind\n" +
+        "1 Corinthians|13|5|5|AT|0|0|According to 1 Corinthians 13:5, Love is not what?|Rude, self-seeking, easily angered\n" +
+        "1 Corinthians|13|6|5|AT|0|0|According to 1 Corinthians 13:6, What does love take no pleasure in?|Evil\n" +
+        "1 Corinthians|13|7|5|AT|0|0|According to 1 Corinthians 13:7, Love does what?|Bears all things, believes all things, hopes all things, endures all things\n" +
+        "1 Corinthians|13|9|5|AT|0|0|According to 1 Corinthians 13:9, How do we know?|In part\n" +
+        "1 Corinthians|13|9|5|AT|0|0|According to 1 Corinthians 13:9, How do we prophesy?|In part\n" +
+        "1 Corinthians|13|13|5|AT|0|0|According to 1 Corinthians 13:13, What is love?|The greatest of these\n" +
+        "1 Corinthians|13|13|5|AT|0|0|According to 1 Corinthians 13:13, What remain?|Faith, hope and love\n" +
+        "1 Corinthians|15|5|5|AT|0|0|According to 1 Corinthians 15:5, to whom did Christ appear?|Cephas, and then to the Twelve\n" +
+        "1 Corinthians|15|6|5|AT|0|0|According to 1 Corinthians 15:6, to whom did Christ appear?|To more than five hundred brothers\n" +
+        "1 Corinthians|15|7|5|AT|0|0|According to 1 Corinthians 15:7, to whom did Christ appear?|James, then to all the apostles\n" +
+        "1 Corinthians|15|12|5|AT|0|0|According to 1 Corinthians 15:12, what is preached?|That Christ has been raised from the dead\n" +
+        "1 Corinthians|15|17|5|AT|0|0|According to 1 Corinthians 15:17, what if Christ has not been raised?|Your faith is futile; you are still in your sins\n" +
+        "1 Corinthians|15|34|5|AT|0|0|According to 1 Corinthians 15:34, what ought you to do?|Sober up and stop sinning\n" +
+        "1 Corinthians|15|39|5|AT|0|0|According to 1 Corinthians 15:39, what do men have?|One kind of flesh\n" +
+        "1 Corinthians|15|56|5|AT|0|0|According to 1 Corinthians 15:56, what is sin?|The sting of death\n" +
+        "1 Corinthians|15|56|5|AT|0|0|According to 1 Corinthians 15:56, what is the Law?|The power of sin\n";
     }
 }
